@@ -1,0 +1,11 @@
+pkg:npm/left-pad@1.3.0
+Summary Results:
+Cryptographic Implementations:
+  No implementations found.
+
+Cryptographic Library References:
+  No library references found.
+
+Other Cryptographic Characteristics:
+  No additional characteristics found.
+

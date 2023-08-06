@@ -1,0 +1,423 @@
+Running queries.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/AngularJS/InsecureUrlWhitelist.ql.
+[1/105] Found in cache: /opt/codeql-queries/javascript/ql/src/AngularJS/InsecureUrlWhitelist.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/AngularJS/DoubleCompilation.ql.
+[2/105] Found in cache: /opt/codeql-queries/javascript/ql/src/AngularJS/DoubleCompilation.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/AngularJS/DisablingSce.ql.
+[3/105] Found in cache: /opt/codeql-queries/javascript/ql/src/AngularJS/DisablingSce.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-916/InsufficientPasswordHash.ql.
+[4/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-916/InsufficientPasswordHash.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-598/SensitiveGetQuery.ql.
+[5/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-598/SensitiveGetQuery.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-843/TypeConfusionThroughParameterTampering.ql.
+[6/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-843/TypeConfusionThroughParameterTampering.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-089/SqlInjection.ql.
+[7/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-089/SqlInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-352/MissingCsrfMiddleware.ql.
+[8/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-352/MissingCsrfMiddleware.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-300/InsecureDependencyResolution.ql.
+[9/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-300/InsecureDependencyResolution.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-201/PostMessageStar.ql.
+[10/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-201/PostMessageStar.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-400/DeepObjectResourceExhaustion.ql.
+[11/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-400/DeepObjectResourceExhaustion.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-073/TemplateObjectInjection.ql.
+[12/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-073/TemplateObjectInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-022/TaintedPath.ql.
+[13/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-022/TaintedPath.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-022/ZipSlip.ql.
+[14/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-022/ZipSlip.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-116/DoubleEscaping.ql.
+[15/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-116/DoubleEscaping.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-116/UnsafeHtmlExpansion.ql.
+[16/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-116/UnsafeHtmlExpansion.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-116/IncompleteMultiCharacterSanitization.ql.
+[17/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-116/IncompleteMultiCharacterSanitization.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-116/BadTagFilter.ql.
+[18/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-116/BadTagFilter.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-116/IncompleteSanitization.ql.
+[19/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-116/IncompleteSanitization.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-116/IncompleteHtmlAttributeSanitization.ql.
+[20/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-116/IncompleteHtmlAttributeSanitization.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-640/HostHeaderPoisoningInEmailGeneration.ql.
+[21/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-640/HostHeaderPoisoningInEmailGeneration.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-312/BuildArtifactLeak.ql.
+[22/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-312/BuildArtifactLeak.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-312/CleartextStorage.ql.
+[23/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-312/CleartextStorage.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-312/CleartextLogging.ql.
+[24/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-312/CleartextLogging.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-134/TaintedFormatString.ql.
+[25/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-134/TaintedFormatString.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-295/DisablingCertificateValidation.ql.
+[26/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-295/DisablingCertificateValidation.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-338/InsecureRandomness.ql.
+[27/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-338/InsecureRandomness.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-918/RequestForgery.ql.
+[28/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-918/RequestForgery.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-754/UnvalidatedDynamicMethodCall.ql.
+[29/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-754/UnvalidatedDynamicMethodCall.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-611/Xxe.ql.
+[30/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-611/Xxe.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+[31/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-327/BadRandomness.ql.
+[32/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-327/BadRandomness.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-829/InsecureDownload.ql.
+[33/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-829/InsecureDownload.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-079/UnsafeJQueryPlugin.ql.
+[34/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-079/UnsafeJQueryPlugin.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-079/ExceptionXss.ql.
+[35/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-079/ExceptionXss.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-079/XssThroughDom.ql.
+[36/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-079/XssThroughDom.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-079/Xss.ql.
+[37/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-079/Xss.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-079/StoredXss.ql.
+[38/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-079/StoredXss.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-079/ReflectedXss.ql.
+[39/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-079/ReflectedXss.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-079/UnsafeHtmlConstruction.ql.
+[40/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-079/UnsafeHtmlConstruction.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-830/FunctionalityFromUntrustedSource.ql.
+[41/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-830/FunctionalityFromUntrustedSource.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-770/MissingRateLimiting.ql.
+[42/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-770/MissingRateLimiting.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-770/ResourceExhaustion.ql.
+[43/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-770/ResourceExhaustion.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-614/ClearTextCookie.ql.
+[44/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-614/ClearTextCookie.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-730/ServerCrash.ql.
+[45/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-730/ServerCrash.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-730/RegExpInjection.ql.
+[46/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-730/RegExpInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-798/HardcodedCredentials.ql.
+[47/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-798/HardcodedCredentials.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-346/CorsMisconfigurationForCredentials.ql.
+[48/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-346/CorsMisconfigurationForCredentials.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-834/LoopBoundInjection.ql.
+[49/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-834/LoopBoundInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-915/PrototypePollutingMergeCall.ql.
+[50/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-915/PrototypePollutingMergeCall.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-915/PrototypePollutingFunction.ql.
+[51/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-915/PrototypePollutingFunction.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-915/PrototypePollutingAssignment.ql.
+[52/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-915/PrototypePollutingAssignment.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-643/XpathInjection.ql.
+[53/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-643/XpathInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-601/ClientSideUrlRedirect.ql.
+[54/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-601/ClientSideUrlRedirect.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-601/ServerSideUrlRedirect.ql.
+[55/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-601/ServerSideUrlRedirect.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-020/IncompleteUrlSchemeCheck.ql.
+[56/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-020/IncompleteUrlSchemeCheck.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-020/UselessRegExpCharacterEscape.ql.
+[57/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-020/UselessRegExpCharacterEscape.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+[58/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-020/IncorrectSuffixCheck.ql.
+[59/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-020/IncorrectSuffixCheck.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-020/IncompleteHostnameRegExp.ql.
+[60/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-020/IncompleteHostnameRegExp.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-020/OverlyLargeRange.ql.
+[61/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-020/OverlyLargeRange.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-078/CommandInjection.ql.
+[62/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-078/CommandInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-078/SecondOrderCommandInjection.ql.
+[63/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-078/SecondOrderCommandInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-078/UnsafeShellCommandConstruction.ql.
+[64/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-078/UnsafeShellCommandConstruction.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-078/ShellCommandInjectionFromEnvironment.ql.
+[65/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-078/ShellCommandInjectionFromEnvironment.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-078/UselessUseOfCat.ql.
+[66/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-078/UselessUseOfCat.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-200/PrivateFileExposure.ql.
+[67/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-200/PrivateFileExposure.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-178/CaseSensitiveMiddlewarePath.ql.
+[68/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-178/CaseSensitiveMiddlewarePath.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-347/MissingJWTKeyVerification.ql.
+[69/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-347/MissingJWTKeyVerification.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-502/UnsafeDeserialization.ql.
+[70/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-502/UnsafeDeserialization.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-094/UnsafeDynamicMethodAccess.ql.
+[71/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-094/UnsafeDynamicMethodAccess.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-094/CodeInjection.ql.
+[72/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-094/CodeInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-094/ImproperCodeSanitization.ql.
+[73/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-094/ImproperCodeSanitization.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-094/ExpressionInjection.ql.
+[74/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-094/ExpressionInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-776/XmlBomb.ql.
+[75/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-776/XmlBomb.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-209/StackTraceExposure.ql.
+[76/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-209/StackTraceExposure.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-326/InsufficientKeySize.ql.
+[77/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-326/InsufficientKeySize.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-1004/ClientExposedCookie.ql.
+[78/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-1004/ClientExposedCookie.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Electron/DisablingWebSecurity.ql.
+[79/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Electron/DisablingWebSecurity.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Electron/AllowRunningInsecureContent.ql.
+[80/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Electron/AllowRunningInsecureContent.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/RegExp/IdentityReplacement.ql.
+[81/105] Found in cache: /opt/codeql-queries/javascript/ql/src/RegExp/IdentityReplacement.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/DOM/TargetBlank.ql.
+[82/105] Found in cache: /opt/codeql-queries/javascript/ql/src/DOM/TargetBlank.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Performance/PolynomialReDoS.ql.
+[83/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Performance/PolynomialReDoS.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Performance/ReDoS.ql.
+[84/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Performance/ReDoS.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-807/ConditionalBypass.ql.
+[85/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-807/ConditionalBypass.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-117/LogInjection.ql.
+[86/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-117/LogInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-400/RemotePropertyInjection.ql.
+[87/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-400/RemotePropertyInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-313/PasswordInConfigurationFile.ql.
+[88/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-313/PasswordInConfigurationFile.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-384/SessionFixation.ql.
+[89/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-384/SessionFixation.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-367/FileSystemRace.ql.
+[90/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-367/FileSystemRace.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-1275/SameSiteNoneCookie.ql.
+[91/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-1275/SameSiteNoneCookie.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-918/ClientSideRequestForgery.ql.
+[92/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-918/ClientSideRequestForgery.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-506/HardcodedDataInterpretedAsCode.ql.
+[93/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-506/HardcodedDataInterpretedAsCode.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-020/MissingOriginCheck.ql.
+[94/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-020/MissingOriginCheck.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-020/MissingRegExpAnchor.ql.
+[95/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-020/MissingRegExpAnchor.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-078/IndirectCommandInjection.ql.
+[96/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-078/IndirectCommandInjection.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-200/FileAccessToHttp.ql.
+[97/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-200/FileAccessToHttp.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-094/UnsafeCodeConstruction.ql.
+[98/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-094/UnsafeCodeConstruction.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-377/InsecureTemporaryFile.ql.
+[99/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-377/InsecureTemporaryFile.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-862/EmptyPasswordInConfigurationFile.ql.
+[100/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-862/EmptyPasswordInConfigurationFile.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Security/CWE-912/HttpToFileAccess.ql.
+[101/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Security/CWE-912/HttpToFileAccess.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Diagnostics/ExtractionErrors.ql.
+[102/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Diagnostics/ExtractionErrors.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Diagnostics/SuccessfullyExtractedFiles.ql.
+[103/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Diagnostics/SuccessfullyExtractedFiles.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Summary/LinesOfCode.ql.
+[104/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Summary/LinesOfCode.ql.
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/Summary/LinesOfUserCode.ql.
+[105/105] Found in cache: /opt/codeql-queries/javascript/ql/src/Summary/LinesOfUserCode.ql.
+Starting evaluation of codeql/javascript-queries/AngularJS/DisablingSce.ql.
+Starting evaluation of codeql/javascript-queries/AngularJS/InsecureUrlWhitelist.ql.
+Starting evaluation of codeql/javascript-queries/DOM/TargetBlank.ql.
+Starting evaluation of codeql/javascript-queries/AngularJS/DoubleCompilation.ql.
+Starting evaluation of codeql/javascript-queries/Diagnostics/ExtractionErrors.ql.
+Starting evaluation of codeql/javascript-queries/Diagnostics/SuccessfullyExtractedFiles.ql.
+Starting evaluation of codeql/javascript-queries/Electron/AllowRunningInsecureContent.ql.
+[1/105 eval 5.9s] Evaluation done; writing results to codeql/javascript-queries/Diagnostics/ExtractionErrors.bqrs.
+Starting evaluation of codeql/javascript-queries/Performance/PolynomialReDoS.ql.
+Starting evaluation of codeql/javascript-queries/Electron/DisablingWebSecurity.ql.
+[2/105 eval 6.2s] Evaluation done; writing results to codeql/javascript-queries/Diagnostics/SuccessfullyExtractedFiles.bqrs.
+Starting evaluation of codeql/javascript-queries/Performance/ReDoS.ql.
+Starting evaluation of codeql/javascript-queries/RegExp/IdentityReplacement.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-020/IncompleteHostnameRegExp.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-020/IncompleteUrlSchemeCheck.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-020/IncompleteUrlSubstringSanitization.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-020/IncorrectSuffixCheck.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-020/MissingOriginCheck.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-020/MissingRegExpAnchor.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-020/OverlyLargeRange.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-022/TaintedPath.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-020/UselessRegExpCharacterEscape.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-022/ZipSlip.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-073/TemplateObjectInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-078/CommandInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-078/IndirectCommandInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-078/SecondOrderCommandInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-078/ShellCommandInjectionFromEnvironment.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-078/UnsafeShellCommandConstruction.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-078/UselessUseOfCat.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-079/ExceptionXss.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-079/ReflectedXss.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-079/StoredXss.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-079/UnsafeHtmlConstruction.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-079/UnsafeJQueryPlugin.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-079/Xss.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-079/XssThroughDom.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-089/SqlInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-094/CodeInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-094/ExpressionInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-094/ImproperCodeSanitization.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-094/UnsafeCodeConstruction.ql.
+[3/105 eval 38ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-094/ExpressionInjection.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-094/UnsafeDynamicMethodAccess.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-1004/ClientExposedCookie.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-116/BadTagFilter.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-116/DoubleEscaping.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-116/IncompleteHtmlAttributeSanitization.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-116/IncompleteMultiCharacterSanitization.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-116/IncompleteSanitization.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-116/UnsafeHtmlExpansion.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-117/LogInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-1275/SameSiteNoneCookie.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-134/TaintedFormatString.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-178/CaseSensitiveMiddlewarePath.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-200/FileAccessToHttp.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-200/PrivateFileExposure.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-201/PostMessageStar.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-209/StackTraceExposure.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-295/DisablingCertificateValidation.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-300/InsecureDependencyResolution.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-312/BuildArtifactLeak.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-312/CleartextLogging.ql.
+[4/105 eval 20ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-300/InsecureDependencyResolution.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-312/CleartextStorage.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-313/PasswordInConfigurationFile.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-326/InsufficientKeySize.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-327/BadRandomness.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-327/BrokenCryptoAlgorithm.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-338/InsecureRandomness.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-346/CorsMisconfigurationForCredentials.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-347/MissingJWTKeyVerification.ql.
+[5/105 eval 1.4s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-313/PasswordInConfigurationFile.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-367/FileSystemRace.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-352/MissingCsrfMiddleware.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-377/InsecureTemporaryFile.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-384/SessionFixation.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-400/DeepObjectResourceExhaustion.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-400/RemotePropertyInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-502/UnsafeDeserialization.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-506/HardcodedDataInterpretedAsCode.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-598/SensitiveGetQuery.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-601/ClientSideUrlRedirect.ql.
+[6/105 eval 19.4s] Evaluation done; writing results to codeql/javascript-queries/AngularJS/DoubleCompilation.bqrs.
+[7/105 eval 19.4s] Evaluation done; writing results to codeql/javascript-queries/AngularJS/DisablingSce.bqrs.
+[8/105 eval 19.4s] Evaluation done; writing results to codeql/javascript-queries/AngularJS/InsecureUrlWhitelist.bqrs.
+[9/105 eval 19.4s] Evaluation done; writing results to codeql/javascript-queries/Electron/AllowRunningInsecureContent.bqrs.
+[10/105 eval 13.5s] Evaluation done; writing results to codeql/javascript-queries/Electron/DisablingWebSecurity.bqrs.
+[11/105 eval 13.1s] Evaluation done; writing results to codeql/javascript-queries/RegExp/IdentityReplacement.bqrs.
+[12/105 eval 12.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-020/IncompleteUrlSubstringSanitization.bqrs.
+[13/105 eval 12.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-020/IncorrectSuffixCheck.bqrs.
+[14/105 eval 12.2s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-020/MissingOriginCheck.bqrs.
+[15/105 eval 10.3s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-116/DoubleEscaping.bqrs.
+[16/105 eval 3.7s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-200/PrivateFileExposure.bqrs.
+[17/105 eval 3.2s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-327/BadRandomness.bqrs.
+[18/105 eval 2.4s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-347/MissingJWTKeyVerification.bqrs.
+[19/105 eval 2.1s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-367/FileSystemRace.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-601/ServerSideUrlRedirect.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-611/Xxe.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-614/ClearTextCookie.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-640/HostHeaderPoisoningInEmailGeneration.ql.
+[20/105 eval 20.5s] Evaluation done; writing results to codeql/javascript-queries/DOM/TargetBlank.bqrs.
+[21/105 eval 4.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-116/IncompleteSanitization.bqrs.
+[22/105 eval 4.7s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-295/DisablingCertificateValidation.bqrs.
+[23/105 eval 15.1s] Evaluation done; writing results to codeql/javascript-queries/Performance/ReDoS.bqrs.
+[24/105 eval 14.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-020/IncompleteUrlSchemeCheck.bqrs.
+[25/105 eval 14s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-020/OverlyLargeRange.bqrs.
+[26/105 eval 14s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-022/TaintedPath.bqrs.
+[27/105 eval 14.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-020/IncompleteHostnameRegExp.bqrs.
+[28/105 eval 14s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-022/ZipSlip.bqrs.
+[29/105 eval 12.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-078/CommandInjection.bqrs.
+[30/105 eval 12.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-078/IndirectCommandInjection.bqrs.
+[31/105 eval 14.1s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-020/UselessRegExpCharacterEscape.bqrs.
+[32/105 eval 12.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-078/UnsafeShellCommandConstruction.bqrs.
+[33/105 eval 14.1s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-073/TemplateObjectInjection.bqrs.
+[34/105 eval 12.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-078/ShellCommandInjectionFromEnvironment.bqrs.
+[35/105 eval 12.5s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-079/UnsafeJQueryPlugin.bqrs.
+[36/105 eval 12.5s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-094/ImproperCodeSanitization.bqrs.
+[37/105 eval 12.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-079/ReflectedXss.bqrs.
+[38/105 eval 12.4s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-094/UnsafeDynamicMethodAccess.bqrs.
+[39/105 eval 12.5s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-094/CodeInjection.bqrs.
+[40/105 eval 12.4s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-116/IncompleteHtmlAttributeSanitization.bqrs.
+[41/105 eval 12.5s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-1004/ClientExposedCookie.bqrs.
+[42/105 eval 5.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-117/LogInjection.bqrs.
+[43/105 eval 5.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-1275/SameSiteNoneCookie.bqrs.
+[44/105 eval 5.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-116/UnsafeHtmlExpansion.bqrs.
+[45/105 eval 5.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-201/PostMessageStar.bqrs.
+[46/105 eval 6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-116/IncompleteMultiCharacterSanitization.bqrs.
+[47/105 eval 5.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-134/TaintedFormatString.bqrs.
+[48/105 eval 5.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-312/BuildArtifactLeak.bqrs.
+[49/105 eval 5.7s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-209/StackTraceExposure.bqrs.
+[50/105 eval 3.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-352/MissingCsrfMiddleware.bqrs.
+[51/105 eval 4.5s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-346/CorsMisconfigurationForCredentials.bqrs.
+[52/105 eval 5.6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-312/CleartextStorage.bqrs.
+[53/105 eval 3.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-377/InsecureTemporaryFile.bqrs.
+[54/105 eval 2.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-400/DeepObjectResourceExhaustion.bqrs.
+[55/105 eval 2.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-400/RemotePropertyInjection.bqrs.
+[56/105 eval 3.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-384/SessionFixation.bqrs.
+[57/105 eval 2.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-598/SensitiveGetQuery.bqrs.
+[58/105 eval 2.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-502/UnsafeDeserialization.bqrs.
+[59/105 eval 2.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-506/HardcodedDataInterpretedAsCode.bqrs.
+[60/105 eval 2.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-601/ClientSideUrlRedirect.bqrs.
+[61/105 eval 1.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-601/ServerSideUrlRedirect.bqrs.
+[62/105 eval 1.7s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-614/ClearTextCookie.bqrs.
+[63/105 eval 1.7s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-640/HostHeaderPoisoningInEmailGeneration.bqrs.
+[64/105 eval 12.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-078/SecondOrderCommandInjection.bqrs.
+[65/105 eval 12.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-078/UselessUseOfCat.bqrs.
+[66/105 eval 14.5s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-020/MissingRegExpAnchor.bqrs.
+[67/105 eval 6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-200/FileAccessToHttp.bqrs.
+[68/105 eval 12.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-079/UnsafeHtmlConstruction.bqrs.
+[69/105 eval 12.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-079/Xss.bqrs.
+[70/105 eval 12.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-079/StoredXss.bqrs.
+[71/105 eval 12.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-079/XssThroughDom.bqrs.
+[72/105 eval 16.2s] Evaluation done; writing results to codeql/javascript-queries/Performance/PolynomialReDoS.bqrs.
+[73/105 eval 13s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-079/ExceptionXss.bqrs.
+[74/105 eval 12.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-089/SqlInjection.bqrs.
+[75/105 eval 12.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-094/UnsafeCodeConstruction.bqrs.
+[76/105 eval 6.3s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-178/CaseSensitiveMiddlewarePath.bqrs.
+[77/105 eval 6s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-312/CleartextLogging.bqrs.
+[78/105 eval 5.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-326/InsufficientKeySize.bqrs.
+[79/105 eval 5.8s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-327/BrokenCryptoAlgorithm.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-643/XpathInjection.ql.
+[80/105 eval 12.9s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-116/BadTagFilter.bqrs.
+[81/105 eval 2.1s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-611/Xxe.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-730/RegExpInjection.ql.
+[82/105 eval 5.7s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-338/InsecureRandomness.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-730/ServerCrash.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-754/UnvalidatedDynamicMethodCall.ql.
+[83/105 eval 38ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-730/RegExpInjection.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-770/MissingRateLimiting.ql.
+[84/105 eval 120ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-643/XpathInjection.bqrs.
+[85/105 eval 97ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-730/ServerCrash.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-770/ResourceExhaustion.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-776/XmlBomb.ql.
+[86/105 eval 108ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-770/MissingRateLimiting.bqrs.
+[87/105 eval 28ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-770/ResourceExhaustion.bqrs.
+Starting evaluation of codeql/javascript-queries/Security/CWE-798/HardcodedCredentials.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-807/ConditionalBypass.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-829/InsecureDownload.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-830/FunctionalityFromUntrustedSource.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-834/LoopBoundInjection.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-843/TypeConfusionThroughParameterTampering.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-862/EmptyPasswordInConfigurationFile.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-912/HttpToFileAccess.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-915/PrototypePollutingAssignment.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-915/PrototypePollutingFunction.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-915/PrototypePollutingMergeCall.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-916/InsufficientPasswordHash.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-918/ClientSideRequestForgery.ql.
+Starting evaluation of codeql/javascript-queries/Security/CWE-918/RequestForgery.ql.
+Starting evaluation of codeql/javascript-queries/Summary/LinesOfCode.ql.
+Starting evaluation of codeql/javascript-queries/Summary/LinesOfUserCode.ql.
+[88/105 eval 71ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-776/XmlBomb.bqrs.
+[89/105 eval 60ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-843/TypeConfusionThroughParameterTampering.bqrs.
+[90/105 eval 96ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-834/LoopBoundInjection.bqrs.
+[91/105 eval 97ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-862/EmptyPasswordInConfigurationFile.bqrs.
+[92/105 eval 125ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-807/ConditionalBypass.bqrs.
+[93/105 eval 124ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-918/ClientSideRequestForgery.bqrs.
+[94/105 eval 148ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-918/RequestForgery.bqrs.
+[95/105 eval 377ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-754/UnvalidatedDynamicMethodCall.bqrs.
+[96/105 eval 245ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-829/InsecureDownload.bqrs.
+[97/105 eval 275ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-830/FunctionalityFromUntrustedSource.bqrs.
+[98/105 eval 309ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-798/HardcodedCredentials.bqrs.
+[99/105 eval 344ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-912/HttpToFileAccess.bqrs.
+[100/105 eval 563ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-916/InsufficientPasswordHash.bqrs.
+[101/105 eval 616ms] Evaluation done; writing results to codeql/javascript-queries/Summary/LinesOfCode.bqrs.
+[102/105 eval 847ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-915/PrototypePollutingFunction.bqrs.
+[103/105 eval 943ms] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-915/PrototypePollutingAssignment.bqrs.
+[104/105 eval 2.7s] Evaluation done; writing results to codeql/javascript-queries/Summary/LinesOfUserCode.bqrs.
+[105/105 eval 5.2s] Evaluation done; writing results to codeql/javascript-queries/Security/CWE-915/PrototypePollutingMergeCall.bqrs.
+Shutting down query evaluator.
+Interpreting results.

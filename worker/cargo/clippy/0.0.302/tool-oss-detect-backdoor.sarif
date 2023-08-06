@@ -1,0 +1,93 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "oss-detect-backdoor",
+          "organization": "Microsoft Corporation",
+          "product": "OSSGadget (https://github.com/Microsoft/OSSGadget)",
+          "version": "0.1.401+c37aea753d"
+        }
+      },
+      "results": [
+        {
+          "rule": {
+            "id": "BD000804"
+          },
+          "message": {
+            "text": "Backdoor: Long Strings",
+            "id": "BD000804"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 12,
+                  "endLine": 3,
+                  "endColumn": 54,
+                  "snippet": {
+                    "text": "{\n  \"git\": {\n    \"sha1\": \"bbc0378fe3733f1929e18a3815510119c0d51205\"\n  }\n}\n",
+                    "rendered": {
+                      "text": "{\n  \"git\": {\n    \"sha1\": \"bbc0378fe3733f1929e18a3815510119c0d51205\"\n  }\n}\n",
+                      "markdown": "`{\n  \"git\": {\n    \"sha1\": \"bbc0378fe3733f1929e18a3815510119c0d51205\"\n  }\n}\n`"
+                    }
+                  },
+                  "sourceLanguage": "json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Medium"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000804"
+          },
+          "message": {
+            "text": "Backdoor: Long Strings",
+            "id": "BD000804"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 12,
+                  "endLine": 3,
+                  "endColumn": 54,
+                  "snippet": {
+                    "text": "{\n  \"git\": {\n    \"sha1\": \"bbc0378fe3733f1929e18a3815510119c0d51205\"\n  }\n}\n",
+                    "rendered": {
+                      "text": "{\n  \"git\": {\n    \"sha1\": \"bbc0378fe3733f1929e18a3815510119c0d51205\"\n  }\n}\n",
+                      "markdown": "`{\n  \"git\": {\n    \"sha1\": \"bbc0378fe3733f1929e18a3815510119c0d51205\"\n  }\n}\n`"
+                    }
+                  },
+                  "sourceLanguage": "json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Medium"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}

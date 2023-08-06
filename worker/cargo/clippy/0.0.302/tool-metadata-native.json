@@ -1,0 +1,5617 @@
+{
+  "categories": [
+    {
+      "category": "Development tools",
+      "crates_cnt": 2548,
+      "created_at": "2016-12-30T23:42:37.777395\u002B00:00",
+      "description": "Crates that provide developer-facing features such as testing, debugging, linting, performance profiling, autocompletion, formatting, and more.",
+      "id": "development-tools",
+      "slug": "development-tools"
+    },
+    {
+      "category": "Cargo plugins",
+      "crates_cnt": 345,
+      "created_at": "2017-01-17T19:13:05.112025\u002B00:00",
+      "description": "Subcommands that extend the capabilities of Cargo.",
+      "id": "development-tools::cargo-plugins",
+      "slug": "development-tools::cargo-plugins"
+    }
+  ],
+  "crate": {
+    "badges": [],
+    "categories": [
+      "development-tools",
+      "development-tools::cargo-plugins"
+    ],
+    "created_at": "2015-05-09T09:52:36.818972\u002B00:00",
+    "description": "A bunch of helpful lints to avoid common pitfalls in Rust.",
+    "documentation": null,
+    "downloads": 1135569,
+    "exact_match": false,
+    "homepage": null,
+    "id": "clippy",
+    "keywords": [
+      "plugin",
+      "clippy",
+      "lint"
+    ],
+    "links": {
+      "owner_team": "/api/v1/crates/clippy/owner_team",
+      "owner_user": "/api/v1/crates/clippy/owner_user",
+      "owners": "/api/v1/crates/clippy/owners",
+      "reverse_dependencies": "/api/v1/crates/clippy/reverse_dependencies",
+      "version_downloads": "/api/v1/crates/clippy/downloads",
+      "versions": null
+    },
+    "max_stable_version": "0.0.302",
+    "max_version": "0.0.302",
+    "name": "clippy",
+    "newest_version": "0.0.302",
+    "recent_downloads": 38954,
+    "repository": "https://github.com/rust-lang-nursery/rust-clippy",
+    "updated_at": "2018-10-05T19:39:15.372568\u002B00:00",
+    "versions": [
+      111066,
+      110456,
+      110455,
+      98995,
+      98243,
+      97788,
+      97083,
+      96964,
+      96023,
+      94615,
+      94204,
+      93912,
+      93531,
+      93429,
+      93160,
+      92730,
+      92603,
+      92311,
+      91708,
+      91392,
+      89513,
+      89020,
+      88087,
+      87641,
+      86950,
+      86595,
+      85462,
+      85072,
+      82601,
+      79900,
+      79598,
+      79232,
+      79106,
+      78696,
+      78266,
+      77547,
+      76952,
+      76757,
+      75144,
+      74495,
+      72961,
+      72039,
+      71940,
+      71562,
+      71359,
+      70874,
+      70446,
+      69876,
+      69725,
+      68864,
+      66978,
+      66397,
+      66129,
+      65784,
+      65294,
+      65218,
+      65130,
+      64884,
+      64460,
+      64395,
+      63973,
+      63406,
+      63027,
+      62431,
+      62353,
+      61964,
+      61774,
+      61260,
+      61153,
+      60911,
+      60580,
+      59816,
+      59267,
+      58588,
+      58263,
+      56942,
+      56393,
+      55926,
+      55825,
+      54802,
+      54751,
+      53754,
+      53260,
+      53086,
+      52222,
+      52087,
+      51881,
+      51589,
+      51484,
+      51172,
+      50708,
+      50465,
+      50130,
+      49725,
+      48356,
+      48044,
+      47703,
+      47034,
+      46741,
+      46553,
+      46461,
+      45033,
+      44456,
+      43483,
+      42947,
+      42808,
+      42706,
+      42244,
+      42100,
+      41611,
+      41603,
+      39845,
+      38483,
+      38412,
+      38377,
+      38140,
+      38035,
+      37492,
+      37231,
+      36488,
+      35277,
+      35125,
+      35094,
+      34931,
+      34793,
+      33460,
+      33218,
+      33099,
+      32831,
+      32647,
+      32063,
+      31998,
+      31905,
+      31873,
+      31720,
+      31116,
+      29815,
+      29461,
+      28958,
+      28427,
+      28319,
+      28268,
+      28178,
+      28145,
+      27989,
+      27794,
+      27580,
+      27291,
+      26969,
+      26853,
+      26755,
+      26170,
+      25227,
+      25206,
+      24974,
+      24868,
+      24814,
+      24562,
+      24529,
+      24348,
+      24225,
+      24011,
+      23948,
+      23814,
+      23764,
+      23709,
+      23608,
+      23585,
+      23424,
+      23352,
+      22786,
+      22705,
+      22563,
+      22310,
+      22309,
+      22268,
+      22264,
+      21136,
+      20940,
+      20120,
+      20067,
+      19718,
+      19589,
+      19573,
+      19177,
+      18922,
+      18920,
+      18773,
+      18731,
+      18541,
+      18312,
+      17640,
+      17235,
+      16730,
+      16729,
+      16442,
+      16323,
+      15842,
+      15783,
+      15429,
+      14510,
+      14485,
+      14408,
+      14017,
+      13908,
+      12965,
+      11685,
+      10046,
+      10018,
+      10016
+    ]
+  },
+  "keywords": [
+    {
+      "crates_cnt": 195,
+      "created_at": "2014-11-11T07:06:31.139014\u002B00:00",
+      "id": "plugin",
+      "keyword": "plugin"
+    },
+    {
+      "crates_cnt": 16,
+      "created_at": "2015-05-09T09:52:36.844345\u002B00:00",
+      "id": "clippy",
+      "keyword": "clippy"
+    },
+    {
+      "crates_cnt": 38,
+      "created_at": "2014-11-14T10:01:23.369404\u002B00:00",
+      "id": "lint",
+      "keyword": "lint"
+    }
+  ],
+  "versions": [
+    {
+      "audit_actions": [],
+      "checksum": "d911ee15579a3f50880d8c1d59ef6e79f9533127a3bd342462f5d584f5e8c294",
+      "crate": "clippy",
+      "crate_size": 1730,
+      "created_at": "2018-10-05T19:39:15.372568\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.302/download",
+      "downloads": 133265,
+      "features": {},
+      "id": 111066,
+      "license": "MIT/Apache-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.302/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.302/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.302/downloads"
+      },
+      "num": "0.0.302",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.302/readme",
+      "rust_version": null,
+      "updated_at": "2018-10-05T19:39:15.372568\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "5f6d6e3452eac1ea559e013045bf8be2143a09dac6791f79e75aa724d7747d7e",
+      "crate": "clippy",
+      "crate_size": 1635,
+      "created_at": "2018-10-02T08:01:34.098846\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.301/download",
+      "downloads": 3360,
+      "features": {},
+      "id": 110456,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.301/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.301/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.301/downloads"
+      },
+      "num": "0.0.301",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.301/readme",
+      "rust_version": null,
+      "updated_at": "2018-10-02T08:01:34.098846\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "1407e4f3b9659bb4067c8fee210683d4e7a512720393e687527444fe6a951e6e",
+      "crate": "clippy",
+      "crate_size": 1723,
+      "created_at": "2018-10-02T08:00:30.856916\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.300/download",
+      "downloads": 2648,
+      "features": {},
+      "id": 110455,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.300/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.300/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.300/downloads"
+      },
+      "num": "0.0.300",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.300/readme",
+      "rust_version": null,
+      "updated_at": "2018-10-02T08:00:30.856916\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "7e253af13a0cc39c7f22cf16f1be49d593dedc5895fe2fbb15f14d66ead00533",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-07-07T06:27:45.331586\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.212/download",
+      "downloads": 28431,
+      "features": {
+        "debugging": []
+      },
+      "id": 98995,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.212/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.212/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.212/downloads"
+      },
+      "num": "0.0.212",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.212/readme",
+      "rust_version": null,
+      "updated_at": "2018-07-07T06:27:45.331586\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "88130e594af68f9cfd8835fe9a1329b575f57e39e79ac65818f24b3dc27995d9",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-06-29T08:24:42.601466\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.211/download",
+      "downloads": 5377,
+      "features": {
+        "debugging": []
+      },
+      "id": 98243,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.211/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.211/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.211/downloads"
+      },
+      "num": "0.0.211",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.211/readme",
+      "rust_version": null,
+      "updated_at": "2018-06-29T08:24:42.601466\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e6c150cce041d9dcf1c4fc5411a7fd9dad93f9794d4d06146227da246dd5e957",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-06-25T16:26:32.836329\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.210/download",
+      "downloads": 5231,
+      "features": {
+        "debugging": []
+      },
+      "id": 97788,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.210/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.210/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.210/downloads"
+      },
+      "num": "0.0.210",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.210/readme",
+      "rust_version": null,
+      "updated_at": "2018-06-25T16:26:32.836329\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "fe56cba96f8d67cd3af996bd2c61fbfea263cc555db9180dc1f7413418454c7d",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-06-19T07:59:43.323272\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.209/download",
+      "downloads": 5464,
+      "features": {
+        "debugging": []
+      },
+      "id": 97083,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.209/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.209/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.209/downloads"
+      },
+      "num": "0.0.209",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.209/readme",
+      "rust_version": null,
+      "updated_at": "2018-06-19T07:59:43.323272\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "35420153f510ee10d0ac061c0c53b97ad83e238742c6479b9e35bc432a5e381f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-06-18T08:57:23.527349\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.208/download",
+      "downloads": 3197,
+      "features": {
+        "debugging": []
+      },
+      "id": 96964,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.208/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.208/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.208/downloads"
+      },
+      "num": "0.0.208",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.208/readme",
+      "rust_version": null,
+      "updated_at": "2018-06-18T08:57:23.527349\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "cc42a49b89319724199ff4fec0766a12764293a37cec12dd42c4a4b2d725666c",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-06-10T04:25:36.745212\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.207/download",
+      "downloads": 5470,
+      "features": {
+        "debugging": []
+      },
+      "id": 96023,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.207/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.207/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.207/downloads"
+      },
+      "num": "0.0.207",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.207/readme",
+      "rust_version": null,
+      "updated_at": "2018-06-10T04:25:36.745212\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "f4ee3a52bb1a86cbd575205449951cb425c14afcebc4f1cb7a423cee1e9f7f1f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-29T10:01:45.492940\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.206/download",
+      "downloads": 7338,
+      "features": {
+        "debugging": []
+      },
+      "id": 94615,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.206/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.206/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.206/downloads"
+      },
+      "num": "0.0.206",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.206/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-29T10:01:45.492940\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "bef3132dda284aba0f5630374566e98095c306d9ae49c4f7ede99347c4343fbe",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-26T08:26:39.117359\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.205/download",
+      "downloads": 4425,
+      "features": {
+        "debugging": []
+      },
+      "id": 94204,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.205/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.205/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.205/downloads"
+      },
+      "num": "0.0.205",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.205/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-26T08:26:39.117359\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ffdfe65fde3af4c9c5f9436d316011cc434d5d0331638eece6f66d45999403a5",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-23T14:40:58.664074\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.204/download",
+      "downloads": 4013,
+      "features": {
+        "debugging": []
+      },
+      "id": 93912,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.204/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.204/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.204/downloads"
+      },
+      "num": "0.0.204",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.204/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-23T14:40:58.664074\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "5ebbf1f0632ef97215395cc266fbf13952fbe787f1bc787cc58093bf190f3e38",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-20T08:05:04.077598\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.203/download",
+      "downloads": 3635,
+      "features": {
+        "debugging": []
+      },
+      "id": 93531,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.203/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.203/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.203/downloads"
+      },
+      "num": "0.0.203",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.203/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-20T08:05:04.077598\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "218da80f0713d907f610b86d2294373ed67733b9fe850281cd421cb1b298340f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-19T11:04:44.342924\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.202/download",
+      "downloads": 2852,
+      "features": {
+        "debugging": []
+      },
+      "id": 93429,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.202/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.202/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.202/downloads"
+      },
+      "num": "0.0.202",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.202/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-19T11:04:44.342924\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c605d6a12efb7a9604eb2008a3c1f18317cacd6086d47bbe3ff27d025bbe8f97",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-17T10:01:51.061122\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.201/download",
+      "downloads": 3362,
+      "features": {
+        "debugging": []
+      },
+      "id": 93160,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.201/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.201/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.201/downloads"
+      },
+      "num": "0.0.201",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.201/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-17T10:01:51.061122\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "927a1f79af10deb103df108347f23c6b7fa1731c953d6fb24d68be1748a0993f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-14T09:37:02.492739\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.200/download",
+      "downloads": 6601,
+      "features": {
+        "debugging": []
+      },
+      "id": 92730,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.200/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.200/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.200/downloads"
+      },
+      "num": "0.0.200",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.200/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-14T09:37:02.492739\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "91fa65ee30b1ba957546c753ee1126e85d3e7bf8a74e432011596db922656141",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-13T09:21:37.893958\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.199/download",
+      "downloads": 3304,
+      "features": {
+        "debugging": []
+      },
+      "id": 92603,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.199/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.199/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.199/downloads"
+      },
+      "num": "0.0.199",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.199/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-13T09:21:37.893958\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "da3a62431bbcebe5250a1235e022cc61bcc2f32405d8dc08da4011d223c6a4ba",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-11T08:11:58.021637\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.198/download",
+      "downloads": 21923,
+      "features": {
+        "debugging": []
+      },
+      "id": 92311,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.198/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.198/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.198/downloads"
+      },
+      "num": "0.0.198",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.198/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-11T08:11:58.021637\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "776d26ca67374aee598089caa608e14d9bc1532c90aad40bbb3206250aa0e8ff",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-07T08:04:34.415691\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.197/download",
+      "downloads": 4932,
+      "features": {
+        "debugging": []
+      },
+      "id": 91708,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.197/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.197/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.197/downloads"
+      },
+      "num": "0.0.197",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.197/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-07T08:04:34.415691\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "11b8bd61afa9d9d964c55be141b65a1ee752701812c0c2a80efad4e330d61863",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-05-04T13:58:11.193554\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.196/download",
+      "downloads": 3838,
+      "features": {
+        "debugging": []
+      },
+      "id": 91392,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.196/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.196/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.196/downloads"
+      },
+      "num": "0.0.196",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.196/readme",
+      "rust_version": null,
+      "updated_at": "2018-05-04T13:58:11.193554\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "1d48c23f9c2f4cb3ac08fb972e9a892778f7829c7ae611106887b42cf1749ad2",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-04-19T06:44:15.594442\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.195/download",
+      "downloads": 9783,
+      "features": {
+        "debugging": []
+      },
+      "id": 89513,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.195/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.195/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.195/downloads"
+      },
+      "num": "0.0.195",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.195/readme",
+      "rust_version": null,
+      "updated_at": "2018-04-19T06:44:15.594442\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b660930d488531dde4f8210e7c0faa649a135990200118fe915cabd1174ae45a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-04-15T13:06:12.798449\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.194/download",
+      "downloads": 4754,
+      "features": {
+        "debugging": []
+      },
+      "id": 89020,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.194/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.194/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.194/downloads"
+      },
+      "num": "0.0.194",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.194/readme",
+      "rust_version": null,
+      "updated_at": "2018-04-15T13:06:12.798449\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "eb0a4f99c61c3aabb50d133ce4b1e311c9c225c92cedae29597cce7cd1945415",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-04-08T09:19:09.258090\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.193/download",
+      "downloads": 6709,
+      "features": {
+        "debugging": []
+      },
+      "id": 88087,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.193/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.193/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.193/downloads"
+      },
+      "num": "0.0.193",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.193/readme",
+      "rust_version": null,
+      "updated_at": "2018-04-08T09:19:09.258090\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6d5b9c448ab03cade9cf3c15b80ebb282c996eade63a4e0eadb06dd3ca08168e",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-04-05T01:02:45.166967\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.192/download",
+      "downloads": 4365,
+      "features": {
+        "debugging": []
+      },
+      "id": 87641,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.192/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.192/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.192/downloads"
+      },
+      "num": "0.0.192",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.192/readme",
+      "rust_version": null,
+      "updated_at": "2018-04-05T01:02:45.166967\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "9e9e82aa6f8e55fc7110bda2c333c671c31b36da976237ecbde9958dea89e08b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-03-30T08:49:09.359923\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.191/download",
+      "downloads": 5006,
+      "features": {
+        "debugging": []
+      },
+      "id": 86950,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.191/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.191/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.191/downloads"
+      },
+      "num": "0.0.191",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.191/readme",
+      "rust_version": null,
+      "updated_at": "2018-03-30T08:49:09.359923\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a77d3eb634b31e54f5fbfbba188a736fc2fc0a8ac426b1ceb14850a2102ef589",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-03-27T14:00:04.446635\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.190/download",
+      "downloads": 4139,
+      "features": {
+        "debugging": []
+      },
+      "id": 86595,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.190/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.190/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.190/downloads"
+      },
+      "num": "0.0.190",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.190/readme",
+      "rust_version": null,
+      "updated_at": "2018-03-27T14:00:04.446635\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "29a6b8bfb315bff4f275380d4771b0da6fe6eef33d61c6620022bea5318305b4",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-03-19T08:29:58.553744\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.189/download",
+      "downloads": 5228,
+      "features": {
+        "debugging": []
+      },
+      "id": 85462,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.189/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.189/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.189/downloads"
+      },
+      "num": "0.0.189",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.189/readme",
+      "rust_version": null,
+      "updated_at": "2018-03-19T08:29:58.553744\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c59d7e1b291bbb8a228b396257bdffbaec26e54a68a4c5faa0485ec409be9b1e",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-03-16T08:48:02.991193\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.188/download",
+      "downloads": 4710,
+      "features": {
+        "debugging": []
+      },
+      "id": 85072,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.188/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.188/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.188/downloads"
+      },
+      "num": "0.0.188",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.188/readme",
+      "rust_version": null,
+      "updated_at": "2018-03-16T08:48:02.991193\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "17b10f6efdd5b8399ce0643fe8b4fc81d260a7a0c0a266e7c81b8b0949e077eb",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-02-26T20:35:05.072459\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.187/download",
+      "downloads": 10423,
+      "features": {
+        "debugging": []
+      },
+      "id": 82601,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.187/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.187/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.187/downloads"
+      },
+      "num": "0.0.187",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.187/readme",
+      "rust_version": null,
+      "updated_at": "2018-02-26T20:35:05.072459\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "fa7b79c57f831e752f3667ae6115d02ed2d9e97a986ff76e5f04d613a8c0842a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-02-05T07:55:01.083602\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.186/download",
+      "downloads": 11237,
+      "features": {
+        "debugging": []
+      },
+      "id": 79900,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.186/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.186/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.186/downloads"
+      },
+      "num": "0.0.186",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.186/readme",
+      "rust_version": null,
+      "updated_at": "2018-02-05T07:55:01.083602\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b080889af09b48e96470949fa48592a6e34dcb7cc9ccd044b637aefd38731354",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-02-02T07:56:10.685472\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.185/download",
+      "downloads": 4167,
+      "features": {
+        "debugging": []
+      },
+      "id": 79598,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.185/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.185/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.185/downloads"
+      },
+      "num": "0.0.185",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.185/readme",
+      "rust_version": null,
+      "updated_at": "2018-02-02T07:56:10.685472\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "1e70c0ea9c5ad3eaab76ec3c4351d8d415c257093173416b0e2ed75e9be5cb74",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-01-30T14:05:21.371919\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.184/download",
+      "downloads": 4318,
+      "features": {
+        "debugging": []
+      },
+      "id": 79232,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.184/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.184/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.184/downloads"
+      },
+      "num": "0.0.184",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.184/readme",
+      "rust_version": null,
+      "updated_at": "2018-01-30T14:05:21.371919\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a5e81310a5a578c454fb713d381b332d67be11d0e108e5846eaadd7044003026",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-01-29T05:57:01.781658\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.183/download",
+      "downloads": 3446,
+      "features": {
+        "debugging": []
+      },
+      "id": 79106,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.183/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.183/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.183/downloads"
+      },
+      "num": "0.0.183",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.183/readme",
+      "rust_version": null,
+      "updated_at": "2018-01-29T05:57:01.781658\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "fa5d02da768264b4faa1494aad322c4537f3f9855349ef704077064a246248e3",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-01-25T08:01:23.621982\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.182/download",
+      "downloads": 5127,
+      "features": {
+        "debugging": []
+      },
+      "id": 78696,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.182/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.182/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.182/downloads"
+      },
+      "num": "0.0.182",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.182/readme",
+      "rust_version": null,
+      "updated_at": "2018-01-25T08:01:23.621982\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c9bc210a6c22d37d6e065220131f9209e1c8e0f3c57ddafa4fe403129c16fc48",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-01-22T05:09:46.698929\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.181/download",
+      "downloads": 4289,
+      "features": {
+        "debugging": []
+      },
+      "id": 78266,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.181/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.181/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.181/downloads"
+      },
+      "num": "0.0.181",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.181/readme",
+      "rust_version": null,
+      "updated_at": "2018-01-22T05:09:46.698929\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "2f4d28dcaffa26ee7e1e11edb658195dc34ddc9f855ade3583ba30fc0f7aaf69",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-01-15T11:11:06.547645\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.180/download",
+      "downloads": 4611,
+      "features": {
+        "debugging": []
+      },
+      "id": 77547,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.180/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.180/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.180/downloads"
+      },
+      "num": "0.0.180",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.180/readme",
+      "rust_version": null,
+      "updated_at": "2018-01-15T11:11:06.547645\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "f3865be451fd0a4f53376171c2e86e52ef6dfa2d51e8d137229851b332f5ab12",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-01-10T08:54:27.705573\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.179/download",
+      "downloads": 5497,
+      "features": {
+        "debugging": []
+      },
+      "id": 76952,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.179/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.179/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.179/downloads"
+      },
+      "num": "0.0.179",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.179/readme",
+      "rust_version": null,
+      "updated_at": "2018-01-10T08:54:27.705573\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "bd0b13e3745dd5adc3896e0596b9a35154026eeb9d1b4a8ebf16fb005a9e116c",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2018-01-08T10:45:32.221808\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.178/download",
+      "downloads": 3945,
+      "features": {
+        "debugging": []
+      },
+      "id": 76757,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.178/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.178/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.178/downloads"
+      },
+      "num": "0.0.178",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.178/readme",
+      "rust_version": null,
+      "updated_at": "2018-01-08T10:45:32.221808\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "131acb21874af5ec9a2ed5b3945edd9961b260735ba0d6879357a924a77be66b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-12-22T05:16:46.927899\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.177/download",
+      "downloads": 8344,
+      "features": {
+        "debugging": []
+      },
+      "id": 75144,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.177/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.177/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.177/downloads"
+      },
+      "num": "0.0.177",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.177/readme",
+      "rust_version": null,
+      "updated_at": "2017-12-22T05:16:46.927899\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "72432eb67ee57b1b3690ae22d1f6584cf5935da13805d143640de5ee3475bee2",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-12-15T09:05:15.258902\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.176/download",
+      "downloads": 6194,
+      "features": {
+        "debugging": []
+      },
+      "id": 74495,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.176/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.176/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.176/downloads"
+      },
+      "num": "0.0.176",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.176/readme",
+      "rust_version": null,
+      "updated_at": "2017-12-15T09:05:15.258902\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "2dae056aaec8acd5fc26722234cc9fa03b969a860d9aef0da6c5e5c996ce66ae",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-12-02T12:07:53.282268\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.175/download",
+      "downloads": 8898,
+      "features": {
+        "debugging": []
+      },
+      "id": 72961,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.175/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.175/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.175/downloads"
+      },
+      "num": "0.0.175",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.175/readme",
+      "rust_version": null,
+      "updated_at": "2017-12-02T12:07:53.282268\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "1b03ded6eba74b16dbeb598be58e874bc72f6cf12f7ccc577b328091e1d4392a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-11-22T09:59:58.375383\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.174/download",
+      "downloads": 7086,
+      "features": {
+        "debugging": []
+      },
+      "id": 72039,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.174/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.174/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.174/downloads"
+      },
+      "num": "0.0.174",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.174/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:57:57.882886\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6eab5462548094d4217260e928a7f811611dfb9e21c729073f4b494a0bfdae5b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-11-21T07:19:59.155961\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.173/download",
+      "downloads": 2998,
+      "features": {
+        "debugging": []
+      },
+      "id": 71940,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.173/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.173/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.173/downloads"
+      },
+      "num": "0.0.173",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.173/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:15:08.015131\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ab29b39179db16bfe1592476116c01af25ac7f440a08f0374363a9eedfca146d",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-11-17T08:04:34.055771\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.172/download",
+      "downloads": 4247,
+      "features": {
+        "debugging": []
+      },
+      "id": 71562,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.172/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.172/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.172/downloads"
+      },
+      "num": "0.0.172",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.172/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:03:58.378062\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b622df59a11833e92f6be05fb64a676a9d43fe9acdca58d098f7176ef7826cc0",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-11-15T07:50:45.838714\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.171/download",
+      "downloads": 3123,
+      "features": {
+        "debugging": []
+      },
+      "id": 71359,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.171/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.171/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.171/downloads"
+      },
+      "num": "0.0.171",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.171/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:27:34.179041\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "737a1afcd9a013ee8fb278ebf7b64030d4a9f819719a8e75a01680ad5afab696",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-11-10T08:17:58.847157\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.170/download",
+      "downloads": 5022,
+      "features": {
+        "debugging": []
+      },
+      "id": 70874,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.170/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.170/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.170/downloads"
+      },
+      "num": "0.0.170",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.170/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:08:59.166095\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a4058d4c76590a351844378fd20a8ccfcbf411771957f3d4772d2b1e4a5c5194",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-11-06T07:27:00.029160\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.169/download",
+      "downloads": 5553,
+      "features": {
+        "debugging": []
+      },
+      "id": 70446,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.169/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.169/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.169/downloads"
+      },
+      "num": "0.0.169",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.169/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:12:34.718888\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "9adee585714cd9978cfa31c81ee5863f46603cd7986a8e27a67857351a97c410",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-10-31T20:29:06.189901\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.168/download",
+      "downloads": 4749,
+      "features": {
+        "debugging": []
+      },
+      "id": 69876,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.168/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.168/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.168/downloads"
+      },
+      "num": "0.0.168",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.168/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:58.489683\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "2ed86f62889c947742f4d6ddf9591cc5a23315b4d52a502e7d84dee5d71ac373",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-10-30T04:02:57.664284\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.167/download",
+      "downloads": 3049,
+      "features": {
+        "debugging": []
+      },
+      "id": 69725,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.167/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.167/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.167/downloads"
+      },
+      "num": "0.0.167",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.167/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:58.486963\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "86c1e9a7fd08987104fcca0ce1ab0a627006ed955ce14a87ffa32754c947fccb",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-10-20T07:26:56.936303\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.166/download",
+      "downloads": 8595,
+      "features": {
+        "debugging": []
+      },
+      "id": 68864,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.166/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.166/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.166/downloads"
+      },
+      "num": "0.0.166",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.166/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:58.475731\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "88f67cdb6697a5d357f8f70cffdf65f4dcb6ec8bb5069f2bc347589b3869cbe8",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-28T17:52:33.174248\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.165/download",
+      "downloads": 10430,
+      "features": {
+        "debugging": []
+      },
+      "id": 66978,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.165/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.165/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.165/downloads"
+      },
+      "num": "0.0.165",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.165/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:54:45.788116\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e0e65e4e7970d79aaa7c729e2e5b0a98d570cb6de0cad02573bfc055231201f5",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-26T03:07:45.196622\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.164/download",
+      "downloads": 4420,
+      "features": {
+        "debugging": []
+      },
+      "id": 66397,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.164/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.164/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.164/downloads"
+      },
+      "num": "0.0.164",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.164/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:58.459688\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "5ad3f3dc94d81a6505eb28bf545b501fc9d7525ee9864df5a4b2b6d82629f038",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-23T20:52:11.693573\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.163/download",
+      "downloads": 5137,
+      "features": {
+        "debugging": []
+      },
+      "id": 66129,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.163/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.163/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.163/downloads"
+      },
+      "num": "0.0.163",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.163/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:58.454693\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "fcdb42cab913b8eb5d390ba612400ec581813fb59af29afd39333d7a550f332c",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-19T18:48:56.048665\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.162/download",
+      "downloads": 4013,
+      "features": {
+        "debugging": []
+      },
+      "id": 65784,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.162/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.162/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.162/downloads"
+      },
+      "num": "0.0.162",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.162/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:56.838615\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "16c75c24c0cb6719ed1472a2ea231df9041f95b8ee0cad6d4e147109bee04d2b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-14T07:17:09.999282\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.161/download",
+      "downloads": 4253,
+      "features": {
+        "debugging": []
+      },
+      "id": 65294,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.161/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.161/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.161/downloads"
+      },
+      "num": "0.0.161",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.161/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:58.449608\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e6be70fc2d82d2c5ed0d42b9b8e00c89b271752837b7661b8917a05ec490a23f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-13T13:37:07.497784\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.160/download",
+      "downloads": 2963,
+      "features": {
+        "debugging": []
+      },
+      "id": 65218,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.160/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.160/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.160/downloads"
+      },
+      "num": "0.0.160",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.160/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:58.440806\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0d9b99905cbc0d72b54182a379652ab3db1d2c7617e8935679155f2a11e695e9",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-12T12:43:17.325420\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.159/download",
+      "downloads": 2798,
+      "features": {
+        "debugging": []
+      },
+      "id": 65130,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.159/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.159/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.159/downloads"
+      },
+      "num": "0.0.159",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.159/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:16:58.437527\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c8a3fc7f7731535d15c5eceaf0107a9d238ea79778cff580e211573799ef7db5",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-09T12:42:53.025216\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.158/download",
+      "downloads": 3661,
+      "features": {
+        "debugging": []
+      },
+      "id": 64884,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.158/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.158/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.158/downloads"
+      },
+      "num": "0.0.158",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.158/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:21:40.986615\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "97ed8737240be5336d4a93927b43b74ae026a0e212e8886ddacb1a634706efcf",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-04T15:13:59.563177\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.157/download",
+      "downloads": 4132,
+      "features": {
+        "debugging": []
+      },
+      "id": 64460,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.157/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.157/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.157/downloads"
+      },
+      "num": "0.0.157",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.157/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:03:07.352167\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "2811d5bced647bd40952beab39ff901607d7091df81efcc6277efaf87d914291",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-09-03T21:00:17.923001\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.156/download",
+      "downloads": 2808,
+      "features": {
+        "debugging": []
+      },
+      "id": 64395,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.156/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.156/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.156/downloads"
+      },
+      "num": "0.0.156",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.156/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:03:10.877018\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "03ba983d61af163f1b3ccc31cf1eb4925e62264bdfdc4b6b7f2d8fa6b7cd30ec",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-08-30T08:59:26.119818\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.155/download",
+      "downloads": 5584,
+      "features": {
+        "debugging": []
+      },
+      "id": 63973,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.155/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.155/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.155/downloads"
+      },
+      "num": "0.0.155",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.155/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:30:27.192600\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "4fd00bfef6c4fca5dccfef06d86872308ce72a9eec3a4d2b0b39d26c7e3a8e85",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-08-25T10:45:54.071475\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.154/download",
+      "downloads": 4663,
+      "features": {
+        "debugging": []
+      },
+      "id": 63406,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.154/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.154/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.154/downloads"
+      },
+      "num": "0.0.154",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.154/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:09:44.579072\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "87b86ea33b6f775111137966a997e3ca49f99c724a7e05efb386d9018649acac",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-08-21T07:48:36.538644\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.153/download",
+      "downloads": 5259,
+      "features": {
+        "debugging": []
+      },
+      "id": 63027,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.153/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.153/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.153/downloads"
+      },
+      "num": "0.0.153",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.153/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:06:22.152937\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "7f1b1a0791c06da51ddd643f6916988831c1eb3884381430532b96e941286a55",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-08-15T09:14:24.176250\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.152/download",
+      "downloads": 5021,
+      "features": {
+        "debugging": []
+      },
+      "id": 62431,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.152/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.152/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.152/downloads"
+      },
+      "num": "0.0.152",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.152/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:28:17.469256\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "23c47ac157ce628b5b854c06d2e4ad296c86b5953765e72a15ede56deb2ec65a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-08-14T07:54:31.365911\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.151/download",
+      "downloads": 2906,
+      "features": {
+        "debugging": []
+      },
+      "id": 62353,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.151/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.151/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.151/downloads"
+      },
+      "num": "0.0.151",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.151/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:08:24.829999\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "26e7cf49814f6559e6fa745598fb11f51dbc35b91fc081f431f54df8b8c4c3fa",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-08-09T08:02:36.504592\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.150/download",
+      "downloads": 5018,
+      "features": {
+        "debugging": []
+      },
+      "id": 61964,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.150/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.150/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.150/downloads"
+      },
+      "num": "0.0.150",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.150/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:54:27.254719\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a69f74b06d54ae4fb48c1e96c579381aae3fe90f3b37265306eb529066da215f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-08-06T21:15:22.920313\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.149/download",
+      "downloads": 4261,
+      "features": {
+        "debugging": []
+      },
+      "id": 61774,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.149/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.149/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.149/downloads"
+      },
+      "num": "0.0.149",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.149/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:26:39.629556\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "cc2eadbfec63bba04a286575aa4a71c597827bc590895c6e5a72337d07fb3baf",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-08-01T08:23:10.207957\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.148/download",
+      "downloads": 4198,
+      "features": {
+        "debugging": []
+      },
+      "id": 61260,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.148/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.148/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.148/downloads"
+      },
+      "num": "0.0.148",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.148/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:32:12.573180\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a0fcf225c6695008fa72f52b275564b9556e42c5a7f559d637614148e5b46659",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-07-31T10:42:05.253713\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.147/download",
+      "downloads": 3531,
+      "features": {
+        "debugging": []
+      },
+      "id": 61153,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.147/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.147/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.147/downloads"
+      },
+      "num": "0.0.147",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.147/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:10:26.597769\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "93d316cd53829e82cfba2acabd9b5a4838633f58d77a048bf22c1ec28b10cbbb",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-07-28T07:42:40.958356\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.146/download",
+      "downloads": 3638,
+      "features": {
+        "debugging": []
+      },
+      "id": 60911,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.146/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.146/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.146/downloads"
+      },
+      "num": "0.0.146",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.146/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:41:07.931954\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0a0e6fe111c4e36c3a0779fb84310bedfaa9f284641f6e172b039306b4cd9cfd",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-07-24T14:54:04.886369\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.145/download",
+      "downloads": 4259,
+      "features": {
+        "debugging": []
+      },
+      "id": 60580,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.145/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.145/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.145/downloads"
+      },
+      "num": "0.0.145",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.145/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:07:48.573024\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e0349a693e7dd889e2a008f3b8deaacf33b8b649df01982d29b4a56c13531365",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-07-16T17:52:01.890126\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.144/download",
+      "downloads": 5822,
+      "features": {
+        "debugging": []
+      },
+      "id": 59816,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.144/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.144/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.144/downloads"
+      },
+      "num": "0.0.144",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.144/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:59:57.769937\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0ba494d48c1022ff0ded833291488c399a24cf4b3ca42c90870a4e354f73482b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-07-10T08:27:16.772829\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.143/download",
+      "downloads": 5155,
+      "features": {
+        "debugging": []
+      },
+      "id": 59267,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.143/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.143/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.143/downloads"
+      },
+      "num": "0.0.143",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.143/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:51:55.117173\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e82a66cfefcffef361a3ba150954563c5a1e151467e8bf4e28551f931200c7e3",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-07-03T07:28:12.208162\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.142/download",
+      "downloads": 5550,
+      "features": {
+        "debugging": []
+      },
+      "id": 58588,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.142/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.142/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.142/downloads"
+      },
+      "num": "0.0.142",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.142/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:48:57.222773\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "d77a5949d9cb8a6004854a8cadaa0e8964dd3e42c16ccfe7b559b7d384575fca",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-06-29T14:15:35.202507\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.141/download",
+      "downloads": 3217,
+      "features": {
+        "debugging": []
+      },
+      "id": 58263,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.141/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.141/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.141/downloads"
+      },
+      "num": "0.0.141",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.141/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:53:13.610853\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c94943cf8c69a405dd21a0f2ce2311f1c8777a9e54422baaae2397b688d26c89",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-06-16T16:48:11.613528\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.140/download",
+      "downloads": 8834,
+      "features": {
+        "debugging": []
+      },
+      "id": 56942,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.140/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.140/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.140/downloads"
+      },
+      "num": "0.0.140",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.140/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:57:52.895917\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "cc3f5ad04488e1519439a13b1b8955e952f9b5c91c1fb4382d48fc1010b6f287",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-06-11T05:18:46.641276\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.139/download",
+      "downloads": 4843,
+      "features": {
+        "debugging": []
+      },
+      "id": 56393,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.139/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.139/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.139/downloads"
+      },
+      "num": "0.0.139",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.139/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:54:32.202805\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "49be2e0acd2bdf473ff69ef56a574f66240462aebf2d0b39a3c8f4a4fbae87af",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-06-05T21:18:36.883394\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.138/download",
+      "downloads": 5587,
+      "features": {
+        "debugging": []
+      },
+      "id": 55926,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.138/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.138/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.138/downloads"
+      },
+      "num": "0.0.138",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.138/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:42.291191\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "31f3cc7a67292ef868d8648c2f2a0cc6870ac37bb0f7cec3e0e9f1407e925543",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-06-04T22:39:58.910441\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.137/download",
+      "downloads": 3288,
+      "features": {
+        "debugging": []
+      },
+      "id": 55825,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.137/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.137/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.137/downloads"
+      },
+      "num": "0.0.137",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.137/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:47:55.552891\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "71bd33c998efdaf68e6c46b2d8dc8223803eb50a6ce547d50e9e0369aed068f1",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-05-27T05:58:45.655680\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.136/download",
+      "downloads": 5561,
+      "features": {
+        "debugging": []
+      },
+      "id": 54802,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.136/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.136/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.136/downloads"
+      },
+      "num": "0.0.136",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.136/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:42.264385\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "bb3def479b6c1b2559544898078f9e7cadb1843c325432b29dd4a7263fe33f35",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-05-26T17:34:23.932056\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.135/download",
+      "downloads": 2664,
+      "features": {
+        "debugging": []
+      },
+      "id": 54751,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.135/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.135/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.135/downloads"
+      },
+      "num": "0.0.135",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.135/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:35:24.921039\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0bfb9a8439e8e42756cbd59d012cf18fbc114b6eb92e5e21c707ceef7212bd0a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-05-19T15:06:25.393798\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.134/download",
+      "downloads": 9238,
+      "features": {
+        "debugging": []
+      },
+      "id": 53754,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.134/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.134/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.134/downloads"
+      },
+      "num": "0.0.134",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.134/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:58:40.402197\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "9022a83e66a654b0fa11143d9e37ad65b03ec4e317ac7198bd59d4d8714e6d5f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-05-14T08:20:25.559901\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.133/download",
+      "downloads": 4708,
+      "features": {
+        "debugging": []
+      },
+      "id": 53260,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.133/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.133/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.133/downloads"
+      },
+      "num": "0.0.133",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.133/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:38:50.120970\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "4d9ccb452bbbf7688d0917155dd82472e431341cc18516466a1ec6f26d9d89f5",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-05-12T10:32:27.935515\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.132/download",
+      "downloads": 2965,
+      "features": {
+        "debugging": []
+      },
+      "id": 53086,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.132/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.132/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.132/downloads"
+      },
+      "num": "0.0.132",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.132/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:27:31.799604\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "5e985b3f2930c5d9431d6d4264caf4ec0e19a655e0a537e87fc5f8b1de94ae91",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-05-04T12:55:53.844731\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.131/download",
+      "downloads": 6345,
+      "features": {
+        "debugging": []
+      },
+      "id": 52222,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.131/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.131/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.131/downloads"
+      },
+      "num": "0.0.131",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.131/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:09:03.829612\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a55ee0eccfd801afcd8f1ebe19ae780e962923e32c3ff50763d4855f3c533ebf",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-05-03T13:32:20.818419\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.130/download",
+      "downloads": 2920,
+      "features": {
+        "debugging": []
+      },
+      "id": 52087,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.130/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.130/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.130/downloads"
+      },
+      "num": "0.0.130",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.130/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:54:32.140126\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "20faf5c612c7843d05090a1e015c8e7d6fbf04653846daed3b7d0d34dad7e752",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-05-01T12:37:26.132202\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.129/download",
+      "downloads": 2971,
+      "features": {
+        "debugging": []
+      },
+      "id": 51881,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.129/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.129/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.129/downloads"
+      },
+      "num": "0.0.129",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.129/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.862194\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "861e87541cdb043cc0a911d169e366a5a199f58230980304b4545b99a59dbbf6",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-04-28T11:26:49.477584\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.128/download",
+      "downloads": 3117,
+      "features": {
+        "debugging": []
+      },
+      "id": 51589,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.128/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.128/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.128/downloads"
+      },
+      "num": "0.0.128",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.128/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:27:29.866793\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b2ce25b1a2dd58b6dd6b180b811dea417c31abe9f9df1eee7b3b267e140eb1a2",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-04-27T12:15:12.832648\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.127/download",
+      "downloads": 2780,
+      "features": {
+        "debugging": []
+      },
+      "id": 51484,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.127/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.127/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.127/downloads"
+      },
+      "num": "0.0.127",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.127/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:33:52.631293\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "30091f3ac1f51be3ca2679390365b53a03b50067d32647f23e94f989e354ecab",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-04-24T12:12:18.040981\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.126/download",
+      "downloads": 4249,
+      "features": {
+        "debugging": []
+      },
+      "id": 51172,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.126/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.126/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.126/downloads"
+      },
+      "num": "0.0.126",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.126/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:51:22.828732\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3e3c30f16d2ce7eda0372175af2b0e2cd113e7b463a7559b4f35c0987e32cf51",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-04-19T18:14:21.417840\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.125/download",
+      "downloads": 3332,
+      "features": {
+        "debugging": []
+      },
+      "id": 50708,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.125/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.125/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.125/downloads"
+      },
+      "num": "0.0.125",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.125/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.148543\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "96992c47e1a45bd045af22b5d46a58d69993d360729a3daabe5f6094063d5cec",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-04-16T22:16:52.849770\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.124/download",
+      "downloads": 3492,
+      "features": {
+        "debugging": []
+      },
+      "id": 50465,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.124/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.124/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.124/downloads"
+      },
+      "num": "0.0.124",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.124/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:55:40.662510\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a7198363c39e70567fea459257382656acc6605f60cb3e481e8d58cef561758d",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-04-12T11:19:10.646033\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.123/download",
+      "downloads": 4848,
+      "features": {
+        "debugging": []
+      },
+      "id": 50130,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.123/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.123/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.123/downloads"
+      },
+      "num": "0.0.123",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.123/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:25:07.371755\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "d06b770a0e145b422f918ed12e29504490dc65c2d7dc80f79424fd62e2d8a34e",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-04-07T09:49:07.839406\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.122/download",
+      "downloads": 4456,
+      "features": {
+        "debugging": []
+      },
+      "id": 49725,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.122/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.122/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.122/downloads"
+      },
+      "num": "0.0.122",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.122/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:40:58.172334\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "72c1d7d8ad4a41a722c0a09f747f085db980303e68b09dee2880231de4035c50",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-03-21T08:00:56.270647\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.121/download",
+      "downloads": 6432,
+      "features": {
+        "debugging": []
+      },
+      "id": 48356,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.121/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.121/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.121/downloads"
+      },
+      "num": "0.0.121",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.121/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.860134\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b442c42e823fb8b70e4a9b6f801d3e4d521999a873d8bd7fb293a47243068783",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-03-17T16:22:24.820179\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.120/download",
+      "downloads": 3404,
+      "features": {
+        "debugging": []
+      },
+      "id": 48044,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.120/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.120/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.120/downloads"
+      },
+      "num": "0.0.120",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.120/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.858206\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3a8a8503090f19c55c6a4a31e6c85af446b8959b1d3df179c8765479df62389e",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-03-13T10:39:44.354058\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.119/download",
+      "downloads": 3911,
+      "features": {
+        "debugging": []
+      },
+      "id": 47703,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.119/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.119/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.119/downloads"
+      },
+      "num": "0.0.119",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.119/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.850842\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6cb0894ce1af2464033706bf9b33e28c4a8fc72df8449fcd60f7a5162a7a9630",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-03-05T10:15:03.398846\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.118/download",
+      "downloads": 9715,
+      "features": {
+        "debugging": []
+      },
+      "id": 47034,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.118/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.118/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.118/downloads"
+      },
+      "num": "0.0.118",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.118/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:12:13.895962\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "f918a49b3c2bef1753b36c89bcf162f89647cffc82771a2fab42aecdbf7485d5",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-03-02T11:30:38.969375\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.117/download",
+      "downloads": 5806,
+      "features": {
+        "debugging": []
+      },
+      "id": 46741,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.117/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.117/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.117/downloads"
+      },
+      "num": "0.0.117",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.117/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.843775\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e940cf33e737d666ebab5aa60065a0313b0f9bec1cf0127ff215b538aceabbea",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-02-28T13:32:30.491087\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.116/download",
+      "downloads": 4498,
+      "features": {
+        "debugging": []
+      },
+      "id": 46553,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.116/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.116/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.116/downloads"
+      },
+      "num": "0.0.116",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.116/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:07:43.878945\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "fee6594f64d96314975b267caade78ee300c58bb979afa42ff3283dd85a288b9",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-02-27T11:35:48.448076\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.115/download",
+      "downloads": 2873,
+      "features": {
+        "debugging": []
+      },
+      "id": 46461,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.115/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.115/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.115/downloads"
+      },
+      "num": "0.0.115",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.115/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:46:05.906087\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "808f9027f62dda9f764f26542a10465a6db221a5bd57981a63a2f84a6518b098",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-02-08T20:09:55.535813\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.114/download",
+      "downloads": 10529,
+      "features": {
+        "debugging": []
+      },
+      "id": 45033,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.114/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.114/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.114/downloads"
+      },
+      "num": "0.0.114",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.114/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.146480\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "20ff9153b1ccac631e6b6e8beac3d4ef723073179c4c96bfaa7a769e3ac948d7",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-02-04T12:45:27.493863\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.113/download",
+      "downloads": 7950,
+      "features": {
+        "debugging": []
+      },
+      "id": 44456,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.113/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.113/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.113/downloads"
+      },
+      "num": "0.0.113",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.113/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:40:23.101893\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a700fde98bae726f323ff0361cf38e5a37038fa9e5dca5b89fd90824c217c93f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-01-27T09:15:17.804657\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.112/download",
+      "downloads": 6035,
+      "features": {
+        "debugging": []
+      },
+      "id": 43483,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.112/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.112/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.112/downloads"
+      },
+      "num": "0.0.112",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.112/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:52:48.706390\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "255e5979e1c3a42f6e86f822f947da8441be820fe39567b672df84dd7ecac9d7",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-01-21T20:02:20.757589\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.111/download",
+      "downloads": 5018,
+      "features": {
+        "debugging": []
+      },
+      "id": 42947,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.111/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.111/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.111/downloads"
+      },
+      "num": "0.0.111",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.111/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:18:30.316647\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "5e40482bf3ccb4ea69b66fee309cec0a6a4ec9661500b484fbd2f47d5398f09d",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-01-20T18:32:25.053855\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.110/download",
+      "downloads": 3420,
+      "features": {
+        "debugging": []
+      },
+      "id": 42808,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.110/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.110/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.110/downloads"
+      },
+      "num": "0.0.110",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.110/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.830945\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "cb33729c4e6629085f23800b79bd0a8eff8e1d058727842784af890cc14008b4",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-01-19T16:21:18.490503\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.109/download",
+      "downloads": 2889,
+      "features": {
+        "debugging": []
+      },
+      "id": 42706,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.109/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.109/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.109/downloads"
+      },
+      "num": "0.0.109",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.109/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.817281\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "55c6ddeba4788dd1457a30da01b208280708b2fc3108d1d1bd61acfc28549752",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-01-13T17:17:06.720155\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.108/download",
+      "downloads": 4065,
+      "features": {
+        "debugging": []
+      },
+      "id": 42244,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.108/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.108/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.108/downloads"
+      },
+      "num": "0.0.108",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.108/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:31:06.669271\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "99ec3049475544d2330fe515c213fb669b7fa97b1f472443d3798e4ab719071c",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-01-11T14:24:09.821978\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.107/download",
+      "downloads": 3240,
+      "features": {
+        "debugging": []
+      },
+      "id": 42100,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.107/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.107/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.107/downloads"
+      },
+      "num": "0.0.107",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.107/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:43:47.182359\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3219d8d0dc2d7677a3dab0f83a04e06137c2683b0d1ed39d70de4d91dd643bd0",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-01-05T02:25:49.156973\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.106/download",
+      "downloads": 7799,
+      "features": {
+        "debugging": []
+      },
+      "id": 41611,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.106/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.106/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.106/downloads"
+      },
+      "num": "0.0.106",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.106/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:28:10.711344\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "57945e0dfc8138bdbb93f322d147ff4fe751e9965af7e82d6a0bf96844269dad",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2017-01-05T00:03:06.412819\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.105/download",
+      "downloads": 2913,
+      "features": {
+        "debugging": []
+      },
+      "id": 41603,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.105/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.105/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.105/downloads"
+      },
+      "num": "0.0.105",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.105/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:25:16.369112\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ae3fb361e922a08b698e746d4f199ff2d1e8d4b5f1984eaf8881e720cf5b8e34",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-12-17T00:32:09.415552\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.104/download",
+      "downloads": 11076,
+      "features": {
+        "debugging": []
+      },
+      "id": 39845,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.104/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.104/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.104/downloads"
+      },
+      "num": "0.0.104",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.104/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:31:15.059426\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "5b4fabf979ddf6419a313c1c0ada4a5b95cfd2049c56e8418d622d27b4b6ff32",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-11-25T18:37:01.008615\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.103/download",
+      "downloads": 16665,
+      "features": {
+        "debugging": []
+      },
+      "id": 38483,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.103/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.103/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.103/downloads"
+      },
+      "num": "0.0.103",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.103/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:44:28.082350\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "153d9fd8664785eb930a3f1436cfd79b18fc6b345937fa717160882aeca545bd",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-11-24T17:16:39.879570\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.102/download",
+      "downloads": 3405,
+      "features": {
+        "debugging": []
+      },
+      "id": 38412,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.102/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.102/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.102/downloads"
+      },
+      "num": "0.0.102",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.102/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:09:30.027506\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a0add9e7719811380e0b99034b4f8b60686fb088dbda16124b6eba7edd0a6cf3",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-11-23T20:42:03.586409\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.101/download",
+      "downloads": 2844,
+      "features": {
+        "debugging": []
+      },
+      "id": 38377,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.101/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.101/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.101/downloads"
+      },
+      "num": "0.0.101",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.101/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:43:47.180471\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "92a4f01d5f25a6d5f991a9068e0ee7ee22abfd4008cee559338c926f63aafa14",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-11-19T23:21:43.028937\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.100/download",
+      "downloads": 4205,
+      "features": {
+        "debugging": []
+      },
+      "id": 38140,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.100/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.100/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.100/downloads"
+      },
+      "num": "0.0.100",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.100/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:35:55.899792\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ae61f7cb9ce00ecf777ced86d6419458af62d99bc6f66f1259f0f9448c5e7824",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-11-18T12:48:35.779925\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.99/download",
+      "downloads": 3838,
+      "features": {
+        "debugging": []
+      },
+      "id": 38035,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.99/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.99/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.99/downloads"
+      },
+      "num": "0.0.99",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.99/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:38:33.330851\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6d51fa3f39b300c58906f8e103bc4c5ee5651f89fbbc46ea1423e2651461b0e7",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-11-08T10:47:34.148482\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.98/download",
+      "downloads": 6844,
+      "features": {
+        "debugging": []
+      },
+      "id": 37492,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.98/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.98/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.98/downloads"
+      },
+      "num": "0.0.98",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.98/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:27:50.286580\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "932afd50f572178f12db751606b7922376bdc3a860fc1611ffb06d7498df17cf",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-11-03T20:25:22.621321\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.97/download",
+      "downloads": 10140,
+      "features": {
+        "debugging": []
+      },
+      "id": 37231,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.97/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.97/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.97/downloads"
+      },
+      "num": "0.0.97",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.97/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:40:09.649255\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6eacf01b0aad84a0817703498f72d252df7c0faf6a5b86d0be4265f1829e459f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-10-22T14:18:53.979232\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.96/download",
+      "downloads": 7001,
+      "features": {
+        "debugging": []
+      },
+      "id": 36488,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.96/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.96/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.96/downloads"
+      },
+      "num": "0.0.96",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.96/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:50:32.813779\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "326a296da2adbb719fcc2301f3b44a148261f72a46dbda89930ead9c90d584b2",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-10-06T16:02:59.515218\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.95/download",
+      "downloads": 12659,
+      "features": {
+        "debugging": []
+      },
+      "id": 35277,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.95/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.95/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.95/downloads"
+      },
+      "num": "0.0.95",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.95/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:54:20.614739\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ed829797293d879eb288647d2294772d8c6b64cd0515d672613dc4470b92cbb2",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-10-04T06:16:22.835992\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.94/download",
+      "downloads": 3967,
+      "features": {
+        "debugging": []
+      },
+      "id": 35125,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.94/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.94/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.94/downloads"
+      },
+      "num": "0.0.94",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.94/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:46:34.444172\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c06b51d612e99968ef23dc47be517a15477240bc3e75deb6fd1bed80bd272a1a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-10-03T19:35:35.885682\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.93/download",
+      "downloads": 2909,
+      "features": {
+        "debugging": []
+      },
+      "id": 35094,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.93/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.93/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.93/downloads"
+      },
+      "num": "0.0.93",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.93/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:41:43.801298\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "8f9ba1b0dfe92b4885f97961aaebf9f3f7c7cb4f22c84b4778bf819542bfb123",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-09-30T20:18:00.977668\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.92/download",
+      "downloads": 3408,
+      "features": {
+        "debugging": []
+      },
+      "id": 34931,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.92/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.92/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.92/downloads"
+      },
+      "num": "0.0.92",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.92/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:56:17.584207\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b9a541b05d34e8e12606b234b1d4b1204dac75e3a94adb0bf2708986ca34fc41",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-09-27T23:24:53.050866\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.91/download",
+      "downloads": 3589,
+      "features": {
+        "debugging": []
+      },
+      "id": 34793,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.91/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.91/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.91/downloads"
+      },
+      "num": "0.0.91",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.91/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:35.576919\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "d19bda68c3db98e3a780342f6101b44312fef20a5f13ce756d1202a35922b01b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-09-10T17:20:38.263679\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.90/download",
+      "downloads": 9253,
+      "features": {
+        "debugging": []
+      },
+      "id": 33460,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.90/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.90/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.90/downloads"
+      },
+      "num": "0.0.90",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.90/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:10:23.741014\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b5908cd07f755e5caefddafd521cab32d2d079896ccb62468e12eeca77d0734d",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-09-06T17:15:01.248521\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.89/download",
+      "downloads": 4817,
+      "features": {
+        "debugging": []
+      },
+      "id": 33218,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.89/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.89/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.89/downloads"
+      },
+      "num": "0.0.89",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.89/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:24:16.131223\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6cc502e63a10b490d8b445c728cfba3ea778a38a14432cf392b132e655cdf029",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-09-04T15:58:23.427020\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.88/download",
+      "downloads": 4277,
+      "features": {
+        "debugging": []
+      },
+      "id": 33099,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.88/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.88/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.88/downloads"
+      },
+      "num": "0.0.88",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.88/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:41:38.170065\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "12c403ac8333216b2e4eca11c560e3c201d9bb7fe22a77bfc6cb904a4b7834ff",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-08-31T16:32:16.602090\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.87/download",
+      "downloads": 5863,
+      "features": {
+        "debugging": []
+      },
+      "id": 32831,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.87/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.87/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.87/downloads"
+      },
+      "num": "0.0.87",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.87/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:46:34.440389\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3003173462d8271381d6338cabc5de102d267e9006176fad8a75150bb7d1fbc2",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-08-28T15:35:14.199913\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.86/download",
+      "downloads": 3314,
+      "features": {
+        "debugging": []
+      },
+      "id": 32647,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.86/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.86/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.86/downloads"
+      },
+      "num": "0.0.86",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.86/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:52:09.334864\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "97f6d6efa6d7aec74d4eca1be62164b605d43b7fcb5256e9db0449f685130cba",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-08-19T15:43:34.851155\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.85/download",
+      "downloads": 6758,
+      "features": {
+        "debugging": []
+      },
+      "id": 32063,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.85/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.85/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.85/downloads"
+      },
+      "num": "0.0.85",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.85/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.139793\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6ef6717e11c8570d47415462b1174aa6afa9fc05a211bbed1a60c2a4eaabb643",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-08-18T19:54:30.622510\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.84/download",
+      "downloads": 3047,
+      "features": {
+        "debugging": []
+      },
+      "id": 31998,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.84/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.84/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.84/downloads"
+      },
+      "num": "0.0.84",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.84/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.114827\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6faf5b2f593c6c1b2e5b0f4c6ba42e1014891feba83111a4b3d1a699d3da2e17",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-08-17T16:08:36.467362\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.83/download",
+      "downloads": 3030,
+      "features": {
+        "debugging": []
+      },
+      "id": 31905,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.83/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.83/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.83/downloads"
+      },
+      "num": "0.0.83",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.83/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.109670\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "8be61845840f25e9abc06b930d1211c3207f3eb5db92bc001b0510b7e4f361aa",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-08-17T04:00:08.768907\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.82/download",
+      "downloads": 2734,
+      "features": {
+        "debugging": []
+      },
+      "id": 31873,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.82/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.82/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.82/downloads"
+      },
+      "num": "0.0.82",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.82/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:12.047224\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "4eb4e734b771514b74b44e0d04e176e572d6e0637e32fe112331a0063a22ef39",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-08-14T03:43:20.700251\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.81/download",
+      "downloads": 3308,
+      "features": {
+        "debugging": []
+      },
+      "id": 31720,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.81/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.81/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.81/downloads"
+      },
+      "num": "0.0.81",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.81/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:35.574818\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e96469b413984c78285727f94f9c626a1f2006cecdcf813b5d6893c0c85df42f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-08-01T16:42:45.543205\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.80/download",
+      "downloads": 8298,
+      "features": {
+        "debugging": []
+      },
+      "id": 31116,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.80/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.80/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.80/downloads"
+      },
+      "num": "0.0.80",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.80/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.106908\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "047e91f2cb238688731c03d9b17837249fc3ba3086feb5443d95f68b8ab48145",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-07-10T13:50:38.526769\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.79/download",
+      "downloads": 12528,
+      "features": {
+        "debugging": []
+      },
+      "id": 29815,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.79/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.79/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.79/downloads"
+      },
+      "num": "0.0.79",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.79/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.815329\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "4025389c3c3c1199da6011dcb44f39d915e821173c5be1b920a4699a1e64d79b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-07-02T14:21:12.745411\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.78/download",
+      "downloads": 6575,
+      "features": {
+        "debugging": []
+      },
+      "id": 29461,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.78/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.78/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.78/downloads"
+      },
+      "num": "0.0.78",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.78/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:30:13.531540\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ac4f6a909b17890786a36f72e095e23723346c54aac2e67d73afddb8a512c8f1",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-06-21T19:27:08.014484\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.77/download",
+      "downloads": 8524,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 28958,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.77/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.77/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.77/downloads"
+      },
+      "num": "0.0.77",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.77/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:55:52.716602\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "7130cfdc84f3d31fab7fe87d690ff038146733b061832279f9b53484f15b7d13",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-06-10T18:28:30.020133\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.76/download",
+      "downloads": 4955,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 28427,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.76/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.76/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.76/downloads"
+      },
+      "num": "0.0.76",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.76/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:30:24.840425\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "95d484192de9babe11404df897bf96769bb8340caaf93ac738550ebf61feb5e4",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-06-08T10:38:06.896658\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.75/download",
+      "downloads": 3983,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 28319,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.75/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.75/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.75/downloads"
+      },
+      "num": "0.0.75",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.75/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:02:06.237803\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c2b0b7c23649b8272e72991e4e2d15a3c819db7ecf95a71ad588734728c10620",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-06-07T10:24:33.540375\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.74/download",
+      "downloads": 2864,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 28268,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.74/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.74/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.74/downloads"
+      },
+      "num": "0.0.74",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.74/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:35:24.866500\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "bb5d952e387330a23c34bc6b983caa4be44aa447ad8469b3d15a6793a1887276",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-06-05T19:58:24.242357\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.73/download",
+      "downloads": 3185,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 28178,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.73/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.73/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.73/downloads"
+      },
+      "num": "0.0.73",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.73/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:31.582143\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "9429c8a72de204442cc103c9a259088ef1c2f94c597b13197b4fa9381c79f467",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-06-04T21:53:42.940194\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.72/download",
+      "downloads": 3147,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 28145,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.72/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.72/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.72/downloads"
+      },
+      "num": "0.0.72",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.72/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.061402\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "cfc33fd87ddf3a3eb5b655f593a5f98d1358f9df84c7a1e15738f2e1e8c87a5a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-05-31T21:56:56.259406\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.71/download",
+      "downloads": 4509,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 27989,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.71/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.71/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.71/downloads"
+      },
+      "num": "0.0.71",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.71/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.055067\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3aab399ce8d04144e8020b38bccbc039336a43310da337abdff4c390f54a4a36",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-05-28T14:46:05.916418\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.70/download",
+      "downloads": 3892,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 27794,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.70/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.70/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.70/downloads"
+      },
+      "num": "0.0.70",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.70/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.813383\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "9fcac0c1f1cc5ee873783473b948152ab160901f9fb0f235e6f252bd259cd3c7",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-05-23T18:58:47.636728\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.69/download",
+      "downloads": 4087,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 27580,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.69/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.69/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.69/downloads"
+      },
+      "num": "0.0.69",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.69/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:35.550154\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0001fd29ca322901bab8305105b47f33a90b7f87552bb46d3286902c79991973",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-05-17T21:41:24.450237\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.68/download",
+      "downloads": 5014,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 27291,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.68/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.68/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.68/downloads"
+      },
+      "num": "0.0.68",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.68/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:25:34.307821\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "d41ec1579448cecd8d6d9e62a4b8977d1f90a9c0f22dc3e834fc7760b1ae94e6",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-05-12T20:22:49.965649\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.67/download",
+      "downloads": 4307,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 26969,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.67/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.67/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.67/downloads"
+      },
+      "num": "0.0.67",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.67/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.039410\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ee326c0e95c7f6ba30092a211aa275aad0e3b0095ec026a7490563200e205d46",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-05-10T13:57:14.420803\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.66/download",
+      "downloads": 3012,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 26853,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.66/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.66/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.66/downloads"
+      },
+      "num": "0.0.66",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.66/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.024081\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "cb74b0f4726e39dd50f40a2c380d715c869e5835425edfcb2a51605300545474",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-05-08T04:50:40.734613\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.65/download",
+      "downloads": 4163,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 26755,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.65/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.65/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.65/downloads"
+      },
+      "num": "0.0.65",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.65/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T04:07:53.614796\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a4ac90502700352ad614fe2a9e6631b3e97eeab773e9c5560af45d1fc0017b07",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-04-26T14:30:43.740770\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.64/download",
+      "downloads": 6594,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 26170,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.64/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.64/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.64/downloads"
+      },
+      "num": "0.0.64",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.64/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:12:48.454579\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "a0c32199dcfa0c685c37b73ae8ed46608c54439d1f91dfd77bab156d84b71060",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-04-08T15:37:55.871961\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.63/download",
+      "downloads": 13416,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 25227,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.63/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.63/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.63/downloads"
+      },
+      "num": "0.0.63",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.63/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:04:54.010683\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c26266b7cc49bc3555b1c4485b9a3907e6488023d6e68843e6230db8e585857a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-04-08T03:54:50.173879\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.62/download",
+      "downloads": 2703,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 25206,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.62/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.62/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.62/downloads"
+      },
+      "num": "0.0.62",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.62/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:12.039840\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c2113474fa8f423726517c449e4a846b1f33de19dd045733b54621bbfacf688b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-04-03T15:30:16.472334\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.61/download",
+      "downloads": 5529,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 24974,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.61/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.61/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.61/downloads"
+      },
+      "num": "0.0.61",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.61/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:31.574619\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "197be95e84e6f80eda7eaf6d67603bca3c8b8fd44e7ca947188d435b5e1d5b49",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-04-01T16:03:46.705106\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.60/download",
+      "downloads": 2977,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 24868,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.60/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.60/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.60/downloads"
+      },
+      "num": "0.0.60",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.60/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:35:53.248429\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c9a8aa8a20e80ce81c996f2421d51a0accea375e947b80d54d397592dafccf4c",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-31T15:29:45.591049\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.59/download",
+      "downloads": 2741,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 24814,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.59/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.59/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.59/downloads"
+      },
+      "num": "0.0.59",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.59/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:47:52.014503\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e278608dcf8c283d6feafb5f1a34ecdb6565a859d0f3bcfc11e087ce33cb7008",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-27T20:32:14.639297\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.58/download",
+      "downloads": 3705,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 24562,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.58/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.58/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.58/downloads"
+      },
+      "num": "0.0.58",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.58/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.809239\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "8f8eb616c9be814b82b8184c959be457f5eb10cbc2ff632dabd9d583984d4405",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-26T23:04:57.096097\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.57/download",
+      "downloads": 2619,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 24529,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.57/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.57/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.57/downloads"
+      },
+      "num": "0.0.57",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.57/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:52:43.406082\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "7639eb8c6a38d6cac6d1175bab3e9ef882985777383c063b75de99090c81b000",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-23T15:44:15.768565\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.56/download",
+      "downloads": 3682,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 24348,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.56/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.56/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.56/downloads"
+      },
+      "num": "0.0.56",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.56/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:25:22.847743\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "5f0bcb8f4b03c25b0eb10b68ff900288ee355e893e04d4c853cd90f5f1a25f51",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-21T00:22:13.808797\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.55/download",
+      "downloads": 3949,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 24225,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.55/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.55/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.55/downloads"
+      },
+      "num": "0.0.55",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.55/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:05:29.874483\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3e63c170ec5b8499ed72cdc478dfb06ca0a50781f1d2b6fc111be3fc3a354851",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-16T19:07:58.260397\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.54/download",
+      "downloads": 5172,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 24011,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.54/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.54/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.54/downloads"
+      },
+      "num": "0.0.54",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.54/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:13:01.574613\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "66d6c698f6bfd7b6186f20555a707d5fae341383718d85fd25253c14bfd00013",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-15T19:26:45.394274\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.53/download",
+      "downloads": 2917,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 23948,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.53/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.53/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.53/downloads"
+      },
+      "num": "0.0.53",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.53/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:20:24.900173\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3ffa92cdc46770ae31f9644061719e98c96f1d9261bb9e89b55c68bf09ae685c",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-13T00:34:44.211099\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.51/download",
+      "downloads": 3483,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 23814,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.51/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.51/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.51/downloads"
+      },
+      "num": "0.0.51",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.51/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:52:43.403717\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "f52f1f903aec9be319eb8fb24ddec62ea0362bfea7c6596c4c3885dcbe5df15f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-11T13:26:25.974144\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.50/download",
+      "downloads": 2839,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 23764,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.50/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.50/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.50/downloads"
+      },
+      "num": "0.0.50",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.50/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:02:06.181974\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b8d6e4a06739e308b8b5f70dc2601ed501598a2c63bfd7e086c5ddb533b7654f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-09T20:15:36.527607\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.49/download",
+      "downloads": 2825,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 23709,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.49/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.49/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.49/downloads"
+      },
+      "num": "0.0.49",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.49/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:38:21.212159\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0fb420916bc2393b415353805d8d9f3f8a3c6ce2c102254c0378649023441de4",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-07T22:37:38.864068\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.48/download",
+      "downloads": 4319,
+      "features": {
+        "debugging": [],
+        "test-regex_macros": [
+          "regex_macros"
+        ]
+      },
+      "id": 23608,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.48/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.48/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.48/downloads"
+      },
+      "num": "0.0.48",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.48/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:37:51.514492\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e86a702a1830b86bd6fdba5dd00f67fedfe21e4d0f333721a3908144bf3ceba2",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-07T18:01:39.085691\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.47/download",
+      "downloads": 2699,
+      "features": {
+        "debugging": []
+      },
+      "id": 23585,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.47/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.47/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.47/downloads"
+      },
+      "num": "0.0.47",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.47/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:47:50.059691\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "11dff0f35f35eab5022ccb1c452d6b691af9f35aa060af70682cc61f79418589",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-04T13:29:45.652983\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.46/download",
+      "downloads": 3061,
+      "features": {
+        "debugging": []
+      },
+      "id": 23424,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.46/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.46/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.46/downloads"
+      },
+      "num": "0.0.46",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.46/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:40:42.627505\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "81d58bfde4c5e2a04a8b2a7c7a3135983219b6b8f2660210534fde043232af1c",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-03-03T12:37:40.935571\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.45/download",
+      "downloads": 3095,
+      "features": {
+        "debugging": []
+      },
+      "id": 23352,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.45/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.45/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.45/downloads"
+      },
+      "num": "0.0.45",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.45/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:47:47.791742\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "cd1a06c426385d6cc365bebfe05ad8e163b4030da67d3ba9069865cc8e93bceb",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-02-22T19:07:16.266902\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.44/download",
+      "downloads": 5010,
+      "features": {
+        "debugging": []
+      },
+      "id": 22786,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.44/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.44/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.44/downloads"
+      },
+      "num": "0.0.44",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.44/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:25:42.251427\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "c3ab1148701b7514ecb6d6740c1ebf4ba2f9f38ea3d7a67c1c2157d031b0ead4",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-02-21T14:48:34.747377\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.43/download",
+      "downloads": 2924,
+      "features": {
+        "debugging": []
+      },
+      "id": 22705,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.43/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.43/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.43/downloads"
+      },
+      "num": "0.0.43",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.43/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:19:40.103711\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "2bf65d2d09d64b0ab3f00a2fe15d534ce76ac62a2cf0616c4d65fa693d10919b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-02-18T05:23:28.622191\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.42/download",
+      "downloads": 3348,
+      "features": {
+        "debugging": []
+      },
+      "id": 22563,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.42/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.42/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.42/downloads"
+      },
+      "num": "0.0.42",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.42/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:23:35.122850\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "00c794772d29bc7d447f7760345e4c45549a2b4fac4cb7dcc88b5d86fcc2d00d",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-02-13T12:35:23.725026\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.41/download",
+      "downloads": 6283,
+      "features": {
+        "debugging": []
+      },
+      "id": 22310,
+      "license": "MPL",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.41/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.41/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.41/downloads"
+      },
+      "num": "0.0.41",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.41/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:37:17.107590\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b8159a0f7e8a81e08974924f2054530e0bc6c3846fea1c058d2e5104feb91082",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-02-13T12:31:36.387884\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.40/download",
+      "downloads": 2626,
+      "features": {
+        "debugging": []
+      },
+      "id": 22309,
+      "license": "MIT/Apache-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.40/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.40/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.40/downloads"
+      },
+      "num": "0.0.40",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.40/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:35:46.804620\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "f876c9ab654d0e1a743f0a7e132d1de8b0422b72de9249e9292c6c8133dee1a9",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-02-12T21:30:57.296649\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.39/download",
+      "downloads": 2574,
+      "features": {
+        "debugging": []
+      },
+      "id": 22268,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.39/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.39/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.39/downloads"
+      },
+      "num": "0.0.39",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.39/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:49:10.897049\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3bdc91cfa689ac8f2df12c70efadac69fadbea785ffb42d50831b2bfc414d4da",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-02-12T19:15:17.907683\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.38/download",
+      "downloads": 2534,
+      "features": {
+        "debugging": []
+      },
+      "id": 22264,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.38/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.38/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.38/downloads"
+      },
+      "num": "0.0.38",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.38/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:49:10.894729\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "1090e516fcf55ca5db8f8569fbe4b7dfa6710e4f5029c99ee2282d7558ce6cd6",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-01-22T13:09:58.867668\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.37/download",
+      "downloads": 15116,
+      "features": {
+        "debugging": []
+      },
+      "id": 21136,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.37/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.37/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.37/downloads"
+      },
+      "num": "0.0.37",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.37/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:09:50.100980\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "70ab076c7b616c499dc4cc27aadccd02657d2c2bd8b1a79bdfca093620d37722",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-01-18T13:48:38.462113\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.36/download",
+      "downloads": 3689,
+      "features": {
+        "debugging": []
+      },
+      "id": 20940,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.36/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.36/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.36/downloads"
+      },
+      "num": "0.0.36",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.36/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:58:29.860745\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "26d5ef8c2e6ee8a047eac517fc645c02792d26b729245fb44a7d59b9023ed574",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2016-01-02T10:47:49.827475\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.35/download",
+      "downloads": 6923,
+      "features": {
+        "debugging": [],
+        "structured_logging": []
+      },
+      "id": 20120,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.35/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.35/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.35/downloads"
+      },
+      "num": "0.0.35",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.35/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:31.575840\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "af64ff23a3a1a8a30132421c25aba63c062a5066d9ab3e6d1c9d138147694ea7",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-12-31T21:06:27.615329\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.34/download",
+      "downloads": 3111,
+      "features": {
+        "debugging": [],
+        "structured_logging": []
+      },
+      "id": 20067,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.34/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.34/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.34/downloads"
+      },
+      "num": "0.0.34",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.34/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:12:04.679294\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0a9fedc66665851a43cc364e02f15ee239f7c470868796263cc7ee416576e530",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-12-23T02:23:15.131753\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.33/download",
+      "downloads": 6815,
+      "features": {
+        "debugging": [],
+        "structured_logging": []
+      },
+      "id": 19718,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.33/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.33/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.33/downloads"
+      },
+      "num": "0.0.33",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.33/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:12:34.618601\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6b35ce49b0d5c0fdc5cbbe59ac6c777012c608baa5c5a46d7a1920d3809c0923",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-12-19T23:16:17.345681\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.32/download",
+      "downloads": 1742,
+      "features": {
+        "debugging": [],
+        "structured_logging": []
+      },
+      "id": 19589,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.32/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.32/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.32/downloads"
+      },
+      "num": "0.0.32",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.32/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:12.035764\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6a5d9e5b06d716f0404e580552169e789d9c2a97684bed7529d7c4391e73a0da",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-12-19T13:48:38.616725\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.31/download",
+      "downloads": 1196,
+      "features": {
+        "debugging": [],
+        "structured_logging": []
+      },
+      "id": 19573,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.31/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.31/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.31/downloads"
+      },
+      "num": "0.0.31",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.31/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.805283\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6b62165a3bbe67921def3084d450e93fd8fdccc94885ea86095da75f8502276d",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-12-09T20:57:57.831669\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.30/download",
+      "downloads": 2898,
+      "features": {
+        "debugging": [],
+        "structured_logging": []
+      },
+      "id": 19177,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.30/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.30/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.30/downloads"
+      },
+      "num": "0.0.30",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.30/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:44:42.260986\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0a3703814c6e839914ed55167d822f46c6f9e40fd3bc229fffe4b19c4dfa05da",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-12-05T13:25:58.163316\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.29/download",
+      "downloads": 1598,
+      "features": {
+        "debugging": [],
+        "structured_logging": []
+      },
+      "id": 18922,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.29/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.29/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.29/downloads"
+      },
+      "num": "0.0.29",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.29/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:07:48.517894\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "8488aa9336ed00f03d946695f8e670d438d711bb2fd8fe7887af9500a722248e",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-12-05T08:53:45.343798\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.28/download",
+      "downloads": 1103,
+      "features": {
+        "debugging": [],
+        "structured_logging": []
+      },
+      "id": 18920,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.28/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.28/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.28/downloads"
+      },
+      "num": "0.0.28",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.28/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:51:23.996908\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "4df9c37e45aa95aaaab4a56c1016192df0589329db13f7a66978c6ee1c15b012",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-11-30T17:48:47.638907\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.27/download",
+      "downloads": 5688,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 18773,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.27/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.27/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.27/downloads"
+      },
+      "num": "0.0.27",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.27/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:14:33.570745\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "7cff05a2d55f817e08bf22b9dea632c60451c9a8a1d9fa7f33eab632814c1ac0",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-11-30T10:23:54.344222\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.26/download",
+      "downloads": 1102,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 18731,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.26/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.26/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.26/downloads"
+      },
+      "num": "0.0.26",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.26/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:12.033933\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "b0f64d9ca7bb35ec413b3b2b255b60ecd44100ada47837ea31d8dffed9177f98",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-11-25T23:27:46.854592\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.25/download",
+      "downloads": 1173,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 18541,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.25/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.25/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.25/downloads"
+      },
+      "num": "0.0.25",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.25/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:02.460601\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "3009eaeb8fad43619d4e9cdf02ab4da81bf9456d8c5734673b94ae678347d1b2",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-11-20T10:52:16.585663\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.24/download",
+      "downloads": 1537,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 18312,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.24/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.24/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.24/downloads"
+      },
+      "num": "0.0.24",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.24/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:12.030209\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "1ce8290038a10a7ff94a4eeb7868d32a32184ee0f47c0f602ea93f193c546a8b",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-11-05T02:53:29.857999\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.23/download",
+      "downloads": 7013,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 17640,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.23/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.23/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.23/downloads"
+      },
+      "num": "0.0.23",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.23/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:40.019199\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "8e610f5ecc2896393845294784449e5de91523e330b647e036db40121a088401",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-10-25T18:14:48.545275\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.22/download",
+      "downloads": 3144,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 17235,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.22/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.22/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.22/downloads"
+      },
+      "num": "0.0.22",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.22/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:24:01.188322\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "9205efde4b7ab634e43494448bb5dc4b485a0b0b865b16f7ad17fafa59e21e73",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-10-15T14:27:24.952014\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.21/download",
+      "downloads": 4131,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 16730,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.21/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.21/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.21/downloads"
+      },
+      "num": "0.0.21",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.21/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:48:05.246515\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "deef56ee2ea117dbb2290d43884fa9328dc4b0df75b550fd7353837a7819e648",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-10-15T13:53:57.614277\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.20/download",
+      "downloads": 1120,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 16729,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.20/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.20/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.20/downloads"
+      },
+      "num": "0.0.20",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.20/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:08.902802\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "e5c4d59501e696840227e59fbac85d4f5a6dc90f805bc495b73fc665baacd5e5",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-10-05T19:31:48.965938\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.19/download",
+      "downloads": 1330,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 16442,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.19/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.19/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.19/downloads"
+      },
+      "num": "0.0.19",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.19/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:45:59.438005\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "032258f9d510afcf13a0dbe8c9a194fab0ffebf0b145c062bba7e81d9e4de936",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-10-02T08:09:35.664006\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.18/download",
+      "downloads": 1143,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 16323,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.18/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.18/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.18/downloads"
+      },
+      "num": "0.0.18",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.18/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:43:30.315448\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "52189007018f2b731d487cf886da6fc31d67cfc05451b62a79a06bca908f558d",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-09-19T02:54:14.771101\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.15/download",
+      "downloads": 3743,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 15842,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.15/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.15/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.15/downloads"
+      },
+      "num": "0.0.15",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.15/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.803318\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "82e4c721a28683366de3feaa882443513dc99a5ea63a57d00f835086904e55df",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-09-17T00:05:21.657345\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.14/download",
+      "downloads": 1274,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 15783,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.14/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.14/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.14/downloads"
+      },
+      "num": "0.0.14",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.14/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:43:30.306494\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "6914195cf94ee35ce7dec728a66095f6b4f5a5dd595d1588ba7c6352fc4b02fc",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-09-06T01:01:27.955663\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.13/download",
+      "downloads": 1567,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 15429,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.13/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.13/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.13/downloads"
+      },
+      "num": "0.0.13",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.13/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:36.801122\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "275ac4d23a6c67318f5bfe6a2702cc684238e6415678965a17febaf0082b905f",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-08-12T09:51:09.851430\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.11/download",
+      "downloads": 1437,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 14510,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.11/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.11/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.11/downloads"
+      },
+      "num": "0.0.11",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.11/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:29:12.026528\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "f496b2fef9170d507256b3916a048de37583088e97f81180498d802e58f03a58",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-08-11T18:59:19.788800\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.10/download",
+      "downloads": 1133,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 14485,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.10/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.10/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.10/downloads"
+      },
+      "num": "0.0.10",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.10/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:42:16.016261\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "2fdf9ca6b1aa50f1003a7966f6607a1d64c4e4a61ca4c9aab713365a1e8755f0",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-08-09T16:47:08.324458\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.9/download",
+      "downloads": 1126,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 14408,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.9/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.9/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.9/downloads"
+      },
+      "num": "0.0.9",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.9/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:27:26.340514\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "920869b066516398de73526d3a3da366096a2423e30aca2366761a0fc809385a",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-08-02T15:29:33.153929\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.8/download",
+      "downloads": 1184,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 14017,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.8/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.8/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.8/downloads"
+      },
+      "num": "0.0.8",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.8/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:28:52.321504\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "8d4fca89c39ea028471d2f7a239c71d5274ee26b13fe1a8054bd890e00196bbf",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-07-31T06:31:31.494776\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.7/download",
+      "downloads": 1129,
+      "features": {
+        "structured_logging": []
+      },
+      "id": 13908,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.7/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.7/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.7/downloads"
+      },
+      "num": "0.0.7",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.7/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:38:07.291860\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "0856d6d4338ba0275a49902d3a2ac006124eff45b703a57aea87a5ac6592b16e",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-07-10T14:52:15.921394\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.6/download",
+      "downloads": 2014,
+      "features": {},
+      "id": 12965,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.6/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.6/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.6/downloads"
+      },
+      "num": "0.0.6",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.6/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:36:30.921869\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ea87ce8b8c464475eaa3ec3d135012aac9803e8fc9b8d2863eebf74bdd2539b8",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-06-13T17:07:15.974077\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.5/download",
+      "downloads": 2016,
+      "features": {},
+      "id": 11685,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.5/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.5/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.5/downloads"
+      },
+      "num": "0.0.5",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.5/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:33:42.182831\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "25d8022b478ec1c40b3ea064ec4a371dc90b79ace0dff6e765e185d0101dad09",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-05-10T06:42:01.497129\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.4/download",
+      "downloads": 1212,
+      "features": {},
+      "id": 10046,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.4/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.4/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.4/downloads"
+      },
+      "num": "0.0.4",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.4/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:43:54.675444\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "ab2e8168ef8d545f94377369d4763e857d782cd4e61bfd6b48170114f0d2ae03",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-05-09T09:55:12.979696\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.3/download",
+      "downloads": 1125,
+      "features": {},
+      "id": 10018,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.3/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.3/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.3/downloads"
+      },
+      "num": "0.0.3",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.3/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T03:37:28.614132\u002B00:00",
+      "yanked": false
+    },
+    {
+      "audit_actions": [],
+      "checksum": "33fae924445ddfdcedacdb823e4a8f3df3dbd7b88ce03ec240df8c20695d1a10",
+      "crate": "clippy",
+      "crate_size": null,
+      "created_at": "2015-05-09T09:52:36.830658\u002B00:00",
+      "dl_path": "/api/v1/crates/clippy/0.0.2/download",
+      "downloads": 1749,
+      "features": {},
+      "id": 10016,
+      "license": "MPL-2.0",
+      "links": {
+        "authors": "/api/v1/crates/clippy/0.0.2/authors",
+        "dependencies": "/api/v1/crates/clippy/0.0.2/dependencies",
+        "version_downloads": "/api/v1/crates/clippy/0.0.2/downloads"
+      },
+      "num": "0.0.2",
+      "published_by": null,
+      "readme_path": "/api/v1/crates/clippy/0.0.2/readme",
+      "rust_version": null,
+      "updated_at": "2017-11-30T02:57:51.655440\u002B00:00",
+      "yanked": false
+    }
+  ]
+}

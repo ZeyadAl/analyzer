@@ -1,0 +1,94 @@
+[37m> Fetch package data from registry[0m
+- Version contains repository URL
+- Version contains gitHead
+- Shallow checkout
+- Install npm packages
+- Create package
+- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K- Version contains repository URL
+[2K- Version contains gitHead
+[2K- Shallow checkout
+[2K- Install npm packages
+[2K- Create package
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[37m> Version contains repository URL[0m
+[2K- Version contains gitHead
+[2K- Shallow checkout
+[2K- Install npm packages
+[2K- Create package
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K- Version contains gitHead
+[2K- Shallow checkout
+[2K- Install npm packages
+[2K- Create package
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[37m> Version contains gitHead[0m
+[2K- Shallow checkout
+[2K- Install npm packages
+[2K- Create package
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[32m✓[0m Version contains gitHead
+[2K- Shallow checkout
+[2K- Install npm packages
+[2K- Create package
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[32m✓[0m Version contains gitHead
+[2K[37m> Shallow checkout[0m
+[2K- Install npm packages
+[2K- Create package
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[32m✓[0m Version contains gitHead
+[2K[32m✓[0m Shallow checkout
+[2K- Install npm packages
+[2K- Create package
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[32m✓[0m Version contains gitHead
+[2K[32m✓[0m Shallow checkout
+[2K- Install npm packages
+[2K[37m> Create package[0m
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[32m✓[0m Version contains gitHead
+[2K[32m✓[0m Shallow checkout
+[2K[36m- Install npm packages [SKIPPED][0m
+[2K[37m> Create package[0m
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[32m✓[0m Version contains gitHead
+[2K[32m✓[0m Shallow checkout
+[2K[36m- Install npm packages [SKIPPED][0m
+[2K[32m✓[0m Create package
+[2K- Compare package contents
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[32m✓[0m Version contains gitHead
+[2K[32m✓[0m Shallow checkout
+[2K[36m- Install npm packages [SKIPPED][0m
+[2K[32m✓[0m Create package
+[2K[37m> Compare package contents[0m
+[7A[2K[32m✓[0m Fetch package data from registry
+[2K[32m✓[0m Version contains repository URL
+[2K[32m✓[0m Version contains gitHead
+[2K[32m✓[0m Shallow checkout
+[2K[36m- Install npm packages [SKIPPED][0m
+[2K[32m✓[0m Create package
+[2K[32m✓[0m Compare package contents
+
+[32mPASSED[0m
+

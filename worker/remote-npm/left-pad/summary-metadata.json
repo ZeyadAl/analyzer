@@ -1,0 +1,39 @@
+{
+  "purl": "pkg:npm/left-pad@1.3.0",
+  "source-repository": [
+    {
+      "likelihood": 100.0,
+      "source_repository": "https://github.com/stevemao/left-pad",
+      "package_url": "pkg:npm/left-pad@1.3.0"
+    }
+  ],
+  "description": "String left pad",
+  "tags": [
+    "CloudServices.Code.Repo.GitHub",
+    "Framework.Testing.fast-check",
+    "Framework.Testing.Tape",
+    "Metadata.Application.Author",
+    "Metadata.Application.Description",
+    "Metadata.Application.Version"
+  ],
+  "file_extensions": [
+    "",
+    "js",
+    "json",
+    "md",
+    "ts",
+    "yml"
+  ],
+  "languages": [
+    "javascript",
+    "package.json",
+    "typescript",
+    "Unknown",
+    "yaml"
+  ],
+  "codesize.num_files": "10",
+  "codesize.loc": "311",
+  "codesize.bytes": "9752",
+  "analysis_date": "2023-07-03T19:02:27.668019",
+  "toolshed_version": "0.8.6"
+}

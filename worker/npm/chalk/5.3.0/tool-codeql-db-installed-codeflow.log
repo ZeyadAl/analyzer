@@ -1,0 +1,11 @@
+3 result sets:
+  nodes has 4093 rows and 1 columns:
+    node: Entity
+  edges has 193 rows and 2 columns:
+    pred: Entity
+    succ: Entity
+  #select has 0 rows and 4 columns:
+    startFile: Entity
+    startFile: Entity
+    endFile: Entity
+    <unnamed>: String

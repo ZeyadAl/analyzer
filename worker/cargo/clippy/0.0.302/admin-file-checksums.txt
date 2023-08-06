@@ -1,0 +1,14 @@
+28f4c6faa025f1b5dc66c81d6b07e6e218f1279431566380b5bd754e42c58863  /opt/src/cargo/clippy/0.0.301/src/cargo-pkg:cargo-clippy@0.0.301/cargo-pkg:cargo-clippy@0.0/clippy-0.0.301/build.rs
+59d97cc8d81f414a377c7311958de064fcba230c69b18d0b42f25cceff625156  /opt/src/cargo/clippy/0.0.301/src/cargo-pkg:cargo-clippy@0.0.301/cargo-pkg:cargo-clippy@0.0/clippy-0.0.301/crates-readme.md
+acb64415a81ba528c65fa8bcf0c8f817044f2c71cb3a1d297d7ab73b8d291aba  /opt/src/cargo/clippy/0.0.301/src/cargo-pkg:cargo-clippy@0.0.301/cargo-pkg:cargo-clippy@0.0/clippy-0.0.301/Cargo.toml
+00e9bcb88af8f9e59328a6c3bebfa63cf3d40ce9667979897de3755f723ef9bd  /opt/src/cargo/clippy/0.0.301/src/cargo-pkg:cargo-clippy@0.0.301/cargo-pkg:cargo-clippy@0.0/clippy-0.0.301/src/main.rs
+2a7489742cc3155543d9455dd767be7b8bfbc4f479c353f469387386ab4447b5  /opt/src/cargo/clippy/0.0.301/src/cargo-pkg:cargo-clippy@0.0.301/cargo-pkg:cargo-clippy@0.0/clippy-0.0.301/PUBLISH.md
+ec6f25bc06d31400d5017ff39819ccef9c6b9b982af71bd77c25a8ece968a1fa  /opt/src/cargo/clippy/0.0.301/src/cargo-pkg:cargo-clippy@0.0.301/cargo-pkg:cargo-clippy@0.0/clippy-0.0.301/Cargo.toml.orig
+d911ee15579a3f50880d8c1d59ef6e79f9533127a3bd342462f5d584f5e8c294  /opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302
+28f4c6faa025f1b5dc66c81d6b07e6e218f1279431566380b5bd754e42c58863  /opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/build.rs
+59d97cc8d81f414a377c7311958de064fcba230c69b18d0b42f25cceff625156  /opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/crates-readme.md
+b032be673b37b229e849344fe063790251b6e363a3206d1960e27398312e7106  /opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json
+3c33df79145520de10c140aabc9430b1ea622786e1016d6995624567c9fd9065  /opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/Cargo.toml
+00e9bcb88af8f9e59328a6c3bebfa63cf3d40ce9667979897de3755f723ef9bd  /opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/src/main.rs
+2a7489742cc3155543d9455dd767be7b8bfbc4f479c353f469387386ab4447b5  /opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/PUBLISH.md
+8a1ba928b3e82184c43461d7aeaf15b05303ec169f3ca4d278a6f5cdfe4a578c  /opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/Cargo.toml.orig

@@ -1,0 +1,6 @@
+tar: Removing leading `/' from member names
+/opt/local_source/
+/opt/local_source/file.tar.gz
+tar: Removing leading `/' from member names
+/opt/local_source/
+/opt/local_source/file.tar.gz

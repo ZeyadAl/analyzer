@@ -1,0 +1,41 @@
+{
+  "purl": "pkg:npm/chalk@5.3.0",
+  "source-repository": [
+    {
+      "likelihood": 100.0,
+      "source_repository": "https://github.com/chalk/chalk",
+      "package_url": "pkg:npm/chalk@5.3.0"
+    }
+  ],
+  "description": "Terminal string styling done right",
+  "tags": [
+    "CloudServices.Code.Repo.GitHub",
+    "CloudServices.Code.Repo.GitLab",
+    "Development.Build.TeamCity",
+    "Metadata.Application.Description",
+    "Metadata.Application.Version",
+    "Miscellaneous.CodeHygiene.Comment.Todo",
+    "OS.Process.DynamicExecution",
+    "Platform.OS.Apple.MacOS",
+    "Platform.OS.Linux.Distro",
+    "Platform.OS.Microsoft.WindowsStandard"
+  ],
+  "file_extensions": [
+    "",
+    "js",
+    "json",
+    "md",
+    "ts"
+  ],
+  "languages": [
+    "javascript",
+    "package.json",
+    "typescript",
+    "Unknown"
+  ],
+  "codesize.num_files": "12",
+  "codesize.loc": "1722",
+  "codesize.bytes": "43736",
+  "analysis_date": "2023-07-11T12:33:43.274870",
+  "toolshed_version": "0.8.6"
+}

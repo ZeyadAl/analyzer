@@ -1,0 +1,20 @@
+/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302: OK
+/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/build.rs: OK
+/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/crates-readme.md: OK
+/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json: OK
+/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/Cargo.toml: OK
+/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/src/main.rs: OK
+/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/PUBLISH.md: OK
+/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/Cargo.toml.orig: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8685140
+Engine version: 0.103.8
+Scanned directories: 8
+Scanned files: 8
+Infected files: 0
+Data scanned: 0.01 MB
+Data read: 0.00 MB (ratio 0.00:1)
+Time: 29.445 sec (0 m 29 s)
+Start Date: 2023:07:04 08:24:05
+End Date:   2023:07:04 08:24:35

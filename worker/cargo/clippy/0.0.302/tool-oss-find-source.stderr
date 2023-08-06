@@ -1,0 +1,12 @@
+
+   ____   _____ _____    _____           _            _
+  / __ \ / ____/ ____|  / ____|         | |          | |
+ | |  | | (___| (___   | |  __  __ _  __| | __ _  ___| |_
+ | |  | |\___ \\___ \  | | |_ |/ _` |/ _` |/ _` |/ _ \ __|
+ | |__| |____) |___) | | |__| | (_| | (_| | (_| |  __/ |_
+  \____/|_____/_____/   \_____|\__,_|\__,_|\__, |\___|\__|
+                                            __/ |
+                                           |___/          
+OSS Gadget - oss-find-source 0.1.401+c37aea753d - github.com/Microsoft/OSSGadget
+INFO  - No repositories were found after searching metadata.
+WARN  - No repositories found for package pkg:cargo/clippy@0.0.302

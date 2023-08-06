@@ -1,0 +1,22 @@
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 7 files tracked by git with 1795 Code rules:
+                                                                                
+  Language      Rules   Files          Origin      Rules                        
+ ─────────────────────────────        ───────────────────                       
+  <multilang>      63      21          Community    1795                        
+  rust              2       2                                                   
+  json              4       1                                                   
+                                                                                
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 1795 rules on 7 files: 0 findings.
+If Semgrep missed a finding, please send us feedback to let us know!
+  $ semgrep shouldafound --help

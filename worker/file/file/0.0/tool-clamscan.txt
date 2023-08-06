@@ -1,0 +1,14 @@
+/opt/src/file/file/0.0/reference-binaries/source-code.tar.gz: OK
+/opt/src/file/file/0.0/src/local_source/file.tar.gz: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8685140
+Engine version: 0.103.8
+Scanned directories: 14
+Scanned files: 2
+Infected files: 0
+Data scanned: 0.29 MB
+Data read: 22.59 MB (ratio 0.01:1)
+Time: 23.659 sec (0 m 23 s)
+Start Date: 2023:07:25 07:49:12
+End Date:   2023:07:25 07:49:36

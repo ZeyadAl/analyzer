@@ -1,0 +1,261 @@
+Initializing database at /opt/src/npm/left-pad/1.3.0/tool-codeql-db-basic.javascript.
+Running build command: []
+[2023-07-03 18:59:49] [build-stdout] Parallel extraction with 4 threads.
+[2023-07-03 18:59:50] [build-stdout] Found Node.js at: node
+[2023-07-03 18:59:50] [build-stdout] Found Node.js version: v19.9.0
+[2023-07-03 18:59:50] [build-stdout] Memory for TypeScript process: 2000 MB, and 400 MB reserve
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.d.ts
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.d.ts (102 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/O(n).js
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/es6Repeat.js
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/.travis.yml
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/.travis.yml (33 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/es6Repeat.js (50 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/package.json
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/O(n).js (52 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/test.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.js (21 ms)
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/package.json (16 ms)
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js (72 ms)
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/test.js (46 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_css3d.js
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/gecko_dom.js
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/flash.js
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/streamsapi.js
+[2023-07-03 18:59:50] [build-stderr] No externs trap cache found
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_css3d.js (77 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/chrome.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/flash.js (89 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/webkit_notifications.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/streamsapi.js (108 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/whatwg_encoding.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/whatwg_encoding.js (7 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_selectors.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/webkit_notifications.js (29 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_screen_orientation.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_screen_orientation.js (5 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_range.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_selectors.js (18 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/ie_css.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/chrome.js (92 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/fileapi.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_range.js (29 ms)
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/gecko_dom.js (186 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_touch_event.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/ie_css.js (35 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_rtc.js
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/page_visibility.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/page_visibility.js (12 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_dom3.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_touch_event.js (37 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/ie_dom.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/fileapi.js (124 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/gecko_ext.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/gecko_ext.js (8 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_elementtraversal.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_elementtraversal.js (5 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/webkit_usercontent.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_dom3.js (112 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/gecko_event.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/webkit_usercontent.js (6 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/gecko_css.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/gecko_event.js (10 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/ie_vml.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/ie_dom.js (123 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/mediasource.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/ie_vml.js (26 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_device_sensor_event.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_device_sensor_event.js (7 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_permissions.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_permissions.js (8 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_event3.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/mediasource.js (29 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/webgl.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/gecko_css.js (63 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_serviceworker.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_event3.js (6 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_pointer_events.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_pointer_events.js (10 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/gecko_xml.js
+[2023-07-03 18:59:50] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/gecko_xml.js (6 ms)
+[2023-07-03 18:59:50] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_indexeddb.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_serviceworker.js (78 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_encoding.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_encoding.js (4 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_batterystatus.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_batterystatus.js (3 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/html5.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_indexeddb.js (72 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_navigation_timing.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_rtc.js (300 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/webkit_event.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/webkit_event.js (8 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/webkit_dom.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_navigation_timing.js (63 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_anim_timing.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/webkit_dom.js (51 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_xml.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_anim_timing.js (7 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_webcrypto.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_xml.js (50 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_midi.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_webcrypto.js (49 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_css.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_midi.js (24 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/window.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/window.js (7 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/fetchapi.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/fetchapi.js (54 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/intl.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/webgl.js (326 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_dom4.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_dom4.js (14 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_event.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/intl.js (43 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_gamepad.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_gamepad.js (5 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/iphone.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/iphone.js (9 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_dom1.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_event.js (72 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_geolocation.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_geolocation.js (7 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/webkit_css.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_css.js (205 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/url.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/url.js (8 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/webstorage.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_dom1.js (70 ms)
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/webstorage.js (15 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_requestidlecallback.js
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/w3c_dom2.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_requestidlecallback.js (3 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/web/ie_event.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/ie_event.js (30 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/lib/bdd.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/lib/bdd.js (23 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/lib/should.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/webkit_css.js (100 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/lib/vows.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/lib/should.js (28 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/lib/jquery-3.2.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/lib/vows.js (23 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/es/es2017.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/html5.js (484 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/es/es2016.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/es/es2017.js (12 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/es/proxy.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/es/es2016.js (5 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/es/es6_collections.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/es/proxy.js (2 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/es/intl.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/es/es6_collections.js (13 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/es/es6.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/es/intl.js (34 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/es/es3.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/web/w3c_dom2.js (209 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/es/es5.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/es/es5.js (11 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/vm/v8.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/vm/v8.js (5 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/vm/jsshell.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/es/es6.js (114 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/vm/rhino.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/vm/rhino.js (13 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/vm/spidermonkey.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/vm/spidermonkey.js (1 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/https.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/https.js (22 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/dns.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/vm/jsshell.js (66 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/v8.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/v8.js (4 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/globals.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/dns.js (38 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/domain.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/lib/jquery-3.2.js (244 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/net.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/domain.js (9 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/timers.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/es/es3.js (182 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/tls.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/timers.js (14 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/stream.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/tls.js (44 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/repl.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/repl.js (6 ms)
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/net.js (58 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/zlib.js
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/readline.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/readline.js (18 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/crypto.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/zlib.js (24 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/module.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/module.js (7 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/punycode.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/punycode.js (12 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/vm.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/globals.js (134 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/util.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/stream.js (107 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/http.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/vm.js (12 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/path.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/util.js (15 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/buffer.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/buffer.js (15 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/string_decoder.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/string_decoder.js (6 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/assert.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/crypto.js (97 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/fs.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/path.js (56 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/console.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/console.js (2 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/events.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/http.js (70 ms)
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/assert.js (23 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/process.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/process.js (2 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/tty.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/events.js (8 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/cluster.js
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/assert_legacy.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/tty.js (7 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/os.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/assert_legacy.js (3 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/sys.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/sys.js (8 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/constants.js
+[2023-07-03 18:59:51] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/os.js (50 ms)
+[2023-07-03 18:59:51] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/child_process.js
+[2023-07-03 18:59:52] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/fs.js (140 ms)
+[2023-07-03 18:59:52] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/querystring.js
+[2023-07-03 18:59:52] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/querystring.js (6 ms)
+[2023-07-03 18:59:52] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/url.js
+[2023-07-03 18:59:52] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/url.js (5 ms)
+[2023-07-03 18:59:52] [build-stdout] Extracting /opt/codeql/javascript/tools/data/externs/nodejs/dgram.js
+[2023-07-03 18:59:52] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/cluster.js (171 ms)
+[2023-07-03 18:59:52] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/child_process.js (123 ms)
+[2023-07-03 18:59:52] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/dgram.js (28 ms)
+[2023-07-03 18:59:52] [build-stdout] Done extracting /opt/codeql/javascript/tools/data/externs/nodejs/constants.js (184 ms)
+Finalizing database at /opt/src/npm/left-pad/1.3.0/tool-codeql-db-basic.javascript.
+Successfully created database at /opt/src/npm/left-pad/1.3.0/tool-codeql-db-basic.javascript.
+/opt/src/npm/left-pad/1.3.0/tool-codeql-db-basic.javascript/db-javascript is up to date.
+Creating bundle metadata for /opt/src/npm/left-pad/1.3.0/tool-codeql-db-basic.javascript...
+Creating zip file at /opt/result/tool-codeql-db-basic.javascript.zip.
+Analysis produced the following diagnostic data:
+
+|          Diagnostic          |  Summary  |
++------------------------------+-----------+
+| Successfully extracted files | 8 results |
+
+Analysis produced the following metric data:
+
+|                                   Metric                                   | Value |
++----------------------------------------------------------------------------+-------+
+| Total lines of JavaScript and TypeScript code in the database              |   163 |
+| Total lines of user written JavaScript and TypeScript code in the database |   163 |
+

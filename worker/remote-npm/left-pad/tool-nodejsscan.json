@@ -1,0 +1,125 @@
+{
+    "files": [
+        {
+            "/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.js": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.js"
+        },
+        {
+            "/npm-left-pad@1.3.0/npm-left-pad@1.3/package/.travis.yml": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/.travis.yml"
+        },
+        {
+            "/npm-left-pad@1.3.0/npm-left-pad@1.3/package/test.js": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/test.js"
+        },
+        {
+            "/npm-left-pad@1.3.0/npm-left-pad@1.3/package/package.json": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/package.json"
+        },
+        {
+            "/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/O(n).js": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/O(n).js"
+        },
+        {
+            "/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js"
+        },
+        {
+            "/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/es6Repeat.js": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/es6Repeat.js"
+        }
+    ],
+    "good_finding": {
+        "Application Related": [
+            {
+                "description": "Strict Mode allows you to place a program, or a function, in a \"strict\" operating context. This strict context prevents certain actions from being taken and throws more exceptions.",
+                "filename": "index.js",
+                "line": 6,
+                "lines": "/* This program is free software. It comes without any warranty, to\n * the extent permitted by applicable law. You can redistribute it\n * and/or modify it under the terms of the Do What The Fuck You Want\n * To Public License, Version 2, as published by Sam Hocevar. See\n * http://www.wtfpl.net/ for more details. */\n'use strict';\nmodule.exports = leftPad;\n\nvar cache = [\n        '',",
+                "path": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.js",
+                "sha2": "9c70e97ba9be4450488a4bd92fce1ee671d6087fe4ca2b07a5e7b65799d99bb1",
+                "tag": "node",
+                "title": "Use Strict"
+            },
+            {
+                "description": "Strict Mode allows you to place a program, or a function, in a \"strict\" operating context. This strict context prevents certain actions from being taken and throws more exceptions.",
+                "filename": "O(n).js",
+                "line": 1,
+                "lines": "'use strict';\n\nmodule.exports = function(str, len, ch) {\n        str = str + '';",
+                "path": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/O(n).js",
+                "sha2": "7b8bbc685c2b3850671233e480dacc975e020c146b9971a56cfc853f8a12c170",
+                "tag": "node",
+                "title": "Use Strict"
+            },
+            {
+                "description": "Strict Mode allows you to place a program, or a function, in a \"strict\" operating context. This strict context prevents certain actions from being taken and throws more exceptions.",
+                "filename": "perf.js",
+                "line": 1,
+                "lines": "'use strict';\nvar oN = require('./O(n)');\nvar es6Repeat = require('./es6Repeat');\nvar current = require('../');",
+                "path": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js",
+                "sha2": "de83f914248d6e5948f14cbeeb4b3f6dd15568c4037a879ab8e0ef9de39a9f50",
+                "tag": "node",
+                "title": "Use Strict"
+            },
+            {
+                "description": "Strict Mode allows you to place a program, or a function, in a \"strict\" operating context. This strict context prevents certain actions from being taken and throws more exceptions.",
+                "filename": "es6Repeat.js",
+                "line": 1,
+                "lines": "'use strict';\n\nmodule.exports = function(str, len, ch) {\n        str = str + '';",
+                "path": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/es6Repeat.js",
+                "sha2": "7b8bbc685c2b3850671233e480dacc975e020c146b9971a56cfc853f8a12c170",
+                "tag": "node",
+                "title": "Use Strict"
+            }
+        ]
+    },
+    "missing_sec_header": {
+        "Web Security": [
+            {
+                "description": "Content Security Policy (CSP), a mechanism web applications can use to mitigate a broad class of content injection vulnerabilities, such as cross-site scripting (XSS). CSP Header was not found.",
+                "tag": "web",
+                "title": "Missing Security Header - Content-Security-Policy (CSP)"
+            },
+            {
+                "description": "X-Frame-Options (XFO) header provides protection against Clickjacking attacks.",
+                "tag": "web",
+                "title": "Missing Security Header - X-Frame-Options (XFO)"
+            },
+            {
+                "description": "Strict-Transport-Security (HSTS) header enforces secure (HTTP over SSL/TLS) connections to the server.",
+                "tag": "web",
+                "title": "Missing Security Header - Strict-Transport-Security (HSTS)"
+            },
+            {
+                "description": "Public-Key-Pins (HPKP) ensures that certificate is Pinned.",
+                "tag": "web",
+                "title": "Missing Security Header - Public-Key-Pins (HPKP)"
+            },
+            {
+                "description": "X-XSS-Protection header set to 1 enables the Cross-site scripting (XSS) filter built into most recent web browsers.",
+                "tag": "web",
+                "title": "Missing Security Header - X-XSS-Protection:1"
+            },
+            {
+                "description": "X-Content-Type-Options header prevents Internet Explorer and Google Chrome from MIME-sniffing a response away from the declared content-type.",
+                "tag": "web",
+                "title": "Missing Security Header - X-Content-Type-Options"
+            },
+            {
+                "description": "X-Download-Options header set to noopen prevents IE users from directly opening and executing downloads in your site's context.",
+                "tag": "web",
+                "title": "Missing Security Header - X-Download-Options: noopen"
+            },
+            {
+                "description": "JavaScript can access Cookies if they are not marked httpOnly.",
+                "tag": "web",
+                "title": "Missing 'httpOnly' in Cookie"
+            },
+            {
+                "description": "Remove the X-Powered-By header to prevent information gathering.",
+                "tag": "web",
+                "title": "Information Disclosure - X-Powered-By"
+            }
+        ]
+    },
+    "sec_issues": {},
+    "total_count": {
+        "good": 4,
+        "mis": 9,
+        "sec": 0
+    },
+    "vuln_count": {}
+}

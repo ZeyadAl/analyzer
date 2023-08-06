@@ -1,0 +1,6 @@
+[string-diff] New strings were found since the previous version.
+[oss-defog] Obfuscated code found.
+[lizard] This package was found to have high code complexity.
+[oss-find-source] An error occurred when processing [oss-find-source]
+[devskim] Do not store tokens or keys in source code.
+[devskim] Weak/Broken Hash Algorithm

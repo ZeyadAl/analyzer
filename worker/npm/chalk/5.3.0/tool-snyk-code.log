@@ -1,0 +1,15 @@
+
+Testing /opt/src/npm/chalk/5.3.0/src ...
+
+
+✔ Test completed
+
+Organization:      zeyadal
+Test type:         Static code analysis
+Project path:      /opt/src/npm/chalk/5.3.0/src
+
+Summary:
+
+✔ Awesome! No issues were found.
+
+

@@ -1,0 +1,24 @@
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 10 files tracked by git with 1795 Code rules:
+                                                                                
+  Language      Rules   Files          Origin      Rules                        
+ ─────────────────────────────        ───────────────────                       
+  <multilang>      63      30          Community    1795                        
+  js              337       5                                                   
+  ts              347       1                                                   
+  yaml             38       1                                                   
+  json              4       1                                                   
+                                                                                
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+
+Ran 1795 rules on 10 files: 4 findings.
+
+A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading

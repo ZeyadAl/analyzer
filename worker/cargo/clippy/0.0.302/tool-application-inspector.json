@@ -1,0 +1,177 @@
+{
+  "resultCode": 1,
+  "metaData": {
+    "applicationName": "/opt/src/cargo/clippy/0.0.302",
+    "repositoryUri": null,
+    "commitHash": null,
+    "branch": null,
+    "sourcePath": "/opt/src/cargo/clippy/0.0.302",
+    "sourceVersion": null,
+    "authors": null,
+    "description": null,
+    "lastUpdated": "01/01/0001 00:00:00",
+    "dateScanned": "07/04/2023 08:23:55",
+    "timedOut": false,
+    "totalFiles": 14,
+    "filesTimedOut": 0,
+    "filesAnalyzed": 14,
+    "filesSkipped": 0,
+    "filesTimeOutSkipped": 0,
+    "filesAffected": 0,
+    "filesErrored": 0,
+    "totalMatchesCount": 0,
+    "uniqueMatchesCount": 0,
+    "packageTypes": [],
+    "appTypes": [],
+    "uniqueTags": [],
+    "uniqueDependencies": [],
+    "outputs": [],
+    "targets": [],
+    "OSTargets": [],
+    "fileExtensions": [
+      "json",
+      "md",
+      "orig",
+      "rs",
+      "toml"
+    ],
+    "cloudTargets": [],
+    "CPUTargets": [],
+    "languages": {
+      "json": 2,
+      "rust": 4,
+      "Unknown": 8
+    },
+    "tagCounters": [],
+    "detailedMatchList": [],
+    "filesInformation": [
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/build.rs",
+        "ScanTime": "00:00:00.3202070",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/Cargo.toml",
+        "ScanTime": "00:00:00.0996199",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json",
+        "ScanTime": "00:00:00.2160165",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/Cargo.toml.orig",
+        "ScanTime": "00:00:00.0993717",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/src/main.rs",
+        "ScanTime": "00:00:00.2168835",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/src/main.rs",
+        "ScanTime": "00:00:00.3101795",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/Cargo.toml",
+        "ScanTime": "00:00:00.0068393",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json",
+        "ScanTime": "00:00:00.3088965",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/PUBLISH.md",
+        "ScanTime": "00:00:00.0086941",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/PUBLISH.md",
+        "ScanTime": "00:00:00.0001755",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/build.rs",
+        "ScanTime": "00:00:00.2558008",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/reference-binaries/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/crates-readme.md",
+        "ScanTime": "00:00:00.0256445",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/crates-readme.md",
+        "ScanTime": "00:00:00.0262882",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/Cargo.toml.orig",
+        "ScanTime": "00:00:00.0077480",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      }
+    ]
+  },
+  "appVersion": "Microsoft Application Inspector 1.9.1\u002B95e7eacad2"
+}

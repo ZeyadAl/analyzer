@@ -1,0 +1,243 @@
+{
+  "package": {
+    "system": "NPM",
+    "name": "chalk"
+  },
+  "owners": [],
+  "version": {
+    "version": "5.3.0",
+    "symbolicVersions": [
+      "latest"
+    ],
+    "createdAt": 1688036291,
+    "refreshedAt": 1688239903,
+    "isDefault": true,
+    "description": "Terminal string styling done right",
+    "licenses": [
+      "MIT"
+    ],
+    "dependentCount": 18989,
+    "dependentCountDirect": 10343,
+    "dependentCountIndirect": 9078,
+    "links": {
+      "origins": [
+        "https://registry.npmjs.org/chalk/5.3.0",
+        "https://www.npmjs.com/package/chalk/v/5.3.0"
+      ],
+      "homepage": "https://github.com/chalk/chalk#readme",
+      "issues": "https://github.com/chalk/chalk/issues",
+      "repo": "https://github.com/chalk/chalk"
+    },
+    "projects": [
+      {
+        "type": "GITHUB",
+        "name": "chalk/chalk",
+        "observedAt": 1689045326,
+        "issues": 2,
+        "forks": 845,
+        "stars": 20452,
+        "description": "\uD83D\uDD8D Terminal string styling done right",
+        "license": "MIT",
+        "displayName": "chalk/chalk",
+        "link": "https://github.com/chalk/chalk",
+        "scorecardV2": {
+          "date": "2023-07-03",
+          "repo": {
+            "name": "github.com/chalk/chalk",
+            "commit": "f399cd0ff69841e88cca89d43a49f1cc9ba2efd5"
+          },
+          "scorecard": {
+            "version": "v4.11.0-13-gb2bc681a",
+            "commit": "b2bc681a002741c79ff31f258338aacda29ecda2"
+          },
+          "check": [
+            {
+              "name": "Maintained",
+              "documentation": {
+                "short": "Determines if the project is \u0022actively maintained\u0022.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#maintained"
+              },
+              "score": 8,
+              "reason": "5 commit(s) out of 30 and 5 issue activity out of 30 found in the last 90 days -- score normalized to 8",
+              "details": []
+            },
+            {
+              "name": "Code-Review",
+              "documentation": {
+                "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#code-review"
+              },
+              "score": 4,
+              "reason": "found 17 unreviewed changesets out of 30 -- score normalized to 4",
+              "details": []
+            },
+            {
+              "name": "CII-Best-Practices",
+              "documentation": {
+                "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#cii-best-practices"
+              },
+              "score": 0,
+              "reason": "no effort to earn an OpenSSF best practices badge detected",
+              "details": []
+            },
+            {
+              "name": "License",
+              "documentation": {
+                "short": "Determines if the project has defined a license.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#license"
+              },
+              "score": 10,
+              "reason": "license file detected",
+              "details": [
+                "Info: License file found in expected location: license:1",
+                "Info: FSF or OSI recognized license: license:1"
+              ]
+            },
+            {
+              "name": "Security-Policy",
+              "documentation": {
+                "short": "Determines if the project has published a security policy.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#security-policy"
+              },
+              "score": 10,
+              "reason": "security policy file detected",
+              "details": [
+                "Info: Found linked content in security policy: .github/security.md",
+                "Info: Found text in security policy: .github/security.md",
+                "Info: Found disclosure, vulnerability, and/or timelines in security policy: .github/security.md",
+                "Info: security policy detected in current repo: .github/security.md"
+              ]
+            },
+            {
+              "name": "Packaging",
+              "documentation": {
+                "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#packaging"
+              },
+              "score": -1,
+              "reason": "no published package detected",
+              "details": [
+                "Warn: no GitHub/GitLab publishing workflow detected"
+              ]
+            },
+            {
+              "name": "Dangerous-Workflow",
+              "documentation": {
+                "short": "Determines if the project\u0027s GitHub Action workflows avoid dangerous patterns.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#dangerous-workflow"
+              },
+              "score": 10,
+              "reason": "no dangerous workflow patterns detected",
+              "details": []
+            },
+            {
+              "name": "Token-Permissions",
+              "documentation": {
+                "short": "Determines if the project\u0027s workflows follow the principle of least privilege.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#token-permissions"
+              },
+              "score": 0,
+              "reason": "non read-only tokens detected in GitHub workflows",
+              "details": [
+                "Warn: no topLevel permission defined: .github/workflows/main.yml:1: Visit https://app.stepsecurity.io/secureworkflow/chalk/chalk/main.yml/main?enable=permissions\nTick the \u0027Restrict permissions for GITHUB_TOKEN\u0027\nUntick other options\nNOTE: If you want to resolve multiple issues at once, you can visit https://app.stepsecurity.io/securerepo instead. (Low effort)",
+                "Info: no jobLevel write permissions found"
+              ]
+            },
+            {
+              "name": "Binary-Artifacts",
+              "documentation": {
+                "short": "Determines if the project has generated executable (binary) artifacts in the source repository.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#binary-artifacts"
+              },
+              "score": 10,
+              "reason": "no binaries found in the repo",
+              "details": []
+            },
+            {
+              "name": "Pinned-Dependencies",
+              "documentation": {
+                "short": "Determines if the project has declared and pinned the dependencies of its build process.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#pinned-dependencies"
+              },
+              "score": 8,
+              "reason": "dependency not pinned by hash detected -- score normalized to 8",
+              "details": [
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/main.yml:17: update your workflow using https://app.stepsecurity.io/secureworkflow/chalk/chalk/main.yml/main?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/main.yml:18: update your workflow using https://app.stepsecurity.io/secureworkflow/chalk/chalk/main.yml/main?enable=pin",
+                "Warn: third-party GitHubAction not pinned by hash: .github/workflows/main.yml:23: update your workflow using https://app.stepsecurity.io/secureworkflow/chalk/chalk/main.yml/main?enable=pin",
+                "Warn: npmCommand not pinned by hash: .github/workflows/main.yml:22",
+                "Info: Dockerfile dependencies are pinned",
+                "Info: no insecure (not pinned by hash) dependency downloads found in Dockerfiles",
+                "Info: no insecure (not pinned by hash) dependency downloads found in shell scripts",
+                "Info: Pip installs are pinned"
+              ]
+            },
+            {
+              "name": "Signed-Releases",
+              "documentation": {
+                "short": "Determines if the project cryptographically signs release artifacts.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#signed-releases"
+              },
+              "score": -1,
+              "reason": "no releases found",
+              "details": [
+                "Warn: no GitHub releases found"
+              ]
+            },
+            {
+              "name": "Vulnerabilities",
+              "documentation": {
+                "short": "Determines if the project has open, known unfixed vulnerabilities.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#vulnerabilities"
+              },
+              "score": 10,
+              "reason": "no vulnerabilities detected",
+              "details": []
+            },
+            {
+              "name": "Fuzzing",
+              "documentation": {
+                "short": "Determines if the project uses fuzzing.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#fuzzing"
+              },
+              "score": 0,
+              "reason": "project is not fuzzed",
+              "details": []
+            },
+            {
+              "name": "Branch-Protection",
+              "documentation": {
+                "short": "Determines if the default and release branches are protected with GitHub\u0027s branch protection settings.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#branch-protection"
+              },
+              "score": 0,
+              "reason": "branch protection not enabled on development/release branches",
+              "details": [
+                "Warn: branch protection not enabled for branch \u0027main\u0027"
+              ]
+            },
+            {
+              "name": "SAST",
+              "documentation": {
+                "short": "Determines if the project uses static code analysis.",
+                "url": "https://github.com/ossf/scorecard/blob/b2bc681a002741c79ff31f258338aacda29ecda2/docs/checks.md#sast"
+              },
+              "score": 0,
+              "reason": "SAST tool is not run on all commits -- score normalized to 0",
+              "details": [
+                "Warn: 0 commits out of 13 are checked with a SAST tool",
+                "Warn: CodeQL tool not detected"
+              ]
+            }
+          ],
+          "metadata": [],
+          "score": 5.7
+        }
+      }
+    ],
+    "advisories": [],
+    "relatedPackages": {}
+  },
+  "defaultVersion": "5.3.0"
+}

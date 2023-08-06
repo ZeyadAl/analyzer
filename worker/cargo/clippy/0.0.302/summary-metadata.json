@@ -1,0 +1,20 @@
+{
+  "purl": "pkg:cargo/clippy@0.0.302",
+  "file_extensions": [
+    "json",
+    "md",
+    "orig",
+    "rs",
+    "toml"
+  ],
+  "languages": [
+    "json",
+    "rust",
+    "Unknown"
+  ],
+  "codesize.num_files": "6",
+  "codesize.loc": "89",
+  "codesize.bytes": "2979",
+  "analysis_date": "2023-07-04T08:26:05.381709",
+  "toolshed_version": "0.8.6"
+}

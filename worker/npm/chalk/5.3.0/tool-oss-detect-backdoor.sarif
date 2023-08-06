@@ -1,0 +1,389 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "oss-detect-backdoor",
+          "organization": "Microsoft Corporation",
+          "product": "OSSGadget (https://github.com/Microsoft/OSSGadget)",
+          "version": "0.1.401+c37aea753d"
+        }
+      },
+      "results": [
+        {
+          "rule": {
+            "id": "BD000610"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Linux Indicator",
+            "id": "BD000610"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.js"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 4,
+                  "endLine": 186,
+                  "endColumn": 9,
+                  "snippet": {
+                    "text": "\n\t\t\t\t\tconst remainder = code % 36;\n\n\t\t\t\t\tred = Math.floor(code / 36) / 5;\n\t\t\t\t\tgreen = Math.floor(remainder / 6) / 5;\n\t\t\t\t\tblue = (remainder % 6) / 5;\n\t\t\t\t}\n",
+                    "rendered": {
+                      "text": "\n\t\t\t\t\tconst remainder = code % 36;\n\n\t\t\t\t\tred = Math.floor(code / 36) / 5;\n\t\t\t\t\tgreen = Math.floor(remainder / 6) / 5;\n\t\t\t\t\tblue = (remainder % 6) / 5;\n\t\t\t\t}\n",
+                      "markdown": "`\n\t\t\t\t\tconst remainder = code % 36;\n\n\t\t\t\t\tred = Math.floor(code / 36) / 5;\n\t\t\t\t\tgreen = Math.floor(remainder / 6) / 5;\n\t\t\t\t\tblue = (remainder % 6) / 5;\n\t\t\t\t}\n`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000610"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Linux Indicator",
+            "id": "BD000610"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.js"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 4,
+                  "endLine": 178,
+                  "endColumn": 9,
+                  "snippet": {
+                    "text": "\t\t\t\tlet blue;\n\n\t\t\t\tif (code >= 232) {\n\t\t\t\t\tred = (((code - 232) * 10) + 8) / 255;\n\t\t\t\t\tgreen = red;\n\t\t\t\t\tblue = red;\n\t\t\t\t} else {\n",
+                    "rendered": {
+                      "text": "\t\t\t\tlet blue;\n\n\t\t\t\tif (code >= 232) {\n\t\t\t\t\tred = (((code - 232) * 10) + 8) / 255;\n\t\t\t\t\tgreen = red;\n\t\t\t\t\tblue = red;\n\t\t\t\t} else {\n",
+                      "markdown": "`\t\t\t\tlet blue;\n\n\t\t\t\tif (code >= 232) {\n\t\t\t\t\tred = (((code - 232) * 10) + 8) / 255;\n\t\t\t\t\tgreen = red;\n\t\t\t\t\tblue = red;\n\t\t\t\t} else {\n`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000610"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Linux Indicator",
+            "id": "BD000610"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 25,
+                  "endLine": 115,
+                  "endColumn": 30,
+                  "snippet": {
+                    "text": "\t}\n\n\tif ('CI' in env) {\n\t\tif ('GITHUB_ACTIONS' in env || 'GITEA_ACTIONS' in env) {\n\t\t\treturn 3;\n\t\t}\n\n",
+                    "rendered": {
+                      "text": "\t}\n\n\tif ('CI' in env) {\n\t\tif ('GITHUB_ACTIONS' in env || 'GITEA_ACTIONS' in env) {\n\t\t\treturn 3;\n\t\t}\n\n",
+                      "markdown": "`\t}\n\n\tif ('CI' in env) {\n\t\tif ('GITHUB_ACTIONS' in env || 'GITEA_ACTIONS' in env) {\n\t\t\treturn 3;\n\t\t}\n\n`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000610"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Linux Indicator",
+            "id": "BD000610"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 18,
+                  "endLine": 86,
+                  "endColumn": 23,
+                  "snippet": {
+                    "text": "\n\t// Check for Azure DevOps pipelines.\n\t// Has to be above the `!streamIsTTY` check.\n\tif ('TF_BUILD' in env && 'AGENT_NAME' in env) {\n\t\treturn 1;\n\t}\n\n",
+                    "rendered": {
+                      "text": "\n\t// Check for Azure DevOps pipelines.\n\t// Has to be above the `!streamIsTTY` check.\n\tif ('TF_BUILD' in env && 'AGENT_NAME' in env) {\n\t\treturn 1;\n\t}\n\n",
+                      "markdown": "`\n\t// Check for Azure DevOps pipelines.\n\t// Has to be above the `!streamIsTTY` check.\n\tif ('TF_BUILD' in env && 'AGENT_NAME' in env) {\n\t\treturn 1;\n\t}\n\n`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000610"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Linux Indicator",
+            "id": "BD000610"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.js"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 4,
+                  "endLine": 186,
+                  "endColumn": 9,
+                  "snippet": {
+                    "text": "\n\t\t\t\t\tconst remainder = code % 36;\n\n\t\t\t\t\tred = Math.floor(code / 36) / 5;\n\t\t\t\t\tgreen = Math.floor(remainder / 6) / 5;\n\t\t\t\t\tblue = (remainder % 6) / 5;\n\t\t\t\t}\n",
+                    "rendered": {
+                      "text": "\n\t\t\t\t\tconst remainder = code % 36;\n\n\t\t\t\t\tred = Math.floor(code / 36) / 5;\n\t\t\t\t\tgreen = Math.floor(remainder / 6) / 5;\n\t\t\t\t\tblue = (remainder % 6) / 5;\n\t\t\t\t}\n",
+                      "markdown": "`\n\t\t\t\t\tconst remainder = code % 36;\n\n\t\t\t\t\tred = Math.floor(code / 36) / 5;\n\t\t\t\t\tgreen = Math.floor(remainder / 6) / 5;\n\t\t\t\t\tblue = (remainder % 6) / 5;\n\t\t\t\t}\n`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000610"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Linux Indicator",
+            "id": "BD000610"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.js"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 4,
+                  "endLine": 178,
+                  "endColumn": 9,
+                  "snippet": {
+                    "text": "\t\t\t\tlet blue;\n\n\t\t\t\tif (code >= 232) {\n\t\t\t\t\tred = (((code - 232) * 10) + 8) / 255;\n\t\t\t\t\tgreen = red;\n\t\t\t\t\tblue = red;\n\t\t\t\t} else {\n",
+                    "rendered": {
+                      "text": "\t\t\t\tlet blue;\n\n\t\t\t\tif (code >= 232) {\n\t\t\t\t\tred = (((code - 232) * 10) + 8) / 255;\n\t\t\t\t\tgreen = red;\n\t\t\t\t\tblue = red;\n\t\t\t\t} else {\n",
+                      "markdown": "`\t\t\t\tlet blue;\n\n\t\t\t\tif (code >= 232) {\n\t\t\t\t\tred = (((code - 232) * 10) + 8) / 255;\n\t\t\t\t\tgreen = red;\n\t\t\t\t\tblue = red;\n\t\t\t\t} else {\n`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000600"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Windows Indicator",
+            "id": "BD000600"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/readme.md"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 204,
+                  "endLine": 274,
+                  "endColumn": 208,
+                  "snippet": {
+                    "text": "\nChalk supports 256 colors and [Truecolor](https://github.com/termstandard/colors) (16 million colors) on supported terminal apps.\n\nColors are downsampled from 16 million RGB values to an ANSI color format that is supported by the terminal emulator (or by specifying `{level: n}` as a Chalk option). For example, Chalk configured to run at level 1 (basic color support) will downsample an RGB value of #FF0000 (red) to 31 (ANSI escape for red).\n\nExamples:\n\n",
+                    "rendered": {
+                      "text": "\nChalk supports 256 colors and [Truecolor](https://github.com/termstandard/colors) (16 million colors) on supported terminal apps.\n\nColors are downsampled from 16 million RGB values to an ANSI color format that is supported by the terminal emulator (or by specifying `{level: n}` as a Chalk option). For example, Chalk configured to run at level 1 (basic color support) will downsample an RGB value of #FF0000 (red) to 31 (ANSI escape for red).\n\nExamples:\n\n",
+                      "markdown": "`\nChalk supports 256 colors and [Truecolor](https://github.com/termstandard/colors) (16 million colors) on supported terminal apps.\n\nColors are downsampled from 16 million RGB values to an ANSI color format that is supported by the terminal emulator (or by specifying `{level: n}` as a Chalk option). For example, Chalk configured to run at level 1 (basic color support) will downsample an RGB value of #FF0000 (red) to 31 (ANSI escape for red).\n\nExamples:\n\n`"
+                    }
+                  },
+                  "sourceLanguage": "Unknown"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000600"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Windows Indicator",
+            "id": "BD000600"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/readme.md"
+                },
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 204,
+                  "endLine": 274,
+                  "endColumn": 208,
+                  "snippet": {
+                    "text": "\nChalk supports 256 colors and [Truecolor](https://github.com/termstandard/colors) (16 million colors) on supported terminal apps.\n\nColors are downsampled from 16 million RGB values to an ANSI color format that is supported by the terminal emulator (or by specifying `{level: n}` as a Chalk option). For example, Chalk configured to run at level 1 (basic color support) will downsample an RGB value of #FF0000 (red) to 31 (ANSI escape for red).\n\nExamples:\n\n",
+                    "rendered": {
+                      "text": "\nChalk supports 256 colors and [Truecolor](https://github.com/termstandard/colors) (16 million colors) on supported terminal apps.\n\nColors are downsampled from 16 million RGB values to an ANSI color format that is supported by the terminal emulator (or by specifying `{level: n}` as a Chalk option). For example, Chalk configured to run at level 1 (basic color support) will downsample an RGB value of #FF0000 (red) to 31 (ANSI escape for red).\n\nExamples:\n\n",
+                      "markdown": "`\nChalk supports 256 colors and [Truecolor](https://github.com/termstandard/colors) (16 million colors) on supported terminal apps.\n\nColors are downsampled from 16 million RGB values to an ANSI color format that is supported by the terminal emulator (or by specifying `{level: n}` as a Chalk option). For example, Chalk configured to run at level 1 (basic color support) will downsample an RGB value of #FF0000 (red) to 31 (ANSI escape for red).\n\nExamples:\n\n`"
+                    }
+                  },
+                  "sourceLanguage": "Unknown"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000610"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Linux Indicator",
+            "id": "BD000610"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 25,
+                  "endLine": 115,
+                  "endColumn": 30,
+                  "snippet": {
+                    "text": "\t}\n\n\tif ('CI' in env) {\n\t\tif ('GITHUB_ACTIONS' in env || 'GITEA_ACTIONS' in env) {\n\t\t\treturn 3;\n\t\t}\n\n",
+                    "rendered": {
+                      "text": "\t}\n\n\tif ('CI' in env) {\n\t\tif ('GITHUB_ACTIONS' in env || 'GITEA_ACTIONS' in env) {\n\t\t\treturn 3;\n\t\t}\n\n",
+                      "markdown": "`\t}\n\n\tif ('CI' in env) {\n\t\tif ('GITHUB_ACTIONS' in env || 'GITEA_ACTIONS' in env) {\n\t\t\treturn 3;\n\t\t}\n\n`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        },
+        {
+          "rule": {
+            "id": "BD000610"
+          },
+          "message": {
+            "text": "Backdoor: LOLBAS: Linux Indicator",
+            "id": "BD000610"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": -1,
+                  "fullyQualifiedName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 18,
+                  "endLine": 86,
+                  "endColumn": 23,
+                  "snippet": {
+                    "text": "\n\t// Check for Azure DevOps pipelines.\n\t// Has to be above the `!streamIsTTY` check.\n\tif ('TF_BUILD' in env && 'AGENT_NAME' in env) {\n\t\treturn 1;\n\t}\n\n",
+                    "rendered": {
+                      "text": "\n\t// Check for Azure DevOps pipelines.\n\t// Has to be above the `!streamIsTTY` check.\n\tif ('TF_BUILD' in env && 'AGENT_NAME' in env) {\n\t\treturn 1;\n\t}\n\n",
+                      "markdown": "`\n\t// Check for Azure DevOps pipelines.\n\t// Has to be above the `!streamIsTTY` check.\n\tif ('TF_BUILD' in env && 'AGENT_NAME' in env) {\n\t\treturn 1;\n\t}\n\n`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "Severity": "Moderate",
+            "Confidence": "Low"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}

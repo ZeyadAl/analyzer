@@ -1,0 +1,1295 @@
+{
+  "resultCode": 0,
+  "metaData": {
+    "applicationName": "/opt/src/npm/chalk/5.3.0",
+    "repositoryUri": null,
+    "commitHash": null,
+    "branch": null,
+    "sourcePath": "/opt/src/npm/chalk/5.3.0",
+    "sourceVersion": "5.3.0",
+    "authors": null,
+    "description": "Terminal string styling done right",
+    "lastUpdated": "01/01/0001 00:00:00",
+    "dateScanned": "07/11/2023 12:21:52",
+    "timedOut": false,
+    "totalFiles": 24,
+    "filesTimedOut": 0,
+    "filesAnalyzed": 24,
+    "filesSkipped": 0,
+    "filesTimeOutSkipped": 0,
+    "filesAffected": 16,
+    "filesErrored": 0,
+    "totalMatchesCount": 50,
+    "uniqueMatchesCount": 10,
+    "packageTypes": [],
+    "appTypes": [
+      "web.application"
+    ],
+    "uniqueTags": [
+      "CloudServices.Code.Repo.GitHub",
+      "CloudServices.Code.Repo.GitLab",
+      "Development.Build.TeamCity",
+      "Metadata.Application.Description",
+      "Metadata.Application.Version",
+      "Miscellaneous.CodeHygiene.Comment.Todo",
+      "OS.Process.DynamicExecution",
+      "Platform.OS.Apple.MacOS",
+      "Platform.OS.Linux.Distro",
+      "Platform.OS.Microsoft.WindowsStandard"
+    ],
+    "uniqueDependencies": [],
+    "outputs": [],
+    "targets": [],
+    "OSTargets": [],
+    "fileExtensions": [
+      "",
+      "js",
+      "json",
+      "md",
+      "ts"
+    ],
+    "cloudTargets": [],
+    "CPUTargets": [],
+    "languages": {
+      "javascript": 10,
+      "package.json": 2,
+      "typescript": 8,
+      "Unknown": 4
+    },
+    "tagCounters": [
+      {
+        "tag": "Metric.Code.Class.Defined",
+        "count": 2
+      },
+      {
+        "tag": "Metric.Code.URL",
+        "count": 1
+      },
+      {
+        "tag": "Metric.Code.Function.Defined",
+        "count": 24
+      }
+    ],
+    "detailedMatchList": [
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "GITHUB",
+        "excerpt": "\t}\n\n\tif (\u0027CI\u0027 in env) {\n\t\tif (\u0027GITHUB_ACTIONS\u0027 in env || \u0027GITEA_ACTIONS\u0027 in env) {\n\t\t\treturn 3;\n\t\t}\n\n",
+        "startLocationLine": 115,
+        "startLocationColumn": 7,
+        "endLocationLine": 115,
+        "endLocationColumn": 13
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "github",
+        "excerpt": "import os from \u0027node:os\u0027;\nimport tty from \u0027node:tty\u0027;\n\n// From: https://github.com/sindresorhus/has-flag/blob/main/index.js\n/// function hasFlag(flag, argv = globalThis.Deno?.args ?? process.argv) {\nfunction hasFlag(flag, argv = globalThis.Deno ? globalThis.Deno.args : process.argv) {\n\tconst prefix = flag.startsWith(\u0027-\u0027) ? \u0027\u0027 : (flag.length === 1 ? \u0027-\u0027 : \u0027--\u0027);\n",
+        "startLocationLine": 5,
+        "startLocationColumn": 17,
+        "endLocationLine": 5,
+        "endLocationColumn": 23
+      },
+      {
+        "ruleId": "AI001300",
+        "ruleName": "Cloud Service: Code Repository (GitLab)",
+        "ruleDescription": "Cloud Service: Code Repository (GitLab)",
+        "tags": [
+          "CloudServices.Code.Repo.GitLab"
+        ],
+        "severity": "Moderate",
+        "pattern": "gitlab",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "GITLAB",
+        "excerpt": "\t\t\treturn 3;\n\t\t}\n\n\t\tif ([\u0027TRAVIS\u0027, \u0027CIRCLECI\u0027, \u0027APPVEYOR\u0027, \u0027GITLAB_CI\u0027, \u0027BUILDKITE\u0027, \u0027DRONE\u0027].some(sign =\u003E sign in env) || env.CI_NAME === \u0027codeship\u0027) {\n\t\t\treturn 1;\n\t\t}\n\n",
+        "startLocationLine": 119,
+        "startLocationColumn": 42,
+        "endLocationLine": 119,
+        "endLocationColumn": 48
+      },
+      {
+        "ruleId": "AI017400",
+        "ruleName": "Development: Build Tool (TeamCity)",
+        "ruleDescription": "Development: Build Tool (TeamCity)",
+        "tags": [
+          "Development.Build.TeamCity"
+        ],
+        "severity": "Moderate",
+        "pattern": "teamcity",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "TEAMCITY",
+        "excerpt": "\t}\n\n\tif (\u0027TEAMCITY_VERSION\u0027 in env) {\n\t\treturn /^(9\\.(0*[1-9]\\d*)\\.|\\d{2,}\\.)/.test(env.TEAMCITY_VERSION) ? 1 : 0;\n\t}\n\n\tif (env.COLORTERM === \u0027truecolor\u0027) {\n",
+        "startLocationLine": 127,
+        "startLocationColumn": 50,
+        "endLocationLine": 127,
+        "endLocationColumn": 58
+      },
+      {
+        "ruleId": "AI017400",
+        "ruleName": "Development: Build Tool (TeamCity)",
+        "ruleDescription": "Development: Build Tool (TeamCity)",
+        "tags": [
+          "Development.Build.TeamCity"
+        ],
+        "severity": "Moderate",
+        "pattern": "teamcity",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "TEAMCITY",
+        "excerpt": "\t\treturn min;\n\t}\n\n\tif (\u0027TEAMCITY_VERSION\u0027 in env) {\n\t\treturn /^(9\\.(0*[1-9]\\d*)\\.|\\d{2,}\\.)/.test(env.TEAMCITY_VERSION) ? 1 : 0;\n\t}\n\n",
+        "startLocationLine": 126,
+        "startLocationColumn": 6,
+        "endLocationLine": 126,
+        "endLocationColumn": 14
+      },
+      {
+        "ruleId": "AI029200",
+        "ruleName": "Platform: Microsoft Windows",
+        "ruleDescription": "Platform: Microsoft Windows",
+        "tags": [
+          "Platform.OS.Microsoft.WindowsStandard"
+        ],
+        "severity": "Moderate",
+        "pattern": "windows",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "Windows",
+        "excerpt": "\n\tif (process.platform === \u0027win32\u0027) {\n\t\t// Windows 10 build 10586 is the first Windows release that supports 256 colors.\n\t\t// Windows 10 build 14931 is the first release that supports 16m/TrueColor.\n\t\tconst osRelease = os.release().split(\u0027.\u0027);\n\t\tif (\n\t\t\tNumber(osRelease[0]) \u003E= 10\n",
+        "startLocationLine": 102,
+        "startLocationColumn": 5,
+        "endLocationLine": 102,
+        "endLocationColumn": 12
+      },
+      {
+        "ruleId": "AI029200",
+        "ruleName": "Platform: Microsoft Windows",
+        "ruleDescription": "Platform: Microsoft Windows",
+        "tags": [
+          "Platform.OS.Microsoft.WindowsStandard"
+        ],
+        "severity": "Moderate",
+        "pattern": "windows",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "Windows",
+        "excerpt": "\t}\n\n\tif (process.platform === \u0027win32\u0027) {\n\t\t// Windows 10 build 10586 is the first Windows release that supports 256 colors.\n\t\t// Windows 10 build 14931 is the first release that supports 16m/TrueColor.\n\t\tconst osRelease = os.release().split(\u0027.\u0027);\n\t\tif (\n",
+        "startLocationLine": 101,
+        "startLocationColumn": 41,
+        "endLocationLine": 101,
+        "endLocationColumn": 48
+      },
+      {
+        "ruleId": "AI029200",
+        "ruleName": "Platform: Microsoft Windows",
+        "ruleDescription": "Platform: Microsoft Windows",
+        "tags": [
+          "Platform.OS.Microsoft.WindowsStandard"
+        ],
+        "severity": "Moderate",
+        "pattern": "windows",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "Windows",
+        "excerpt": "\t}\n\n\tif (process.platform === \u0027win32\u0027) {\n\t\t// Windows 10 build 10586 is the first Windows release that supports 256 colors.\n\t\t// Windows 10 build 14931 is the first release that supports 16m/TrueColor.\n\t\tconst osRelease = os.release().split(\u0027.\u0027);\n\t\tif (\n",
+        "startLocationLine": 101,
+        "startLocationColumn": 5,
+        "endLocationLine": 101,
+        "endLocationColumn": 12
+      },
+      {
+        "ruleId": "AI029500",
+        "ruleName": "Platform: Linux",
+        "ruleDescription": "Platform: Linux",
+        "tags": [
+          "Platform.OS.Linux.Distro"
+        ],
+        "severity": "Moderate",
+        "pattern": "linux|xubuntu|ubuntu|coreos|manjaro|archlinux|debian|mint|gentoo|opensuse|redhat|mandrake|mandriva|slackware",
+        "confidence": "High",
+        "type": "RegexWord",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "sample": "linux",
+        "excerpt": "\t\treturn 2;\n\t}\n\n\tif (/^screen|^xterm|^vt100|^vt220|^rxvt|color|ansi|cygwin|linux/i.test(env.TERM)) {\n\t\treturn 1;\n\t}\n\n",
+        "startLocationLine": 157,
+        "startLocationColumn": 59,
+        "endLocationLine": 157,
+        "endLocationColumn": 64
+      },
+      {
+        "ruleId": "AI034900",
+        "ruleName": "OS: Dynamic Execution",
+        "ruleDescription": "OS: Dynamic Execution",
+        "tags": [
+          "OS.Process.DynamicExecution"
+        ],
+        "severity": "Moderate",
+        "pattern": "exec(Sync)?\\(",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.js",
+        "sample": "exec(",
+        "excerpt": "\t\t},\n\t\thexToRgb: {\n\t\t\tvalue(hex) {\n\t\t\t\tconst matches = /[a-f\\d]{6}|[a-f\\d]{3}/i.exec(hex.toString(16));\n\t\t\t\tif (!matches) {\n\t\t\t\t\treturn [0, 0, 0];\n\t\t\t\t}\n",
+        "startLocationLine": 136,
+        "startLocationColumn": 45,
+        "endLocationLine": 136,
+        "endLocationColumn": 50
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.js",
+        "sample": "github",
+        "excerpt": "\tstyles.bgColor.ansi256 = wrapAnsi256(ANSI_BACKGROUND_OFFSET);\n\tstyles.bgColor.ansi16m = wrapAnsi16m(ANSI_BACKGROUND_OFFSET);\n\n\t// From https://github.com/Qix-/color-convert/blob/3f0e0d4e92e235796ccb17f6e85c72094a651f49/conversions.js\n\tObject.defineProperties(styles, {\n\t\trgbToAnsi256: {\n\t\t\tvalue(red, green, blue) {\n",
+        "startLocationLine": 109,
+        "startLocationColumn": 17,
+        "endLocationLine": 109,
+        "endLocationColumn": 23
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "GITHUB",
+        "excerpt": "\t}\n\n\tif (\u0027CI\u0027 in env) {\n\t\tif (\u0027GITHUB_ACTIONS\u0027 in env || \u0027GITEA_ACTIONS\u0027 in env) {\n\t\t\treturn 3;\n\t\t}\n\n",
+        "startLocationLine": 115,
+        "startLocationColumn": 7,
+        "endLocationLine": 115,
+        "endLocationColumn": 13
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "github",
+        "excerpt": "import os from \u0027node:os\u0027;\nimport tty from \u0027node:tty\u0027;\n\n// From: https://github.com/sindresorhus/has-flag/blob/main/index.js\n/// function hasFlag(flag, argv = globalThis.Deno?.args ?? process.argv) {\nfunction hasFlag(flag, argv = globalThis.Deno ? globalThis.Deno.args : process.argv) {\n\tconst prefix = flag.startsWith(\u0027-\u0027) ? \u0027\u0027 : (flag.length === 1 ? \u0027-\u0027 : \u0027--\u0027);\n",
+        "startLocationLine": 5,
+        "startLocationColumn": 17,
+        "endLocationLine": 5,
+        "endLocationColumn": 23
+      },
+      {
+        "ruleId": "AI001300",
+        "ruleName": "Cloud Service: Code Repository (GitLab)",
+        "ruleDescription": "Cloud Service: Code Repository (GitLab)",
+        "tags": [
+          "CloudServices.Code.Repo.GitLab"
+        ],
+        "severity": "Moderate",
+        "pattern": "gitlab",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "GITLAB",
+        "excerpt": "\t\t\treturn 3;\n\t\t}\n\n\t\tif ([\u0027TRAVIS\u0027, \u0027CIRCLECI\u0027, \u0027APPVEYOR\u0027, \u0027GITLAB_CI\u0027, \u0027BUILDKITE\u0027, \u0027DRONE\u0027].some(sign =\u003E sign in env) || env.CI_NAME === \u0027codeship\u0027) {\n\t\t\treturn 1;\n\t\t}\n\n",
+        "startLocationLine": 119,
+        "startLocationColumn": 42,
+        "endLocationLine": 119,
+        "endLocationColumn": 48
+      },
+      {
+        "ruleId": "AI017400",
+        "ruleName": "Development: Build Tool (TeamCity)",
+        "ruleDescription": "Development: Build Tool (TeamCity)",
+        "tags": [
+          "Development.Build.TeamCity"
+        ],
+        "severity": "Moderate",
+        "pattern": "teamcity",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "TEAMCITY",
+        "excerpt": "\t}\n\n\tif (\u0027TEAMCITY_VERSION\u0027 in env) {\n\t\treturn /^(9\\.(0*[1-9]\\d*)\\.|\\d{2,}\\.)/.test(env.TEAMCITY_VERSION) ? 1 : 0;\n\t}\n\n\tif (env.COLORTERM === \u0027truecolor\u0027) {\n",
+        "startLocationLine": 127,
+        "startLocationColumn": 50,
+        "endLocationLine": 127,
+        "endLocationColumn": 58
+      },
+      {
+        "ruleId": "AI017400",
+        "ruleName": "Development: Build Tool (TeamCity)",
+        "ruleDescription": "Development: Build Tool (TeamCity)",
+        "tags": [
+          "Development.Build.TeamCity"
+        ],
+        "severity": "Moderate",
+        "pattern": "teamcity",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "TEAMCITY",
+        "excerpt": "\t\treturn min;\n\t}\n\n\tif (\u0027TEAMCITY_VERSION\u0027 in env) {\n\t\treturn /^(9\\.(0*[1-9]\\d*)\\.|\\d{2,}\\.)/.test(env.TEAMCITY_VERSION) ? 1 : 0;\n\t}\n\n",
+        "startLocationLine": 126,
+        "startLocationColumn": 6,
+        "endLocationLine": 126,
+        "endLocationColumn": 14
+      },
+      {
+        "ruleId": "AI029200",
+        "ruleName": "Platform: Microsoft Windows",
+        "ruleDescription": "Platform: Microsoft Windows",
+        "tags": [
+          "Platform.OS.Microsoft.WindowsStandard"
+        ],
+        "severity": "Moderate",
+        "pattern": "windows",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "Windows",
+        "excerpt": "\n\tif (process.platform === \u0027win32\u0027) {\n\t\t// Windows 10 build 10586 is the first Windows release that supports 256 colors.\n\t\t// Windows 10 build 14931 is the first release that supports 16m/TrueColor.\n\t\tconst osRelease = os.release().split(\u0027.\u0027);\n\t\tif (\n\t\t\tNumber(osRelease[0]) \u003E= 10\n",
+        "startLocationLine": 102,
+        "startLocationColumn": 5,
+        "endLocationLine": 102,
+        "endLocationColumn": 12
+      },
+      {
+        "ruleId": "AI029200",
+        "ruleName": "Platform: Microsoft Windows",
+        "ruleDescription": "Platform: Microsoft Windows",
+        "tags": [
+          "Platform.OS.Microsoft.WindowsStandard"
+        ],
+        "severity": "Moderate",
+        "pattern": "windows",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "Windows",
+        "excerpt": "\t}\n\n\tif (process.platform === \u0027win32\u0027) {\n\t\t// Windows 10 build 10586 is the first Windows release that supports 256 colors.\n\t\t// Windows 10 build 14931 is the first release that supports 16m/TrueColor.\n\t\tconst osRelease = os.release().split(\u0027.\u0027);\n\t\tif (\n",
+        "startLocationLine": 101,
+        "startLocationColumn": 41,
+        "endLocationLine": 101,
+        "endLocationColumn": 48
+      },
+      {
+        "ruleId": "AI029200",
+        "ruleName": "Platform: Microsoft Windows",
+        "ruleDescription": "Platform: Microsoft Windows",
+        "tags": [
+          "Platform.OS.Microsoft.WindowsStandard"
+        ],
+        "severity": "Moderate",
+        "pattern": "windows",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "Windows",
+        "excerpt": "\t}\n\n\tif (process.platform === \u0027win32\u0027) {\n\t\t// Windows 10 build 10586 is the first Windows release that supports 256 colors.\n\t\t// Windows 10 build 14931 is the first release that supports 16m/TrueColor.\n\t\tconst osRelease = os.release().split(\u0027.\u0027);\n\t\tif (\n",
+        "startLocationLine": 101,
+        "startLocationColumn": 5,
+        "endLocationLine": 101,
+        "endLocationColumn": 12
+      },
+      {
+        "ruleId": "AI029500",
+        "ruleName": "Platform: Linux",
+        "ruleDescription": "Platform: Linux",
+        "tags": [
+          "Platform.OS.Linux.Distro"
+        ],
+        "severity": "Moderate",
+        "pattern": "linux|xubuntu|ubuntu|coreos|manjaro|archlinux|debian|mint|gentoo|opensuse|redhat|mandrake|mandriva|slackware",
+        "confidence": "High",
+        "type": "RegexWord",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "sample": "linux",
+        "excerpt": "\t\treturn 2;\n\t}\n\n\tif (/^screen|^xterm|^vt100|^vt220|^rxvt|color|ansi|cygwin|linux/i.test(env.TERM)) {\n\t\treturn 1;\n\t}\n\n",
+        "startLocationLine": 157,
+        "startLocationColumn": 59,
+        "endLocationLine": 157,
+        "endLocationColumn": 64
+      },
+      {
+        "ruleId": "AI027300",
+        "ruleName": "Hygiene: Todo Comment",
+        "ruleDescription": "Hygiene: Todo Comment",
+        "tags": [
+          "Miscellaneous.CodeHygiene.Comment.Todo"
+        ],
+        "severity": "Moderate",
+        "pattern": "todo",
+        "confidence": "Unspecified",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/utilities.js",
+        "sample": "TODO",
+        "excerpt": "// TODO: When targeting Node.js 16, use \u0060String.prototype.replaceAll\u0060.\nexport function stringReplaceAll(string, substring, replacer) {\n\tlet index = string.indexOf(substring);\n\tif (index === -1) {\n",
+        "startLocationLine": 1,
+        "startLocationColumn": 3,
+        "endLocationLine": 1,
+        "endLocationColumn": 7
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.js",
+        "sample": "github",
+        "excerpt": "\n\t// We can move both next actions out of loop, because remaining actions in loop won\u0027t have\n\t// any/visible effect on parts we add here. Close the styling before a linebreak and reopen\n\t// after next line to fix a bleed issue on macOS: https://github.com/chalk/chalk/pull/92\n\tconst lfIndex = string.indexOf(\u0027\\n\u0027);\n\tif (lfIndex !== -1) {\n\t\tstring = stringEncaseCRLFWithFirstIndex(string, closeAll, openAll, lfIndex);\n",
+        "startLocationLine": 193,
+        "startLocationColumn": 59,
+        "endLocationLine": 193,
+        "endLocationColumn": 65
+      },
+      {
+        "ruleId": "AI027300",
+        "ruleName": "Hygiene: Todo Comment",
+        "ruleDescription": "Hygiene: Todo Comment",
+        "tags": [
+          "Miscellaneous.CodeHygiene.Comment.Todo"
+        ],
+        "severity": "Moderate",
+        "pattern": "todo",
+        "confidence": "Unspecified",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.js",
+        "sample": "TODO",
+        "excerpt": "\tbackgroundColorNames,\n\tcolorNames,\n\n\t// TODO: Remove these aliases in the next major version\n\tmodifierNames as modifiers,\n\tforegroundColorNames as foregroundColors,\n\tbackgroundColorNames as backgroundColors,\n",
+        "startLocationLine": 213,
+        "startLocationColumn": 4,
+        "endLocationLine": 213,
+        "endLocationColumn": 8
+      },
+      {
+        "ruleId": "AI029000",
+        "ruleName": "Platform: Apple MacOS",
+        "ruleDescription": "Platform: Apple MacOS",
+        "tags": [
+          "Platform.OS.Apple.MacOS"
+        ],
+        "severity": "Moderate",
+        "pattern": "(os x)|osx|macos|macosx",
+        "confidence": "High",
+        "type": "RegexWord",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.js",
+        "sample": "macOS",
+        "excerpt": "\n\t// We can move both next actions out of loop, because remaining actions in loop won\u0027t have\n\t// any/visible effect on parts we add here. Close the styling before a linebreak and reopen\n\t// after next line to fix a bleed issue on macOS: https://github.com/chalk/chalk/pull/92\n\tconst lfIndex = string.indexOf(\u0027\\n\u0027);\n\tif (lfIndex !== -1) {\n\t\tstring = stringEncaseCRLFWithFirstIndex(string, closeAll, openAll, lfIndex);\n",
+        "startLocationLine": 193,
+        "startLocationColumn": 44,
+        "endLocationLine": 193,
+        "endLocationColumn": 49
+      },
+      {
+        "ruleId": "AI027300",
+        "ruleName": "Hygiene: Todo Comment",
+        "ruleDescription": "Hygiene: Todo Comment",
+        "tags": [
+          "Miscellaneous.CodeHygiene.Comment.Todo"
+        ],
+        "severity": "Moderate",
+        "pattern": "todo",
+        "confidence": "Unspecified",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/utilities.js",
+        "sample": "TODO",
+        "excerpt": "// TODO: When targeting Node.js 16, use \u0060String.prototype.replaceAll\u0060.\nexport function stringReplaceAll(string, substring, replacer) {\n\tlet index = string.indexOf(substring);\n\tif (index === -1) {\n",
+        "startLocationLine": 1,
+        "startLocationColumn": 3,
+        "endLocationLine": 1,
+        "endLocationColumn": 7
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.js",
+        "sample": "github",
+        "excerpt": "\n\t// We can move both next actions out of loop, because remaining actions in loop won\u0027t have\n\t// any/visible effect on parts we add here. Close the styling before a linebreak and reopen\n\t// after next line to fix a bleed issue on macOS: https://github.com/chalk/chalk/pull/92\n\tconst lfIndex = string.indexOf(\u0027\\n\u0027);\n\tif (lfIndex !== -1) {\n\t\tstring = stringEncaseCRLFWithFirstIndex(string, closeAll, openAll, lfIndex);\n",
+        "startLocationLine": 193,
+        "startLocationColumn": 59,
+        "endLocationLine": 193,
+        "endLocationColumn": 65
+      },
+      {
+        "ruleId": "AI029000",
+        "ruleName": "Platform: Apple MacOS",
+        "ruleDescription": "Platform: Apple MacOS",
+        "tags": [
+          "Platform.OS.Apple.MacOS"
+        ],
+        "severity": "Moderate",
+        "pattern": "(os x)|osx|macos|macosx",
+        "confidence": "High",
+        "type": "RegexWord",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.js",
+        "sample": "macOS",
+        "excerpt": "\n\t// We can move both next actions out of loop, because remaining actions in loop won\u0027t have\n\t// any/visible effect on parts we add here. Close the styling before a linebreak and reopen\n\t// after next line to fix a bleed issue on macOS: https://github.com/chalk/chalk/pull/92\n\tconst lfIndex = string.indexOf(\u0027\\n\u0027);\n\tif (lfIndex !== -1) {\n\t\tstring = stringEncaseCRLFWithFirstIndex(string, closeAll, openAll, lfIndex);\n",
+        "startLocationLine": 193,
+        "startLocationColumn": 44,
+        "endLocationLine": 193,
+        "endLocationColumn": 49
+      },
+      {
+        "ruleId": "AI027300",
+        "ruleName": "Hygiene: Todo Comment",
+        "ruleDescription": "Hygiene: Todo Comment",
+        "tags": [
+          "Miscellaneous.CodeHygiene.Comment.Todo"
+        ],
+        "severity": "Moderate",
+        "pattern": "todo",
+        "confidence": "Unspecified",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.js",
+        "sample": "TODO",
+        "excerpt": "\tbackgroundColorNames,\n\tcolorNames,\n\n\t// TODO: Remove these aliases in the next major version\n\tmodifierNames as modifiers,\n\tforegroundColorNames as foregroundColors,\n\tbackgroundColorNames as backgroundColors,\n",
+        "startLocationLine": 213,
+        "startLocationColumn": 4,
+        "endLocationLine": 213,
+        "endLocationColumn": 8
+      },
+      {
+        "ruleId": "AI030900",
+        "ruleName": "Metadata: Application Description",
+        "ruleDescription": "Metadata: Application Description",
+        "tags": [
+          "Metadata.Application.Description"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022description\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/package.json",
+        "sample": "\u0022description\u0022: \u0022Terminal string styling done right\u0022",
+        "excerpt": "{\n\t\u0022name\u0022: \u0022chalk\u0022,\n\t\u0022version\u0022: \u00225.3.0\u0022,\n\t\u0022description\u0022: \u0022Terminal string styling done right\u0022,\n\t\u0022license\u0022: \u0022MIT\u0022,\n\t\u0022repository\u0022: \u0022chalk/chalk\u0022,\n\t\u0022funding\u0022: \u0022https://github.com/chalk/chalk?sponsor=1\u0022,\n",
+        "startLocationLine": 4,
+        "startLocationColumn": 1,
+        "endLocationLine": 4,
+        "endLocationColumn": 52
+      },
+      {
+        "ruleId": "AI031000",
+        "ruleName": "Metadata: Application Version",
+        "ruleDescription": "Metadata: Application Version",
+        "tags": [
+          "Metadata.Application.Version"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022version\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/package.json",
+        "sample": "\u0022version\u0022: \u00225.3.0\u0022",
+        "excerpt": "{\n\t\u0022name\u0022: \u0022chalk\u0022,\n\t\u0022version\u0022: \u00225.3.0\u0022,\n\t\u0022description\u0022: \u0022Terminal string styling done right\u0022,\n\t\u0022license\u0022: \u0022MIT\u0022,\n\t\u0022repository\u0022: \u0022chalk/chalk\u0022,\n",
+        "startLocationLine": 3,
+        "startLocationColumn": 1,
+        "endLocationLine": 3,
+        "endLocationColumn": 19
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.d.ts",
+        "sample": "github",
+        "excerpt": "\nBasic color names. The combination of foreground and background color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type Color = ColorName;\n\n",
+        "startLocationLine": 288,
+        "startLocationColumn": 28,
+        "endLocationLine": 288,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.d.ts",
+        "sample": "github",
+        "excerpt": "\nBasic background color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type BackgroundColor = BackgroundColorName;\n\n",
+        "startLocationLine": 279,
+        "startLocationColumn": 28,
+        "endLocationLine": 279,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.d.ts",
+        "sample": "github",
+        "excerpt": "\nBasic foreground color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type ForegroundColor = ForegroundColorName;\n\n",
+        "startLocationLine": 270,
+        "startLocationColumn": 28,
+        "endLocationLine": 270,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI027300",
+        "ruleName": "Hygiene: Todo Comment",
+        "ruleDescription": "Hygiene: Todo Comment",
+        "tags": [
+          "Miscellaneous.CodeHygiene.Comment.Todo"
+        ],
+        "severity": "Moderate",
+        "pattern": "todo",
+        "confidence": "Unspecified",
+        "type": "Regex",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.d.ts",
+        "sample": "TODO",
+        "excerpt": "// } from \u0027#supports-color\u0027;\n} from \u0027./vendor/supports-color/index.js\u0027;\n\n// TODO: Remove these aliases in the next major version\n/**\n@deprecated Use \u0060ModifierName\u0060 instead.\n\n",
+        "startLocationLine": 257,
+        "startLocationColumn": 3,
+        "endLocationLine": 257,
+        "endLocationColumn": 7
+      },
+      {
+        "ruleId": "AI027300",
+        "ruleName": "Hygiene: Todo Comment",
+        "ruleDescription": "Hygiene: Todo Comment",
+        "tags": [
+          "Miscellaneous.CodeHygiene.Comment.Todo"
+        ],
+        "severity": "Moderate",
+        "pattern": "todo",
+        "confidence": "Unspecified",
+        "type": "Regex",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.d.ts",
+        "sample": "TODO",
+        "excerpt": "// TODO: Make it this when TS suports that.\n// import {ModifierName, ForegroundColor, BackgroundColor, ColorName} from \u0027#ansi-styles\u0027;\n// import {ColorInfo, ColorSupportLevel} from \u0027#supports-color\u0027;\nimport {ModifierName, ForegroundColorName, BackgroundColorName, ColorName} from \u0027./vendor/ansi-styles/index.js\u0027;\n",
+        "startLocationLine": 1,
+        "startLocationColumn": 3,
+        "endLocationLine": 1,
+        "endLocationColumn": 7
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.d.ts",
+        "sample": "github",
+        "excerpt": "/**\nBasic color names. The combination of foreground and background color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type ColorName = ForegroundColorName | BackgroundColorName;\n\n",
+        "startLocationLine": 205,
+        "startLocationColumn": 28,
+        "endLocationLine": 205,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.d.ts",
+        "sample": "github",
+        "excerpt": "/**\nBasic background color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type BackgroundColorName = keyof BackgroundColor;\n\n",
+        "startLocationLine": 198,
+        "startLocationColumn": 28,
+        "endLocationLine": 198,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.d.ts",
+        "sample": "github",
+        "excerpt": "/**\nBasic foreground color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type ForegroundColorName = keyof ForegroundColor;\n\n",
+        "startLocationLine": 191,
+        "startLocationColumn": 28,
+        "endLocationLine": 191,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.d.ts",
+        "sample": "github",
+        "excerpt": "\nBasic color names. The combination of foreground and background color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type Color = ColorName;\n\n",
+        "startLocationLine": 288,
+        "startLocationColumn": 28,
+        "endLocationLine": 288,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.d.ts",
+        "sample": "github",
+        "excerpt": "\nBasic background color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type BackgroundColor = BackgroundColorName;\n\n",
+        "startLocationLine": 279,
+        "startLocationColumn": 28,
+        "endLocationLine": 279,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.d.ts",
+        "sample": "github",
+        "excerpt": "\nBasic foreground color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type ForegroundColor = ForegroundColorName;\n\n",
+        "startLocationLine": 270,
+        "startLocationColumn": 28,
+        "endLocationLine": 270,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI027300",
+        "ruleName": "Hygiene: Todo Comment",
+        "ruleDescription": "Hygiene: Todo Comment",
+        "tags": [
+          "Miscellaneous.CodeHygiene.Comment.Todo"
+        ],
+        "severity": "Moderate",
+        "pattern": "todo",
+        "confidence": "Unspecified",
+        "type": "Regex",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.d.ts",
+        "sample": "TODO",
+        "excerpt": "// } from \u0027#supports-color\u0027;\n} from \u0027./vendor/supports-color/index.js\u0027;\n\n// TODO: Remove these aliases in the next major version\n/**\n@deprecated Use \u0060ModifierName\u0060 instead.\n\n",
+        "startLocationLine": 257,
+        "startLocationColumn": 3,
+        "endLocationLine": 257,
+        "endLocationColumn": 7
+      },
+      {
+        "ruleId": "AI027300",
+        "ruleName": "Hygiene: Todo Comment",
+        "ruleDescription": "Hygiene: Todo Comment",
+        "tags": [
+          "Miscellaneous.CodeHygiene.Comment.Todo"
+        ],
+        "severity": "Moderate",
+        "pattern": "todo",
+        "confidence": "Unspecified",
+        "type": "Regex",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.d.ts",
+        "sample": "TODO",
+        "excerpt": "// TODO: Make it this when TS suports that.\n// import {ModifierName, ForegroundColor, BackgroundColor, ColorName} from \u0027#ansi-styles\u0027;\n// import {ColorInfo, ColorSupportLevel} from \u0027#supports-color\u0027;\nimport {ModifierName, ForegroundColorName, BackgroundColorName, ColorName} from \u0027./vendor/ansi-styles/index.js\u0027;\n",
+        "startLocationLine": 1,
+        "startLocationColumn": 3,
+        "endLocationLine": 1,
+        "endLocationColumn": 7
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.d.ts",
+        "sample": "github",
+        "excerpt": "/**\nBasic color names. The combination of foreground and background color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type ColorName = ForegroundColorName | BackgroundColorName;\n\n",
+        "startLocationLine": 205,
+        "startLocationColumn": 28,
+        "endLocationLine": 205,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.d.ts",
+        "sample": "github",
+        "excerpt": "/**\nBasic background color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type BackgroundColorName = keyof BackgroundColor;\n\n",
+        "startLocationLine": 198,
+        "startLocationColumn": 28,
+        "endLocationLine": 198,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.d.ts",
+        "sample": "github",
+        "excerpt": "/**\nBasic foreground color names.\n\n[More colors here.](https://github.com/chalk/chalk/blob/main/readme.md#256-and-truecolor-color-support)\n*/\nexport type ForegroundColorName = keyof ForegroundColor;\n\n",
+        "startLocationLine": 191,
+        "startLocationColumn": 28,
+        "endLocationLine": 191,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI030900",
+        "ruleName": "Metadata: Application Description",
+        "ruleDescription": "Metadata: Application Description",
+        "tags": [
+          "Metadata.Application.Description"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022description\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/package.json",
+        "sample": "\u0022description\u0022: \u0022Terminal string styling done right\u0022",
+        "excerpt": "{\n\t\u0022name\u0022: \u0022chalk\u0022,\n\t\u0022version\u0022: \u00225.3.0\u0022,\n\t\u0022description\u0022: \u0022Terminal string styling done right\u0022,\n\t\u0022license\u0022: \u0022MIT\u0022,\n\t\u0022repository\u0022: \u0022chalk/chalk\u0022,\n\t\u0022funding\u0022: \u0022https://github.com/chalk/chalk?sponsor=1\u0022,\n",
+        "startLocationLine": 4,
+        "startLocationColumn": 1,
+        "endLocationLine": 4,
+        "endLocationColumn": 52
+      },
+      {
+        "ruleId": "AI031000",
+        "ruleName": "Metadata: Application Version",
+        "ruleDescription": "Metadata: Application Version",
+        "tags": [
+          "Metadata.Application.Version"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022version\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/package.json",
+        "sample": "\u0022version\u0022: \u00225.3.0\u0022",
+        "excerpt": "{\n\t\u0022name\u0022: \u0022chalk\u0022,\n\t\u0022version\u0022: \u00225.3.0\u0022,\n\t\u0022description\u0022: \u0022Terminal string styling done right\u0022,\n\t\u0022license\u0022: \u0022MIT\u0022,\n\t\u0022repository\u0022: \u0022chalk/chalk\u0022,\n",
+        "startLocationLine": 3,
+        "startLocationColumn": 1,
+        "endLocationLine": 3,
+        "endLocationColumn": 19
+      },
+      {
+        "ruleId": "AI034900",
+        "ruleName": "OS: Dynamic Execution",
+        "ruleDescription": "OS: Dynamic Execution",
+        "tags": [
+          "OS.Process.DynamicExecution"
+        ],
+        "severity": "Moderate",
+        "pattern": "exec(Sync)?\\(",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.js",
+        "sample": "exec(",
+        "excerpt": "\t\t},\n\t\thexToRgb: {\n\t\t\tvalue(hex) {\n\t\t\t\tconst matches = /[a-f\\d]{6}|[a-f\\d]{3}/i.exec(hex.toString(16));\n\t\t\t\tif (!matches) {\n\t\t\t\t\treturn [0, 0, 0];\n\t\t\t\t}\n",
+        "startLocationLine": 136,
+        "startLocationColumn": 45,
+        "endLocationLine": 136,
+        "endLocationColumn": 50
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.js",
+        "sample": "github",
+        "excerpt": "\tstyles.bgColor.ansi256 = wrapAnsi256(ANSI_BACKGROUND_OFFSET);\n\tstyles.bgColor.ansi16m = wrapAnsi16m(ANSI_BACKGROUND_OFFSET);\n\n\t// From https://github.com/Qix-/color-convert/blob/3f0e0d4e92e235796ccb17f6e85c72094a651f49/conversions.js\n\tObject.defineProperties(styles, {\n\t\trgbToAnsi256: {\n\t\t\tvalue(red, green, blue) {\n",
+        "startLocationLine": 109,
+        "startLocationColumn": 17,
+        "endLocationLine": 109,
+        "endLocationColumn": 23
+      }
+    ],
+    "filesInformation": [
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js",
+        "ScanTime": "00:00:00.3378914",
+        "Status": "Affected",
+        "NumFindings": 14,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.js",
+        "ScanTime": "00:00:00.1094667",
+        "Status": "Affected",
+        "NumFindings": 3,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.js",
+        "ScanTime": "00:00:00.0838443",
+        "Status": "Affected",
+        "NumFindings": 14,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/utilities.js",
+        "ScanTime": "00:00:00.0381250",
+        "Status": "Affected",
+        "NumFindings": 3,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.js",
+        "ScanTime": "00:00:00.1104762",
+        "Status": "Affected",
+        "NumFindings": 7,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/browser.js",
+        "ScanTime": "00:00:00.0436514",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.js",
+        "ScanTime": "00:00:00.1006124",
+        "Status": "Affected",
+        "NumFindings": 8,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/package.json",
+        "ScanTime": "00:00:00.0537368",
+        "Status": "Affected",
+        "NumFindings": 2,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.d.ts",
+        "ScanTime": "00:00:00.0985608",
+        "Status": "Affected",
+        "NumFindings": 5,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.d.ts",
+        "ScanTime": "00:00:00.7839171",
+        "Status": "Affected",
+        "NumFindings": 3,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/readme.md",
+        "ScanTime": "00:00:00.0001945",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/browser.d.ts",
+        "ScanTime": "00:00:00.0955391",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/license",
+        "ScanTime": "00:00:00.0694040",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/utilities.js",
+        "ScanTime": "00:00:00.0205228",
+        "Status": "Affected",
+        "NumFindings": 3,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/browser.d.ts",
+        "ScanTime": "00:00:00.7747799",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/license",
+        "ScanTime": "00:00:00.0025059",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/index.d.ts",
+        "ScanTime": "00:00:00.0606071",
+        "Status": "Affected",
+        "NumFindings": 5,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/ansi-styles/index.d.ts",
+        "ScanTime": "00:00:00.0326783",
+        "Status": "Affected",
+        "NumFindings": 3,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz/npm-chalk@5.tar/package/source/vendor/supports-color/index.d.ts",
+        "ScanTime": "00:00:00.0136163",
+        "Status": "Affected",
+        "NumFindings": 1,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/readme.md",
+        "ScanTime": "00:00:00.0003063",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/package.json",
+        "ScanTime": "00:00:00.0569282",
+        "Status": "Affected",
+        "NumFindings": 2,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/browser.js",
+        "ScanTime": "00:00:00.0189224",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.js",
+        "ScanTime": "00:00:00.7798609",
+        "Status": "Affected",
+        "NumFindings": 3,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.d.ts",
+        "ScanTime": "00:00:00.7786209",
+        "Status": "Affected",
+        "NumFindings": 1,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      }
+    ]
+  },
+  "appVersion": "Microsoft Application Inspector 1.9.1\u002B95e7eacad2"
+}

@@ -1,0 +1,8 @@
+[semgrep] Bracket object notation with user input is present, this might allow an attacker to access all properties of the object and even it's prototype, leading to possible code execution.
+[semgrep] Bracket object notation with user input is present, this might allow an attacker to access all properties of the object and even it's prototype, leading to possible code execution.
+[oss-defog] Obfuscated code found.
+[string-diff] New strings were found since the previous version.
+[lizard] This package was found to have high code complexity.
+[devskim] Suspicious comment
+[devskim] Suspicious comment
+[devskim] Suspicious comment

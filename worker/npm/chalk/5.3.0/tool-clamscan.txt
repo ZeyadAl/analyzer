@@ -1,0 +1,25 @@
+/opt/src/npm/chalk/5.3.0/reference-binaries/npm-chalk@5.3.0.tgz: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.js: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/index.d.ts: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/utilities.js: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/browser.js: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/browser.d.ts: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.d.ts: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.js: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/ansi-styles/index.d.ts: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/readme.md: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/license: OK
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/package.json: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8685140
+Engine version: 0.103.8
+Scanned directories: 11
+Scanned files: 13
+Infected files: 0
+Data scanned: 0.11 MB
+Data read: 0.04 MB (ratio 3.11:1)
+Time: 45.368 sec (0 m 45 s)
+Start Date: 2023:07:11 12:22:13
+End Date:   2023:07:11 12:22:59

@@ -1,0 +1,191 @@
+{
+  "$schema": "https://www.schemastore.org/schemas/json/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "devskim",
+          "fullName": "Microsoft DevSkim Command Line Interface",
+          "version": "1.0.6+554b354014",
+          "informationUri": "https://github.com/microsoft/DevSkim/",
+          "rules": [
+            {
+              "id": "DS126858",
+              "name": "WeakbrokenHashAlgorithm",
+              "fullDescription": {
+                "text": "Weak/Broken Hash Algorithm: A weak or broken hash algorithm was detected."
+              },
+              "help": {
+                "text": "Consider switching to use SHA-256 or SHA-512 instead.",
+                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS126858.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS126858.md) for guidance on this issue."
+              },
+              "shortDescription": {
+                "text": "A weak or broken hash algorithm was detected."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS126858.md",
+              "properties": {
+                "DevSkimSeverity": "Critical",
+                "DevSkimConfidence": "Unspecified"
+              }
+            },
+            {
+              "id": "DS173237",
+              "name": "DoNotStoreTokensOrKeysInSourceCode",
+              "fullDescription": {
+                "text": "Do not store tokens or keys in source code.: A token or key was found in source code. If this represents a secret, it should be moved somewhere else."
+              },
+              "help": {
+                "text": "A token or key was found in source code. If this represents a secret, it should be moved somewhere else.",
+                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS173237.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS173237.md) for guidance on this issue."
+              },
+              "shortDescription": {
+                "text": "A token or key was found in source code. If this represents a secret, it should be moved somewhere else."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS173237.md",
+              "properties": {
+                "DevSkimSeverity": "Important",
+                "DevSkimConfidence": "Unspecified"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "DS173237",
+          "level": "error",
+          "message": {
+            "text": "Do not store tokens or keys in source code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 12,
+                  "endLine": 3,
+                  "endColumn": 54,
+                  "charOffset": 25,
+                  "charLength": 42,
+                  "snippet": {
+                    "text": "\"bbc0378fe3733f1929e18a3815510119c0d51205\"",
+                    "rendered": {
+                      "text": "\"bbc0378fe3733f1929e18a3815510119c0d51205\"",
+                      "markdown": "`\"bbc0378fe3733f1929e18a3815510119c0d51205\"`"
+                    }
+                  },
+                  "sourceLanguage": "json"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "tags": [
+              "Implementation.Privacy.Token"
+            ],
+            "DevSkimSeverity": "Important",
+            "DevSkimConfidence": "Unspecified"
+          }
+        },
+        {
+          "ruleId": "DS126858",
+          "level": "error",
+          "message": {
+            "text": "Weak/Broken Hash Algorithm"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 5,
+                  "endLine": 3,
+                  "endColumn": 9,
+                  "charOffset": 18,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "sha1",
+                    "rendered": {
+                      "text": "sha1",
+                      "markdown": "`sha1`"
+                    }
+                  },
+                  "sourceLanguage": "json"
+                }
+              }
+            }
+          ],
+          "fixes": [
+            {
+              "description": {
+                "text": "A weak or broken hash algorithm was detected."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 18,
+                        "charLength": 4
+                      },
+                      "insertedContent": {
+                        "text": "sha512"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "description": {
+                "text": "A weak or broken hash algorithm was detected."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/.cargo_vcs_info.json"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 18,
+                        "charLength": 4
+                      },
+                      "insertedContent": {
+                        "text": "sha256"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "tags": [
+              "Cryptography.BannedHashAlgorithm"
+            ],
+            "DevSkimSeverity": "Critical",
+            "DevSkimConfidence": "Unspecified"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}

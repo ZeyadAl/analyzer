@@ -1,0 +1,493 @@
+{
+  "resultCode": 0,
+  "metaData": {
+    "applicationName": "/opt/src/npm/left-pad/1.3.0",
+    "repositoryUri": null,
+    "commitHash": null,
+    "branch": null,
+    "sourcePath": "/opt/src/npm/left-pad/1.3.0",
+    "sourceVersion": "1.3.0",
+    "authors": "azer",
+    "description": "String left pad",
+    "lastUpdated": "01/01/0001 00:00:00",
+    "dateScanned": "07/03/2023 18:57:02",
+    "timedOut": false,
+    "totalFiles": 20,
+    "filesTimedOut": 0,
+    "filesAnalyzed": 20,
+    "filesSkipped": 0,
+    "filesTimeOutSkipped": 0,
+    "filesAffected": 14,
+    "filesErrored": 0,
+    "totalMatchesCount": 12,
+    "uniqueMatchesCount": 6,
+    "packageTypes": [],
+    "appTypes": [
+      "web.application"
+    ],
+    "uniqueTags": [
+      "CloudServices.Code.Repo.GitHub",
+      "Framework.Testing.fast-check",
+      "Framework.Testing.Tape",
+      "Metadata.Application.Author",
+      "Metadata.Application.Description",
+      "Metadata.Application.Version"
+    ],
+    "uniqueDependencies": [],
+    "outputs": [],
+    "targets": [],
+    "OSTargets": [],
+    "fileExtensions": [
+      "",
+      "js",
+      "json",
+      "md",
+      "ts",
+      "yml"
+    ],
+    "cloudTargets": [],
+    "CPUTargets": [],
+    "languages": {
+      "javascript": 10,
+      "package.json": 2,
+      "typescript": 2,
+      "Unknown": 4,
+      "yaml": 2
+    },
+    "tagCounters": [
+      {
+        "tag": "Metric.Code.Function.Defined",
+        "count": 22
+      },
+      {
+        "tag": "Metric.Code.Logging.Call",
+        "count": 6
+      }
+    ],
+    "detailedMatchList": [
+      {
+        "ruleId": "AI043600",
+        "ruleName": "Testing Framework: Tape",
+        "ruleDescription": "Testing Framework: Tape",
+        "tags": [
+          "Framework.Testing.Tape"
+        ],
+        "severity": "Moderate",
+        "pattern": "require\\s*\\(\\s*[\u0027\\\u0022]tape[\u0027\\\u0022]\\)",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/test.js",
+        "sample": "require(\u0022tape\u0022)",
+        "excerpt": "     * To Public License, Version 2, as published by Sam Hocevar. See\n     * http://www.wtfpl.net/ for more details. */\nvar leftPad = require(\u0022./\u0022);\nvar test = require(\u0022tape\u0022);\nvar fc = require(\u0022fast-check\u0022);\n\ntest(\u0027edge cases\u0027, function (assert) {\n",
+        "startLocationLine": 7,
+        "startLocationColumn": 11,
+        "endLocationLine": 7,
+        "endLocationColumn": 26
+      },
+      {
+        "ruleId": "AI046100",
+        "ruleName": "Testing Framework: Fast-Check",
+        "ruleDescription": "Testing Framework: Fast-Check",
+        "tags": [
+          "Framework.Testing.fast-check"
+        ],
+        "severity": "Moderate",
+        "pattern": "fast-check",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/test.js",
+        "sample": "fast-check",
+        "excerpt": "     * http://www.wtfpl.net/ for more details. */\nvar leftPad = require(\u0022./\u0022);\nvar test = require(\u0022tape\u0022);\nvar fc = require(\u0022fast-check\u0022);\n\ntest(\u0027edge cases\u0027, function (assert) {\n  assert.plan(12);\n",
+        "startLocationLine": 8,
+        "startLocationColumn": 18,
+        "endLocationLine": 8,
+        "endLocationColumn": 28
+      },
+      {
+        "ruleId": "AI043600",
+        "ruleName": "Testing Framework: Tape",
+        "ruleDescription": "Testing Framework: Tape",
+        "tags": [
+          "Framework.Testing.Tape"
+        ],
+        "severity": "Moderate",
+        "pattern": "require\\s*\\(\\s*[\u0027\\\u0022]tape[\u0027\\\u0022]\\)",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/test.js",
+        "sample": "require(\u0022tape\u0022)",
+        "excerpt": "     * To Public License, Version 2, as published by Sam Hocevar. See\n     * http://www.wtfpl.net/ for more details. */\nvar leftPad = require(\u0022./\u0022);\nvar test = require(\u0022tape\u0022);\nvar fc = require(\u0022fast-check\u0022);\n\ntest(\u0027edge cases\u0027, function (assert) {\n",
+        "startLocationLine": 7,
+        "startLocationColumn": 11,
+        "endLocationLine": 7,
+        "endLocationColumn": 26
+      },
+      {
+        "ruleId": "AI046100",
+        "ruleName": "Testing Framework: Fast-Check",
+        "ruleDescription": "Testing Framework: Fast-Check",
+        "tags": [
+          "Framework.Testing.fast-check"
+        ],
+        "severity": "Moderate",
+        "pattern": "fast-check",
+        "confidence": "High",
+        "type": "String",
+        "language": "javascript",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/test.js",
+        "sample": "fast-check",
+        "excerpt": "     * http://www.wtfpl.net/ for more details. */\nvar leftPad = require(\u0022./\u0022);\nvar test = require(\u0022tape\u0022);\nvar fc = require(\u0022fast-check\u0022);\n\ntest(\u0027edge cases\u0027, function (assert) {\n  assert.plan(12);\n",
+        "startLocationLine": 8,
+        "startLocationColumn": 18,
+        "endLocationLine": 8,
+        "endLocationColumn": 28
+      },
+      {
+        "ruleId": "AI030900",
+        "ruleName": "Metadata: Application Description",
+        "ruleDescription": "Metadata: Application Description",
+        "tags": [
+          "Metadata.Application.Description"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022description\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/package.json",
+        "sample": "\u0022description\u0022: \u0022String left pad\u0022",
+        "excerpt": "{\n  \u0022name\u0022: \u0022left-pad\u0022,\n  \u0022version\u0022: \u00221.3.0\u0022,\n  \u0022description\u0022: \u0022String left pad\u0022,\n  \u0022main\u0022: \u0022index.js\u0022,\n  \u0022types\u0022: \u0022index.d.ts\u0022,\n  \u0022scripts\u0022: {\n",
+        "startLocationLine": 4,
+        "startLocationColumn": 2,
+        "endLocationLine": 4,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI031000",
+        "ruleName": "Metadata: Application Version",
+        "ruleDescription": "Metadata: Application Version",
+        "tags": [
+          "Metadata.Application.Version"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022version\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/package.json",
+        "sample": "\u0022version\u0022: \u00221.3.0\u0022",
+        "excerpt": "{\n  \u0022name\u0022: \u0022left-pad\u0022,\n  \u0022version\u0022: \u00221.3.0\u0022,\n  \u0022description\u0022: \u0022String left pad\u0022,\n  \u0022main\u0022: \u0022index.js\u0022,\n  \u0022types\u0022: \u0022index.d.ts\u0022,\n",
+        "startLocationLine": 3,
+        "startLocationColumn": 2,
+        "endLocationLine": 3,
+        "endLocationColumn": 20
+      },
+      {
+        "ruleId": "AI031200",
+        "ruleName": "Metadata: Application Author",
+        "ruleDescription": "Metadata: Application Author",
+        "tags": [
+          "Metadata.Application.Author"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022author\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/package.json",
+        "sample": "\u0022author\u0022: \u0022azer\u0022",
+        "excerpt": "    \u0022url\u0022: \u0022git@github.com:stevemao/left-pad.git\u0022,\n    \u0022type\u0022: \u0022git\u0022\n  },\n  \u0022author\u0022: \u0022azer\u0022,\n  \u0022maintainers\u0022: [\n    {\n      \u0022name\u0022: \u0022Cameron Westland\u0022,\n",
+        "startLocationLine": 28,
+        "startLocationColumn": 2,
+        "endLocationLine": 28,
+        "endLocationColumn": 18
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.d.ts",
+        "sample": "github",
+        "excerpt": "// Type definitions for left-pad 1.2.0\n// Project: https://github.com/stevemao/left-pad\n// Definitions by: Zlatko Andonovski, Andrew Yang, Chandler Fang and Zac Xu\n\ndeclare function leftPad(str: string|number, len: number, ch?: string|number): string;\n",
+        "startLocationLine": 2,
+        "startLocationColumn": 20,
+        "endLocationLine": 2,
+        "endLocationColumn": 26
+      },
+      {
+        "ruleId": "AI001200",
+        "ruleName": "Cloud Service: Code Repository (GitHub)",
+        "ruleDescription": "Cloud Service: Code Repository (GitHub)",
+        "tags": [
+          "CloudServices.Code.Repo.GitHub"
+        ],
+        "severity": "Moderate",
+        "pattern": "github",
+        "confidence": "High",
+        "type": "String",
+        "language": "typescript",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/index.d.ts",
+        "sample": "github",
+        "excerpt": "// Type definitions for left-pad 1.2.0\n// Project: https://github.com/stevemao/left-pad\n// Definitions by: Zlatko Andonovski, Andrew Yang, Chandler Fang and Zac Xu\n\ndeclare function leftPad(str: string|number, len: number, ch?: string|number): string;\n",
+        "startLocationLine": 2,
+        "startLocationColumn": 20,
+        "endLocationLine": 2,
+        "endLocationColumn": 26
+      },
+      {
+        "ruleId": "AI030900",
+        "ruleName": "Metadata: Application Description",
+        "ruleDescription": "Metadata: Application Description",
+        "tags": [
+          "Metadata.Application.Description"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022description\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/package.json",
+        "sample": "\u0022description\u0022: \u0022String left pad\u0022",
+        "excerpt": "{\n  \u0022name\u0022: \u0022left-pad\u0022,\n  \u0022version\u0022: \u00221.3.0\u0022,\n  \u0022description\u0022: \u0022String left pad\u0022,\n  \u0022main\u0022: \u0022index.js\u0022,\n  \u0022types\u0022: \u0022index.d.ts\u0022,\n  \u0022scripts\u0022: {\n",
+        "startLocationLine": 4,
+        "startLocationColumn": 2,
+        "endLocationLine": 4,
+        "endLocationColumn": 34
+      },
+      {
+        "ruleId": "AI031000",
+        "ruleName": "Metadata: Application Version",
+        "ruleDescription": "Metadata: Application Version",
+        "tags": [
+          "Metadata.Application.Version"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022version\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/package.json",
+        "sample": "\u0022version\u0022: \u00221.3.0\u0022",
+        "excerpt": "{\n  \u0022name\u0022: \u0022left-pad\u0022,\n  \u0022version\u0022: \u00221.3.0\u0022,\n  \u0022description\u0022: \u0022String left pad\u0022,\n  \u0022main\u0022: \u0022index.js\u0022,\n  \u0022types\u0022: \u0022index.d.ts\u0022,\n",
+        "startLocationLine": 3,
+        "startLocationColumn": 2,
+        "endLocationLine": 3,
+        "endLocationColumn": 20
+      },
+      {
+        "ruleId": "AI031200",
+        "ruleName": "Metadata: Application Author",
+        "ruleDescription": "Metadata: Application Author",
+        "tags": [
+          "Metadata.Application.Author"
+        ],
+        "severity": "Moderate",
+        "pattern": "\\\u0022author\\\u0022\\s*:\\s*\\\u0022([^\\\u0022])\u002B\\\u0022",
+        "confidence": "High",
+        "type": "Regex",
+        "language": "package.json",
+        "fileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/package.json",
+        "sample": "\u0022author\u0022: \u0022azer\u0022",
+        "excerpt": "    \u0022url\u0022: \u0022git@github.com:stevemao/left-pad.git\u0022,\n    \u0022type\u0022: \u0022git\u0022\n  },\n  \u0022author\u0022: \u0022azer\u0022,\n  \u0022maintainers\u0022: [\n    {\n      \u0022name\u0022: \u0022Cameron Westland\u0022,\n",
+        "startLocationLine": 28,
+        "startLocationColumn": 2,
+        "endLocationLine": 28,
+        "endLocationColumn": 18
+      }
+    ],
+    "filesInformation": [
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/index.js",
+        "ScanTime": "00:00:00.1584850",
+        "Status": "Affected",
+        "NumFindings": 1,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/.travis.yml",
+        "ScanTime": "00:00:00.2573332",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/perf/es6Repeat.js",
+        "ScanTime": "00:00:00.1409129",
+        "Status": "Affected",
+        "NumFindings": 1,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/test.js",
+        "ScanTime": "00:00:00.6779881",
+        "Status": "Affected",
+        "NumFindings": 6,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/index.d.ts",
+        "ScanTime": "00:00:00.1513974",
+        "Status": "Affected",
+        "NumFindings": 2,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/COPYING",
+        "ScanTime": "00:00:00.0188373",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/package.json",
+        "ScanTime": "00:00:00.6674808",
+        "Status": "Affected",
+        "NumFindings": 3,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/COPYING",
+        "ScanTime": "00:00:00.1269044",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.js",
+        "ScanTime": "00:00:00.0972526",
+        "Status": "Affected",
+        "NumFindings": 1,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js",
+        "ScanTime": "00:00:00.5912955",
+        "Status": "Affected",
+        "NumFindings": 6,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/package.json",
+        "ScanTime": "00:00:00.0534180",
+        "Status": "Affected",
+        "NumFindings": 3,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/.travis.yml",
+        "ScanTime": "00:00:00.0222429",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/perf/perf.js",
+        "ScanTime": "00:00:00.1401554",
+        "Status": "Affected",
+        "NumFindings": 6,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/index.d.ts",
+        "ScanTime": "00:00:00.0840138",
+        "Status": "Affected",
+        "NumFindings": 2,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/O(n).js",
+        "ScanTime": "00:00:00.5912488",
+        "Status": "Affected",
+        "NumFindings": 1,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/README.md",
+        "ScanTime": "00:00:00.0002952",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/test.js",
+        "ScanTime": "00:00:00.1712425",
+        "Status": "Affected",
+        "NumFindings": 6,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/reference-binaries/npm-left-pad@1.3.0.tgz/npm-left-pad@1.tar/package/perf/O(n).js",
+        "ScanTime": "00:00:00.0080668",
+        "Status": "Affected",
+        "NumFindings": 1,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/README.md",
+        "ScanTime": "00:00:00.0853420",
+        "Status": "Analyzed",
+        "NumFindings": 0,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      },
+      {
+        "FileName": "/opt/src/npm/left-pad/1.3.0/src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/es6Repeat.js",
+        "ScanTime": "00:00:00.5913064",
+        "Status": "Affected",
+        "NumFindings": 1,
+        "ModifyTime": "0001-01-01T00:00:00",
+        "CreateTime": "0001-01-01T00:00:00",
+        "AccessTime": "0001-01-01T00:00:00"
+      }
+    ]
+  },
+  "appVersion": "Microsoft Application Inspector 1.9.1\u002B95e7eacad2"
+}

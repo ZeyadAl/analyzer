@@ -1,0 +1,11 @@
+pkg:npm/chalk@5.3.0
+Summary Results:
+Cryptographic Implementations:
+  No implementations found.
+
+Cryptographic Library References:
+  No library references found.
+
+Other Cryptographic Characteristics:
+ * GenericImplementation.HighDensityOperators
+

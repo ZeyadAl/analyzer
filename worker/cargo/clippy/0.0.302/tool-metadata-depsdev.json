@@ -1,0 +1,262 @@
+{
+  "package": {
+    "system": "CARGO",
+    "name": "clippy"
+  },
+  "owners": [
+    "https://github.com/Manishearth",
+    "https://github.com/birkenfeld",
+    "https://github.com/llogiq",
+    "https://github.com/mcarton",
+    "https://github.com/oli-obk"
+  ],
+  "version": {
+    "version": "0.0.302",
+    "symbolicVersions": [],
+    "createdAt": 1538768355,
+    "refreshedAt": 1637645570,
+    "isDefault": true,
+    "description": "A bunch of helpful lints to avoid common pitfalls in Rust.",
+    "licenses": [
+      "Apache-2.0 OR MIT"
+    ],
+    "dependentCount": 391,
+    "dependentCountDirect": 391,
+    "dependentCountIndirect": 0,
+    "links": {
+      "origins": [
+        "https://crates.io/crates/clippy/0.0.302"
+      ],
+      "repo": "https://github.com/rust-lang-nursery/rust-clippy"
+    },
+    "projects": [
+      {
+        "type": "GITHUB",
+        "name": "rust-lang-nursery/rust-clippy",
+        "observedAt": 1688192890,
+        "issues": 1759,
+        "forks": 1260,
+        "stars": 9577,
+        "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+        "license": "non-standard",
+        "displayName": "rust-lang/rust-clippy",
+        "link": "https://github.com/rust-lang-nursery/rust-clippy",
+        "scorecardV2": {
+          "date": "2023-06-19",
+          "repo": {
+            "name": "github.com/rust-lang-nursery/rust-clippy",
+            "commit": "ce0a48a9b66148fdd96fddf585f9e11850861a47"
+          },
+          "scorecard": {
+            "version": "v4.10.5-266-g4cd54468",
+            "commit": "4cd5446862ea4c470810fea81fc7f45a36d04dec"
+          },
+          "check": [
+            {
+              "name": "Maintained",
+              "documentation": {
+                "short": "Determines if the project is \u0022actively maintained\u0022.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#maintained"
+              },
+              "score": 10,
+              "reason": "30 commit(s) out of 30 and 8 issue activity out of 30 found in the last 90 days -- score normalized to 10",
+              "details": []
+            },
+            {
+              "name": "Code-Review",
+              "documentation": {
+                "short": "Determines if the project requires human code review before pull requests (aka merge requests) are merged.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#code-review"
+              },
+              "score": 10,
+              "reason": "all changesets reviewed",
+              "details": []
+            },
+            {
+              "name": "CII-Best-Practices",
+              "documentation": {
+                "short": "Determines if the project has an OpenSSF (formerly CII) Best Practices Badge.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#cii-best-practices"
+              },
+              "score": 0,
+              "reason": "no effort to earn an OpenSSF best practices badge detected",
+              "details": []
+            },
+            {
+              "name": "License",
+              "documentation": {
+                "short": "Determines if the project has defined a license.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#license"
+              },
+              "score": 9,
+              "reason": "license file detected",
+              "details": [
+                "Info: License file found in expected location: COPYRIGHT:1",
+                "Warn: Any licence detected not an FSF or OSI recognized license: COPYRIGHT:1"
+              ]
+            },
+            {
+              "name": "Signed-Releases",
+              "documentation": {
+                "short": "Determines if the project cryptographically signs release artifacts.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#signed-releases"
+              },
+              "score": -1,
+              "reason": "no releases found",
+              "details": [
+                "Warn: no GitHub releases found"
+              ]
+            },
+            {
+              "name": "Branch-Protection",
+              "documentation": {
+                "short": "Determines if the default and release branches are protected with GitHub\u0027s branch protection settings.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#branch-protection"
+              },
+              "score": -1,
+              "reason": "internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integration",
+              "details": []
+            },
+            {
+              "name": "Packaging",
+              "documentation": {
+                "short": "Determines if the project is published as a package that others can easily download, install, easily update, and uninstall.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#packaging"
+              },
+              "score": -1,
+              "reason": "no published package detected",
+              "details": [
+                "Warn: no GitHub/GitLab publishing workflow detected"
+              ]
+            },
+            {
+              "name": "Dangerous-Workflow",
+              "documentation": {
+                "short": "Determines if the project\u0027s GitHub Action workflows avoid dangerous patterns.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#dangerous-workflow"
+              },
+              "score": 10,
+              "reason": "no dangerous workflow patterns detected",
+              "details": []
+            },
+            {
+              "name": "Token-Permissions",
+              "documentation": {
+                "short": "Determines if the project\u0027s workflows follow the principle of least privilege.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#token-permissions"
+              },
+              "score": 0,
+              "reason": "non read-only tokens detected in GitHub workflows",
+              "details": [
+                "Warn: no topLevel permission defined: .github/workflows/clippy.yml:1: Visit https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy.yml/master?enable=permissions\nTick the \u0027Restrict permissions for GITHUB_TOKEN\u0027\nUntick other options\nNOTE: If you want to resolve multiple issues at once, you can visit https://app.stepsecurity.io/securerepo instead. (Low effort)",
+                "Warn: no topLevel permission defined: .github/workflows/clippy_bors.yml:1: Visit https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=permissions\nTick the \u0027Restrict permissions for GITHUB_TOKEN\u0027\nUntick other options\nNOTE: If you want to resolve multiple issues at once, you can visit https://app.stepsecurity.io/securerepo instead. (Low effort)",
+                "Warn: no topLevel permission defined: .github/workflows/clippy_dev.yml:1: Visit https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_dev.yml/master?enable=permissions\nTick the \u0027Restrict permissions for GITHUB_TOKEN\u0027\nUntick other options\nNOTE: If you want to resolve multiple issues at once, you can visit https://app.stepsecurity.io/securerepo instead. (Low effort)",
+                "Warn: no topLevel permission defined: .github/workflows/deploy.yml:1: Visit https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/deploy.yml/master?enable=permissions\nTick the \u0027Restrict permissions for GITHUB_TOKEN\u0027\nUntick other options\nNOTE: If you want to resolve multiple issues at once, you can visit https://app.stepsecurity.io/securerepo instead. (Low effort)",
+                "Warn: no topLevel permission defined: .github/workflows/remark.yml:1: Visit https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/remark.yml/master?enable=permissions\nTick the \u0027Restrict permissions for GITHUB_TOKEN\u0027\nUntick other options\nNOTE: If you want to resolve multiple issues at once, you can visit https://app.stepsecurity.io/securerepo instead. (Low effort)",
+                "Info: no jobLevel write permissions found"
+              ]
+            },
+            {
+              "name": "Fuzzing",
+              "documentation": {
+                "short": "Determines if the project uses fuzzing.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#fuzzing"
+              },
+              "score": 0,
+              "reason": "project is not fuzzed",
+              "details": []
+            },
+            {
+              "name": "Vulnerabilities",
+              "documentation": {
+                "short": "Determines if the project has open, known unfixed vulnerabilities.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#vulnerabilities"
+              },
+              "score": 10,
+              "reason": "no vulnerabilities detected",
+              "details": []
+            },
+            {
+              "name": "Binary-Artifacts",
+              "documentation": {
+                "short": "Determines if the project has generated executable (binary) artifacts in the source repository.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#binary-artifacts"
+              },
+              "score": 10,
+              "reason": "no binaries found in the repo",
+              "details": []
+            },
+            {
+              "name": "Pinned-Dependencies",
+              "documentation": {
+                "short": "Determines if the project has declared and pinned the dependencies of its build process.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#pinned-dependencies"
+              },
+              "score": 4,
+              "reason": "dependency not pinned by hash detected -- score normalized to 4",
+              "details": [
+                "Warn: third-party GitHubAction not pinned by hash: .github/workflows/clippy.yml:36: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy.yml:41: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy.yml/master?enable=pin",
+                "Warn: third-party GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:170: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:175: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:196: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: third-party GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:230: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:235: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:242: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: third-party GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:24: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:29: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: third-party GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:80: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:85: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: third-party GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:146: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy_bors.yml:151: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_bors.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/clippy_dev.yml:27: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/clippy_dev.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/deploy.yml:24: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/deploy.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/deploy.yml:27: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/deploy.yml/master?enable=pin",
+                "Warn: third-party GitHubAction not pinned by hash: .github/workflows/deploy.yml:55: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/deploy.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/remark.yml:19: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/remark.yml/master?enable=pin",
+                "Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/remark.yml:22: update your workflow using https://app.stepsecurity.io/secureworkflow/rust-lang/rust-clippy/remark.yml/master?enable=pin",
+                "Warn: downloadThenRun not pinned by hash: .github/workflows/clippy_bors.yml:38",
+                "Warn: npmCommand not pinned by hash: .github/workflows/remark.yml:28",
+                "Info: Dockerfile dependencies are pinned",
+                "Info: Pip installs are pinned"
+              ]
+            },
+            {
+              "name": "SAST",
+              "documentation": {
+                "short": "Determines if the project uses static code analysis.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#sast"
+              },
+              "score": 0,
+              "reason": "SAST tool is not run on all commits -- score normalized to 0",
+              "details": [
+                "Warn: 0 commits out of 30 are checked with a SAST tool",
+                "Warn: CodeQL tool not detected"
+              ]
+            },
+            {
+              "name": "Security-Policy",
+              "documentation": {
+                "short": "Determines if the project has published a security policy.",
+                "url": "https://github.com/ossf/scorecard/blob/4cd5446862ea4c470810fea81fc7f45a36d04dec/docs/checks.md#security-policy"
+              },
+              "score": 10,
+              "reason": "security policy file detected",
+              "details": [
+                "Info: Found linked content in security policy: github.com/rust-lang/.github/SECURITY.md",
+                "Info: Found text in security policy: github.com/rust-lang/.github/SECURITY.md",
+                "Info: Found disclosure, vulnerability, and/or timelines in security policy: github.com/rust-lang/.github/SECURITY.md",
+                "Info: security policy detected in org repo: github.com/rust-lang/.github/SECURITY.md"
+              ]
+            }
+          ],
+          "metadata": [],
+          "score": 6.8
+        }
+      }
+    ],
+    "advisories": [],
+    "relatedPackages": {}
+  },
+  "defaultVersion": "0.0.302"
+}

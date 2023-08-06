@@ -1,0 +1,7 @@
+Compiling query plan for /opt/codeql-queries/javascript/ql/src/controlflow-query.ql.
+WARNING: File is incompatible with Node (the type of the edge relation). (/opt/codeql-queries/javascript/ql/src/controlflow-query.ql:25,19-28)
+WARNING: File is incompatible with Node (the type of the edge relation). (/opt/codeql-queries/javascript/ql/src/controlflow-query.ql:25,30-37)
+[1/1 comp 19.1s] Compiled /opt/codeql-queries/javascript/ql/src/controlflow-query.ql.
+Starting evaluation of codeql/javascript-queries/controlflow-query.ql.
+[1/1 eval 1.3s] Evaluation done; writing results to /opt/result/tool-codeql-db-installed-codeflow.bqrs.
+Shutting down query evaluator.

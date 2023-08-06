@@ -1,0 +1,1 @@
+/opt/src/cargo/clippy/0.0.302/src/cargo-pkg:cargo-clippy@0.0.302/cargo-pkg:cargo-clippy@0.0/clippy-0.0.302/build.rs:11: warning: foo has 22 NLOC, 20 CCN, 377 token, 0 PARAM, 32 length

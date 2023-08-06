@@ -1,0 +1,1 @@
+/opt/src/npm/chalk/5.3.0/src/npm-chalk@5.3.0/npm-chalk@5.3/package/source/vendor/supports-color/index.js:60: warning: _supportsColor has 79 NLOC, 37 CCN, 461 token, 3 PARAM, 107 length

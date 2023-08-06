@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "oss-find-source",
+          "organization": "Microsoft Corporation",
+          "product": "OSSGadget (https://github.com/Microsoft/OSSGadget)",
+          "version": "0.1.401+c37aea753d"
+        }
+      },
+      "results": [
+        {
+          "kind": "informational",
+          "level": "none",
+          "message": {
+            "text": "https://github.com/chalk/chalk"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "absoluteAddress": 1,
+                  "relativeAddress": -1,
+                  "name": "pkg:npm/chalk@5.3.0",
+                  "fullyQualifiedName": "https://registry.npmjs.org/chalk"
+                }
+              }
+            }
+          ],
+          "rank": 100.0
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}

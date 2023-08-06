@@ -1,0 +1,160 @@
+{
+  "$schema": "https://www.schemastore.org/schemas/json/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "devskim",
+          "fullName": "Microsoft DevSkim Command Line Interface",
+          "version": "1.0.6+554b354014",
+          "informationUri": "https://github.com/microsoft/DevSkim/",
+          "rules": [
+            {
+              "id": "DS173237",
+              "name": "DoNotStoreTokensOrKeysInSourceCode",
+              "fullDescription": {
+                "text": "Do not store tokens or keys in source code.: A token or key was found in source code. If this represents a secret, it should be moved somewhere else."
+              },
+              "help": {
+                "text": "A token or key was found in source code. If this represents a secret, it should be moved somewhere else.",
+                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS173237.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS173237.md) for guidance on this issue."
+              },
+              "shortDescription": {
+                "text": "A token or key was found in source code. If this represents a secret, it should be moved somewhere else."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS173237.md",
+              "properties": {
+                "DevSkimSeverity": "Important",
+                "DevSkimConfidence": "Unspecified"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "DS173237",
+          "level": "error",
+          "message": {
+            "text": "Do not store tokens or keys in source code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 47,
+                  "endLine": 40,
+                  "endColumn": 149,
+                  "charOffset": 1320,
+                  "charLength": 102,
+                  "snippet": {
+                    "text": "'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'",
+                    "rendered": {
+                      "text": "'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'",
+                      "markdown": "`'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "tags": [
+              "Implementation.Privacy.Token"
+            ],
+            "DevSkimSeverity": "Important",
+            "DevSkimConfidence": "Unspecified"
+          }
+        },
+        {
+          "ruleId": "DS173237",
+          "level": "error",
+          "message": {
+            "text": "Do not store tokens or keys in source code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 48,
+                  "endLine": 39,
+                  "endColumn": 150,
+                  "charOffset": 1151,
+                  "charLength": 102,
+                  "snippet": {
+                    "text": "'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'",
+                    "rendered": {
+                      "text": "'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'",
+                      "markdown": "`'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "tags": [
+              "Implementation.Privacy.Token"
+            ],
+            "DevSkimSeverity": "Important",
+            "DevSkimConfidence": "Unspecified"
+          }
+        },
+        {
+          "ruleId": "DS173237",
+          "level": "error",
+          "message": {
+            "text": "Do not store tokens or keys in source code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/npm-left-pad@1.3.0/npm-left-pad@1.3/package/perf/perf.js"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 49,
+                  "endLine": 38,
+                  "endColumn": 151,
+                  "charOffset": 981,
+                  "charLength": 102,
+                  "snippet": {
+                    "text": "'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'",
+                    "rendered": {
+                      "text": "'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'",
+                      "markdown": "`'0012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789123456789'`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "tags": [
+              "Implementation.Privacy.Token"
+            ],
+            "DevSkimSeverity": "Important",
+            "DevSkimConfidence": "Unspecified"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
